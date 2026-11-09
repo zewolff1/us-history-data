@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lesson Composer — US History II</title>
+<style>
+:root{--ink:#1B2430;--ink-soft:#3C4656;--parchment:#EFE6D3;--card:#F7F1E3;--brass:#8C6A2F;--brass-light:#B79A5C;--stamp:#8C3B2E;--forest:#3F5443;--rule:rgba(27,36,48,.2);--focus:#2E6E8E}
+*{box-sizing:border-box}
+body{margin:0;background:var(--parchment);color:var(--ink);font-family:Georgia,"Source Serif 4",serif;line-height:1.45}
+header.top{padding:1rem 1.2rem;border-bottom:3px double var(--ink);display:flex;flex-wrap:wrap;gap:.6rem 1.2rem;align-items:center}
+header.top h1{margin:0;font-size:1.3rem}
+header.top .sub{font-size:.8rem;color:var(--ink-soft)}
+main{max-width:980px;margin:0 auto;padding:1rem 1rem 7rem}
+details.panel{background:var(--card);border:1px solid var(--rule);border-left:5px solid var(--brass);margin-bottom:.9rem;border-radius:3px}
+details.panel>summary{cursor:pointer;padding:.7rem 1rem;font-weight:700;font-size:1.02rem;list-style:none;display:flex;gap:.6rem;align-items:center}
+details.panel>summary::-webkit-details-marker{display:none}
+details.panel>summary::before{content:"▸";color:var(--brass)}
+details.panel[open]>summary::before{content:"▾"}
+details.panel>summary .count{margin-left:auto;font-weight:400;font-size:.78rem;color:var(--ink-soft)}
+.body{padding:.2rem 1rem 1rem}
+.hint{font-size:.82rem;color:var(--ink-soft);margin:.1rem 0 .6rem}
+label.f{display:block;margin:0 0 .55rem;font-size:.74rem;text-transform:uppercase;letter-spacing:.05em;color:var(--brass);font-family:"Courier New",monospace}
+label.f>input[type=text],label.f>input[type=number],label.f>select,label.f>textarea{display:block;width:100%;margin-top:.15rem;font:inherit;font-size:.95rem;text-transform:none;letter-spacing:0;color:var(--ink);padding:.42rem .5rem;border:1px solid var(--rule);border-radius:3px;background:#fffdf7}
+label.f>textarea{resize:vertical}
+label.c{display:inline-flex;gap:.35rem;align-items:center;margin:0 1rem .5rem 0;font-size:.9rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:0 .8rem}
+.item{border:1px solid var(--rule);border-radius:3px;background:rgba(255,255,255,.45);padding:.7rem .8rem .3rem;margin-bottom:.7rem}
+.item.reading{border-left:4px solid var(--forest)}.item.video{border-left:4px solid var(--stamp)}.item.image{border-left:4px solid var(--focus)}
+.item.q{border-left:4px solid var(--brass)}.item.a{border-left:4px dashed var(--stamp)}
+.itemhead{display:flex;gap:.4rem;align-items:center;margin-bottom:.5rem;flex-wrap:wrap}
+.itemhead .tag{font-family:"Courier New",monospace;font-size:.7rem;text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+.itemhead .sp{flex:1}
+button{font:inherit;font-size:.82rem;cursor:pointer;border:2px solid var(--ink);background:var(--card);color:var(--ink);padding:.28rem .65rem;border-radius:3px}
+button:hover{background:var(--brass-light)}
+button.primary{background:var(--stamp);color:#fff}button.primary:hover{background:#a64a3b}
+button.sm{padding:.1rem .45rem;font-size:.75rem}button.danger{border-color:var(--stamp);color:var(--stamp)}
+.row{display:flex;gap:.5rem;align-items:center;margin-bottom:.45rem}
+.row>input{flex:1;font:inherit;font-size:.95rem;padding:.4rem .5rem;border:1px solid var(--rule);border-radius:3px;background:#fffdf7}
+.row>input[type=radio]{flex:none;width:auto}
+.row .n{font-family:"Courier New",monospace;font-size:.78rem;color:var(--brass);min-width:1.6rem}
+.chip{display:inline-block;font-size:.74rem;background:var(--parchment);border:1px solid var(--rule);padding:0 .4rem;border-radius:9px;margin-left:.3rem;color:var(--ink-soft)}
+.bar{position:fixed;left:0;right:0;bottom:0;background:var(--ink);color:#fff;padding:.6rem 1rem;display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;z-index:50}
+.bar button{border-color:#fff}.bar .status{margin-left:auto;font-size:.8rem;opacity:.85}
+.warns{background:#fff3cd;border:1px solid #d9b94a;color:#6b5100;padding:.5rem .8rem;border-radius:3px;margin-bottom:.9rem;font-size:.85rem}
+.warns ul{margin:.2rem 0 0 1.1rem;padding:0}
+pre#preview{background:#101722;color:#d8e2f0;padding:.8rem;border-radius:3px;max-height:420px;overflow:auto;font-size:.76rem;white-space:pre-wrap;word-break:break-word}
+.chk{border:1px solid var(--rule);background:#fffdf7;border-radius:3px;padding:.4rem .6rem;margin-bottom:.5rem}
+.chk .row{margin-bottom:.2rem}
+
+.blk{border:1px solid var(--rule);border-radius:3px;background:#fffdf7;margin-bottom:.5rem;overflow:hidden}
+.blk-head{display:flex;gap:.4rem;align-items:center;padding:.25rem .45rem;background:var(--parchment);border-bottom:1px solid var(--rule)}
+.blk-head .num{font-family:"Courier New",monospace;font-size:.72rem;color:var(--brass);min-width:3.2rem}
+.blk-head select{font:inherit;font-size:.8rem;padding:.1rem .3rem;border:1px solid var(--rule);border-radius:3px;background:#fff}
+.blk-head .sp{flex:1}
+.blk textarea{display:block;width:100%;border:none;background:#fffdf7;font:inherit;font-size:.93rem;padding:.55rem .7rem;resize:vertical;min-height:3.2rem}
+.blk.t-h1 textarea,.blk.t-h2 textarea{font-weight:700;font-family:"Trebuchet MS",sans-serif}.blk.t-h1 textarea{font-size:1.15rem}
+.blk.t-h3 textarea{font-weight:600;text-transform:uppercase;letter-spacing:.04em;font-size:.85rem}
+.blk.t-quote textarea,.blk.t-poem textarea{font-style:italic}.blk.t-poem textarea{white-space:pre;min-height:7rem}
+.blk.t-centered textarea{text-align:center}.blk.t-attribution textarea{text-align:right}
+.blk.t-divider .dv{padding:.5rem .7rem;font-style:italic;color:var(--ink-soft);font-size:.85rem}
+.addrow{display:flex;flex-wrap:wrap;gap:.35rem;margin:.3rem 0 .6rem}.addrow button{font-size:.74rem;padding:.2rem .5rem}
+.pv{background:#fffdf7;border:1px solid var(--rule);border-radius:3px;padding:.8rem 1rem;margin:.4rem 0 .6rem}
+.pv h1{font-size:1.25rem;margin:0 0 .6rem}.pv h2{font-size:1.05rem;margin:0 0 .5rem}.pv h5{font-size:.82rem;text-transform:uppercase;letter-spacing:.05em;margin:0 0 .4rem;color:var(--ink-soft)}
+.pv p{margin:0 0 .8rem}.pv blockquote{margin:0 0 .8rem;padding:.4rem .8rem;border-left:4px solid var(--stamp);background:var(--parchment);font-style:italic}
+.pv p.poem{white-space:pre-wrap;font-style:italic;margin-left:1rem;padding-left:.8rem;border-left:3px solid var(--stamp)}
+.pv p.centered{text-align:center;font-weight:600}.pv p.attribution{text-align:right;font-size:.8rem;text-transform:uppercase;color:var(--ink-soft)}
+.pv p.callout{border:2px solid var(--ink);border-left-width:6px;background:var(--parchment);padding:.5rem .8rem;border-radius:3px}
+.pv hr{border:none;border-top:2px dashed var(--ink-soft);margin:1rem 0}
+.pv .bn{display:inline-block;font-family:"Courier New",monospace;font-size:.65rem;color:var(--brass);margin-right:.3rem}
+.tabs{display:flex;flex-wrap:wrap;gap:.3rem;margin:.2rem 0 .6rem;border-bottom:2px solid var(--rule);padding-bottom:.4rem}
+.tabs button.tab{border-width:1px;border-radius:14px;padding:.2rem .75rem;font-size:.82rem}
+.tabs button.tab.on{background:var(--ink);color:#fff}
+.tabs button.tab .ct{opacity:.75;margin-left:.3rem;font-size:.74rem}
+.opts{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:.15rem .8rem;margin:.4rem 0 .6rem}
+label.opt{display:flex;gap:.45rem;align-items:flex-start;padding:.18rem .3rem;border-radius:3px;font-size:.88rem;cursor:pointer}
+label.opt:hover{background:rgba(183,154,92,.25)}label.opt.on{background:rgba(63,84,67,.14)}
+label.opt small{color:var(--ink-soft);font-size:.72rem;display:block}
+.opts.one{grid-template-columns:1fr}
+.subs{display:flex;flex-wrap:wrap;gap:.3rem;margin:.2rem 0 .3rem}.subs button{font-size:.72rem;padding:.05rem .5rem;border-radius:10px;border-width:1px}.subs button.on{background:var(--brass);color:#fff;border-color:var(--brass)}
+input.search{width:100%;font:inherit;font-size:.92rem;padding:.4rem .5rem;border:1px solid var(--rule);border-radius:3px;background:#fffdf7;margin-bottom:.3rem}
+.lp{background:#fffdf7;border:1px solid var(--rule);border-radius:3px;padding:1rem 1.2rem}
+.lp h1.lt{font-size:1.5rem;margin:0 0 .2rem}.lp .unit{font-family:"Courier New",monospace;font-size:.75rem;text-transform:uppercase;letter-spacing:.06em;color:var(--brass)}
+.lp h3.sec{font-size:.8rem;text-transform:uppercase;letter-spacing:.08em;color:var(--brass);border-bottom:1px solid var(--rule);padding-bottom:.2rem;margin:1.2rem 0 .5rem;font-family:"Courier New",monospace}
+.lp ul{margin:.2rem 0 .4rem 1.2rem;padding:0}
+.lp .chips span{display:inline-block;background:var(--parchment);border:1px solid var(--rule);border-radius:12px;padding:.05rem .6rem;margin:0 .3rem .3rem 0;font-size:.82rem}
+.lp .chips span.key{background:var(--forest);color:#fff;border-color:var(--forest)}
+.lp .src{border:1px solid var(--rule);border-left:4px solid var(--forest);border-radius:3px;padding:.7rem .9rem;margin-bottom:.8rem;background:#fff}
+.lp .src.video{border-left-color:var(--stamp)}.lp .src.image{border-left-color:var(--focus)}
+.lp .src h4{margin:0 0 .1rem;font-size:1.05rem}.lp .src .meta{font-size:.78rem;color:var(--ink-soft);margin-bottom:.6rem}
+.lp .src img{max-width:100%;max-height:220px;border-radius:3px;margin:.2rem .4rem .2rem 0}
+.lp .ph{background:#101722;color:#d8e2f0;padding:1.6rem;text-align:center;border-radius:3px;font-size:.85rem}
+.lp p{margin:0 0 .8rem}.lp blockquote{margin:0 0 .8rem;padding:.4rem .8rem;border-left:4px solid var(--stamp);background:var(--parchment);font-style:italic}
+.lp h2.rb{font-size:1.15rem;margin:.4rem 0}.lp h4.rb{font-size:1rem;margin:.4rem 0}.lp h5.rb{font-size:.8rem;text-transform:uppercase;letter-spacing:.05em;margin:.4rem 0;color:var(--ink-soft)}
+.lp .poem{white-space:pre-wrap;font-style:italic;margin-left:1rem;padding-left:.8rem;border-left:3px solid var(--stamp)}
+.lp .cen{text-align:center;font-weight:600}.lp .att{text-align:right;font-size:.8rem;text-transform:uppercase;color:var(--ink-soft)}
+.lp .call{border:2px solid var(--ink);border-left-width:6px;background:var(--parchment);padding:.5rem .8rem;border-radius:3px}
+.lp .q{border:1px solid var(--brass);background:#fbf5e6;border-radius:3px;padding:.6rem .8rem;margin:.2rem 0 .9rem}
+.lp .q .qt{font-weight:700;margin-bottom:.4rem}.lp .q label{display:block;padding:.15rem .3rem;border-radius:3px;cursor:pointer}
+.lp .q label.right{background:#d9ecd9}.lp .q label.wrong{background:#f3d6d2}
+.lp .q .fb{font-size:.85rem;margin-top:.4rem;color:var(--ink-soft)}.lp .q textarea{width:100%;font:inherit;padding:.4rem;border:1px solid var(--rule);border-radius:3px}
+.lp .q .tagline{font-family:"Courier New",monospace;font-size:.68rem;text-transform:uppercase;color:var(--brass);margin-bottom:.2rem}
+.lp .donow{border:2px solid var(--stamp);border-radius:3px;padding:.6rem .9rem;background:#fff5f2}
+.lp .acard{border:1px solid var(--ink);border-radius:3px;padding:.6rem .9rem;margin-bottom:.6rem;background:#fff}
+.lp .acard .hid{font-size:.72rem;font-family:"Courier New",monospace;color:var(--stamp);text-transform:uppercase}
+.lp .btn{display:inline-block;border:2px solid var(--ink);padding:.25rem .7rem;border-radius:3px;background:var(--card);font-size:.85rem}
+</style>
+</head>
+<body>
+<header class="top">
+  <div><h1>Lesson Composer</h1><div class="sub">Everything a lesson tab holds, in one place. Download the lesson as JSON.</div></div>
+</header>
+<main>
+  <div id="warns"></div>
+  <div id="app"></div>
+  <details class="panel" id="lpPanel"><summary>Lesson preview (roughly how students will see it)</summary><div class="body"><div class="lp" id="lessonPv"></div></div></details>
+  <details class="panel"><summary>JSON preview</summary><div class="body"><pre id="preview"></pre></div></details>
+</main>
+<div class="bar">
+  <button class="primary" id="dl">⬇ Download JSON</button>
+  <button id="cp">Copy JSON</button>
+  <button id="ld">Open JSON…</button>
+  <button id="csv">Import sheet tab (CSV)…</button>
+  <button id="ent">Load entities</button><button id="entdl" title="Download the loaded entities as entities.json for GitHub">Save entities.json</button><button id="inqdl" title="Download the inquiries as inquiries.json for GitHub">Save inquiries.json</button>
+  <button id="nw" class="danger">New lesson</button>
+  <span class="status" id="status"></span>
+</div>
+<input type="file" id="fJson" accept=".json,application/json" hidden>
+<input type="file" id="fCsv" accept=".csv,text/csv,text/plain" hidden>
+<input type="file" id="fEnt" accept=".json,.csv" hidden>
+<datalist id="dl-ent"></datalist><datalist id="dl-les"></datalist><datalist id="dl-inq"></datalist><datalist id="dl-tl"></datalist>
+
+<script>
+/* ---- helpers copied from the site's sheets-loader.js so a pasted sheet tab converts the same way ---- */
+function normalizeKey(k) {
+  return k.toLowerCase().replace(/\s+/g, "");
+}
+
+function normalizeRow(row) {
+  const out = {};
+  Object.keys(row).forEach(k => { out[normalizeKey(k)] = row[k]; });
+  return out;
+}
+
+function splitList(cell) {
+  return String(cell || "").split(/\s*;\s*/).map(x => x.trim()).filter(Boolean);
+}
+
+function numberOrUndefined(cell) {
+  const n = parseFloat(String(cell || "").trim());
+  return isNaN(n) ? undefined : n;
+}
+
+function isTruthy(value) {
+  return ["yes", "true", "y", "1"].includes((value || "").trim().toLowerCase());
+}
+
+function extractYear(dateText) {
+  const match = (dateText || "").match(/\b(1[0-9]{3}|20[0-9]{2})\b/);
+  return match ? Number(match[1]) : null;
+}
+
+function applyLessonSheetRowsLocal(lesson, rows, COURSE_DATA) {
+  const objectives = [];
+  const mentions = [];
+  const keyTerms = [];
+  const inquiries = [];
+  const timelineFocus = [];
+  let timelineStartYear = null;
+  let timelineEndYear = null;
+  const readings = [];
+  const videos = [];
+  const images = [];
+  const assessment = [];
+  const presetLabels = [];
+  const termGroups = {}; // key-term groups: lowercase name -> { name, members: [{ id, order, pos }] }
+  const pinnedTerms = []; // terms the teacher pinned from the sheet (Key Term Pin column) -- shown in every resource popup for this lesson
+  let termPos = 0;
+  const pendingQuestions = []; // resolved to a reading or the standalone list after the main pass
+  const imagesByGallery = {}; // keyed by Gallery Name, or a unique key per standalone image
+  let standaloneImageCount = 0;
+  let sourceOrderCounter = 0; // stamped onto each reading/video/image so the site can display them in the same order as your sheet's rows, not grouped by type
+
+  const assessmentLinks = []; // "Assessment Link" rows: links to Hexagon Web, the Stock Market Game, etc.
+  let notesLink = "", notesTitle = "";   // teacher-only "Notes Link" column
+  const lessonSkills = [];   // "Lesson Skills" column: skills EVERYONE works on in this lesson
+  rows.forEach(raw => {
+    const r = normalizeRow(raw);
+    String(r.lessonskills || r.coreskills || r.lessonskill || "").split(/[;,]/).map(x => x.trim()).filter(Boolean)
+      .forEach(x => { if (!lessonSkills.some(y => y.toLowerCase() === x.toLowerCase())) lessonSkills.push(x); });
+    if (!notesLink) { notesLink = (r.noteslink || "").trim(); notesTitle = (r.notestitle || "").trim(); }
+    const aLink = (r.assessmentlink || "").trim();
+    if (aLink) {
+      // Assessments are separate from Check Your Understanding. Hidden from students unless "Assessment Show" is checked.
+      assessmentLinks.push({
+        title: (r.assessmenttitle || "").trim(),
+        description: (r.assessmentdescription || "").trim(),
+        link: aLink,
+        linkLabel: (r.assessmentlabel || r.assessmentbutton || "").trim(),
+        visible: isTruthy(r.assessmentshow || r.assessmentvisible || r.showassessment),
+        doNow: isTruthy(r.assessmentdonow)
+      });
+    }
+    const objectiveText = (r.objective || "").trim();
+    if (objectiveText) {
+      objectives.push({ id: `${lesson.id}-o${objectives.length + 1}`, text: objectiveText });
+    }
+    const entityId = (r.mention || "").trim();
+    if (entityId) {
+      mentions.push(entityId);
+      if (isTruthy(r.keyterm)) keyTerms.push(entityId);
+      // Key Term Pin: tick it on a term's row to pin that term for every
+      // student on this lesson (the same "Pinned terms" panel students
+      // already get when they pin one themselves, just set ahead of time).
+      if (isTruthy(r.keytermpin || r.keytermpinned || r.pinkeyterm || r.pinterm || r.pinned || r.pin) && !pinnedTerms.includes(entityId)) pinnedTerms.push(entityId);
+
+      // Key Term Group: put this term in one or more named groups (several
+      // separated by ;). A reading/video/image then names a group in its
+      // own "... Term Group" column to show it side by side in its popup.
+      // Key Term Order (optional number) orders terms within a group.
+      const termOrder = numberOrUndefined(r.keytermorder);
+      splitList(r.keytermgroup).forEach(groupName => {
+        const key = groupName.toLowerCase();
+        if (!termGroups[key]) termGroups[key] = { name: groupName, members: [] };
+        if (!termGroups[key].members.some(m => m.id === entityId)) {
+          termGroups[key].members.push({ id: entityId, order: termOrder, pos: termPos++ });
+        }
+      });
+    }
+    if (isTruthy(r.include || r.inquiryused)) {
+      const inquiryId = (r.inquiryid || "").trim();
+      if (inquiryId) inquiries.push(inquiryId);
+    }
+    const timelineId = (r.timelinefocus || r.timelineid || "").trim();
+    if (timelineId) timelineFocus.push(timelineId);
+    const startYearRaw = (r.timelinestartyear || "").trim();
+    if (startYearRaw && !timelineStartYear) timelineStartYear = Number(startYearRaw);
+    const endYearRaw = (r.timelineendyear || "").trim();
+    if (endYearRaw && !timelineEndYear) timelineEndYear = Number(endYearRaw);
+
+    // One preset label per row that has one — students saving a
+    // highlight on this lesson see these offered first, before any
+    // labels they've made themselves on this device. Color is
+    // optional; leave it blank and one gets assigned automatically.
+    const presetLabelName = (r.presetlabel || "").trim();
+    if (presetLabelName) {
+      const presetLabelColor = (r.presetlabelcolor || "").trim().toLowerCase();
+      presetLabels.push({ name: presetLabelName, color: presetLabelColor || null });
+    }
+
+    // Each of these three is a full row of related columns — only counted
+    // as a real reading/video/image if its title cell has something in it.
+    const readingTitle = (r.readingtitle || "").trim();
+    if (readingTitle) {
+      readings.push({
+        title: readingTitle,
+        source: (r.readingsource || "").trim(),
+        note: (r.readingnote || "").trim() || undefined,
+        text: (r.readingtext || "").trim().split(/\s*\|\|\|\s*/).join("\n\n"),
+        image: (r.readingimage || "").trim() || undefined,
+        embedUrl: (r.readingembedurl || "").trim() || undefined,
+        set: (r.readingset || "").trim() || undefined,
+        setOrder: numberOrUndefined(r.setorder),
+        order: numberOrUndefined(r.readingorder),
+        termGroup: splitList(r.readingtermgroup),
+        teacherPinned: isTruthy(r.sourcepin || r.pinsource || r.pinnedsource) || undefined,
+        _order: sourceOrderCounter++
+      });
+    }
+
+    const videoTitle = (r.videotitle || "").trim();
+    if (videoTitle) {
+      videos.push({
+        title: videoTitle,
+        length: (r.videolength || "").trim() || undefined,
+        note: (r.videonote || "").trim() || undefined,
+        src: (r.videosrc || "").trim(),
+        image: (r.videoimage || "").trim() || undefined,
+        set: (r.videoset || "").trim() || undefined,
+        setOrder: numberOrUndefined(r.setorder),
+        order: numberOrUndefined(r.videoorder),
+        termGroup: splitList(r.videotermgroup),
+        teacherPinned: isTruthy(r.sourcepin || r.pinsource || r.pinnedsource) || undefined,
+        _order: sourceOrderCounter++
+      });
+    }
+
+    // Original style: one row = one image or gallery, with a comma-list of
+    // URLs in "Image Files". Still fully supported.
+    const imageTitle = (r.imagetitle || "").trim();
+    const imageFilesRaw = (r.imagefiles || "").trim();
+    if (imageFilesRaw) {
+      images.push({
+        title: imageTitle,
+        note: (r.imagenote || "").trim() || undefined,
+        files: imageFilesRaw.split(",").map(s => s.trim()).filter(Boolean),
+        set: (r.imageset || "").trim() || undefined,
+        setOrder: numberOrUndefined(r.setorder),
+        order: numberOrUndefined(r.imageorder),
+        termGroup: splitList(r.imagetermgroup),
+        teacherPinned: isTruthy(r.sourcepin || r.pinsource || r.pinnedsource) || undefined,
+        _order: sourceOrderCounter++
+      });
+    }
+
+    // Newer style: one row = one image URL. Rows sharing the same "Gallery
+    // Name" get grouped into a single gallery; a blank Gallery Name makes
+    // that row its own standalone image. "Image Caption" is per-row, shown
+    // under whichever image is currently displayed.
+    const imageUrl = (r.imageurl || "").trim();
+    if (imageUrl) {
+      const galleryName = (r.galleryname || "").trim();
+      const key = galleryName || `__standalone_${standaloneImageCount++}`;
+      if (!imagesByGallery[key]) {
+        imagesByGallery[key] = { title: galleryName || imageTitle, note: undefined, files: [], _order: sourceOrderCounter++ };
+      }
+      const group = imagesByGallery[key];
+      const imageCaption = (r.imagecaption || "").trim();
+      group.files.push(imageCaption ? { src: imageUrl, caption: imageCaption } : imageUrl);
+      if (!group.title && imageTitle) group.title = imageTitle;
+      const rowNote = (r.imagenote || "").trim();
+      if (!group.note && rowNote) group.note = rowNote;
+      const rowSet = (r.imageset || "").trim();
+      if (!group.set && rowSet) group.set = rowSet;
+      if (group.setOrder === undefined) group.setOrder = numberOrUndefined(r.setorder);
+      if (group.order === undefined) group.order = numberOrUndefined(r.imageorder);
+      const rowTermGroups = splitList(r.imagetermgroup);
+      if (rowTermGroups.length && !group.termGroup) group.termGroup = rowTermGroups;
+      if (isTruthy(r.sourcepin || r.pinsource || r.pinnedsource)) group.teacherPinned = true;
+
+    }
+
+    // A question — one row = one question, only counted if Question
+    // Prompt has something in it. "Question Objectives" references
+    // objectives by their POSITION in this same tab's Objective column
+    // (e.g. "1, 3"), not their real id — same as the Lesson Builder tool,
+    // since the real ids aren't visible here and aren't worth memorizing.
+    //
+    // To attach this question to something specific instead of the
+    // standalone "Check Your Understanding" list, fill in exactly ONE of:
+    //   - Question Reading (+ Question After Paragraph) — drops it inside
+    //     that reading, after the given paragraph (0 = after the 1st).
+    //   - Question Video — shows it below that video, once it's playing.
+    //   - Question Gallery — shows it below that image/gallery.
+    // Each must exactly match a Title from this same tab. Leave all three
+    // blank for a standalone question at the end of the lesson, same as
+    // before.
+    //
+    // "Question Group" is optional. Give two or more questions AT THE
+    // SAME SPOT (same reading+paragraph, same video, same gallery, or
+    // all marked Do Now) the same group name, and they're answered one
+    // after another as a sequence instead of all appearing separately.
+    // Any exact text works as a group name — it just has to match
+    // across the rows you want grouped. Leave it blank and a question
+    // behaves exactly as it does today, on its own.
+    const questionPrompt = (r.questionprompt || "").trim();
+    if (questionPrompt) {
+      const type = (r.questiontype || "multiple_choice").trim().toLowerCase();
+      const q = { type, prompt: questionPrompt };
+
+      const objNums = (r.questionobjectives || "").split(",").map(s => s.trim()).filter(Boolean);
+      if (objNums.length) q.objectiveIds = objNums.map(n => `${lesson.id}-o${n}`);
+
+      const questionImage = (r.questionimage || "").trim();
+      if (questionImage) q.image = questionImage;
+
+      const questionTermGroup = (r.questiontermgroup || "").trim();
+      if (questionTermGroup) q.termGroup = questionTermGroup;
+
+      const questionSkill = (r.questionskill || "").trim();
+      if (questionSkill) q.skill = questionSkill;
+
+      // Short-answer only: hold every student's answer back from OTHER
+      // students until the teacher approves it (Teacher View -> Answers).
+      // The student who wrote it always sees their own answer right away.
+      if (isTruthy(r.questionrequiresapproval)) q.requiresApproval = true;
+
+      // Questions sharing the same (non-blank) group, at the same spot
+      // (same reading+paragraph, same video, same gallery, or all Do
+      // Now questions for this lesson), get answered one after another
+      // as a sequence instead of all showing separately.
+      const questionGroup = (r.questiongroup || "").trim();
+      if (questionGroup) q.group = questionGroup;
+
+      if (type === "link") {
+        q.link = (r.questionlink || "").trim();
+        q.linkLabel = (r.questionlinklabel || "").trim();
+      } else if (type === "short_answer") {
+        q.sampleAnswer = (r.questionsampleanswer || "").trim();
+      } else {
+        q.choices = (r.questionchoices || "").split(/[,;]/).map(s => s.trim()).filter(Boolean);
+        q.correctIndex = Number(r.questioncorrectindex) || 0;
+        const expl = (r.questionexplanation || "").trim();
+        if (expl) q.explanation = expl;
+      }
+
+      if (isTruthy(r.donow)) {
+        if (!lesson.doNow) lesson.doNow = [];
+        lesson.doNow.push(q); // shown automatically when this lesson opens — see maybeShowDoNow(); answered as a sequence if there's more than one
+      } else {
+        const targetReadingTitle = (r.questionreading || "").trim();
+        const targetVideoTitle = (r.questionvideo || "").trim();
+        const targetGalleryTitle = (r.questiongallery || "").trim();
+        const afterParagraphRaw = (r.questionafterparagraph || "").trim();
+        pendingQuestions.push({
+          readingTitle: targetReadingTitle,
+          videoTitle: targetVideoTitle,
+          galleryTitle: targetGalleryTitle,
+          afterParagraph: afterParagraphRaw !== "" ? (Number(afterParagraphRaw) || 0) : 0,
+          question: q
+        });
+      }
+    }
+  });
+
+  Object.values(imagesByGallery).forEach(group => images.push(group));
+
+  // Now that every reading/video/image in this tab has been collected,
+  // resolve each pending question to its target (matched by title) or
+  // drop it into the standalone list if it didn't specify one.
+  pendingQuestions.forEach(({ readingTitle, videoTitle, galleryTitle, afterParagraph, question }) => {
+    if (readingTitle) {
+      const target = readings.find(r => r.title.trim().toLowerCase() === readingTitle.toLowerCase());
+      if (target) {
+        question.afterParagraph = afterParagraph;
+        if (!target.questions) target.questions = [];
+        target.questions.push(question);
+        return;
+      }
+      console.warn(`A question's "Question Reading" ("${readingTitle}") doesn't match any Reading Title in this tab — adding it to Check Your Understanding instead.`);
+    } else if (videoTitle) {
+      const target = videos.find(v => v.title.trim().toLowerCase() === videoTitle.toLowerCase());
+      if (target) {
+        if (!target.questions) target.questions = [];
+        target.questions.push(question);
+        return;
+      }
+      console.warn(`A question's "Question Video" ("${videoTitle}") doesn't match any Video Title in this tab — adding it to Check Your Understanding instead.`);
+    } else if (galleryTitle) {
+      const target = images.find(i => (i.title || "").trim().toLowerCase() === galleryTitle.toLowerCase());
+      if (target) {
+        if (!target.questions) target.questions = [];
+        target.questions.push(question);
+        return;
+      }
+      console.warn(`A question's "Question Gallery" ("${galleryTitle}") doesn't match any Image/Gallery Title in this tab — adding it to Check Your Understanding instead.`);
+    }
+    assessment.push(question);
+  });
+
+  if (objectives.length) lesson.objectives = objectives;
+  if (lessonSkills.length) lesson.skills = lessonSkills;
+  if (notesLink) { lesson.notesLink = notesLink; if (notesTitle) lesson.notesTitle = notesTitle; }
+  // Students see at most MAX_QUESTIONS_PER_SOURCE questions on any one reading / video / image.
+  [...readings, ...videos, ...images].forEach(src => {
+    if (src.questions && src.questions.length > 5) console.warn(`"${src.title}" has ${src.questions.length} questions attached; students will only see 5 of them (focus-skill questions first).`);
+  });
+  if (mentions.length) {
+    lesson.mentions = mentions;
+    lesson.keyTerms = keyTerms;
+    lesson.pinnedTerms = pinnedTerms;
+  }
+  if (inquiries.length) lesson.inquiryFocus = inquiries;
+  if (timelineFocus.length) {
+    lesson.timelineFocus = timelineFocus;
+  } else if (timelineStartYear !== null) {
+    const endYear = timelineEndYear !== null ? timelineEndYear : timelineStartYear;
+    const matches = COURSE_DATA.timeline
+      .filter(t => {
+        const year = extractYear(t.date);
+        return year !== null && year >= timelineStartYear && year <= endYear;
+      })
+      .map(t => t.id);
+    if (matches.length) lesson.timelineFocus = matches;
+    else console.warn(`No timeline entries found between ${timelineStartYear} and ${endYear} for lesson "${lesson.id}".`);
+  }
+  if (readings.length) lesson.readings = readings;
+  if (videos.length) lesson.videos = videos;
+  if (images.length) lesson.images = images;
+  if (assessmentLinks.length) lesson.assessments = assessmentLinks;
+  if (assessment.length) lesson.assessment = assessment;
+  if (presetLabels.length) lesson.presetLabels = presetLabels;
+  const termGroupList = Object.values(termGroups);
+  if (termGroupList.length) lesson.termGroups = termGroupList;
+}
+
+
+const SHEETS_BASE_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRSDsUWVrsaCJCw_lZGAwcL96-QsCtY111YZsX6kAEQyy74aR1N5P_BhfeeGWRI3qiY4O9YZG51iEgQ/pub";
+const LESSONS_LIST_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQT2zOeTF_vpXrHMwijKeJnkTzGpPzSzVAhK7I2hJ9Pw_vFvRJEARq2xwSUMYT9xYhQR4fgxotx39ff/pub?gid=914875213&single=true&output=csv";
+const LESSON_FILES_URL = "https://raw.githubusercontent.com/zewolff1/us-history-data/refs/heads/main/lessons/us2/";
+const LESSONS = []; // from your Lessons List tab: {id, number, title, unit, unitTitle, era}
+const ENTITIES_URL = "https://raw.githubusercontent.com/zewolff1/us-history-data/main/entities.json";
+const INQUIRIES_URL = "https://raw.githubusercontent.com/zewolff1/us-history-data/main/inquiries.json";
+const COURSE = { entities: [], inquiries: [], timeline: [] };
+const SKILL_HINTS = ["Central Ideas","Cite Text Evidence","Evidence and Analysis","Using Context Clues"];
+
+/* ---------------- state ---------------- */
+function blankState(){return{id:"",number:"",title:"",unit:"",unitTitle:"",ext:false,objectives:[""],skills:"",notesLink:"",notesTitle:"",
+  terms:[],inquiries:"",keep:{},
+  sources:[],questions:[],assessments:[]};}
+let S = blankState();
+
+const $ = (s,r=document)=>r.querySelector(s);
+function h(tag,attrs,...kids){const e=document.createElement(tag);
+  for(const k in (attrs||{})){const v=attrs[k];if(v==null||v===false)continue;
+    if(k==="class")e.className=v;else if(k.startsWith("on"))e[k]=v;else if(k==="value")e.value=v;else e.setAttribute(k,v===true?"":v);}
+  kids.flat(Infinity).forEach(c=>{if(c==null||c===false)return;e.append(c.nodeType?c:document.createTextNode(c));});return e;}
+
+let saveTimer=null;
+function touch(){updatePreview();clearTimeout(saveTimer);saveTimer=setTimeout(()=>{try{localStorage.setItem("lessonComposerDraft",JSON.stringify(S));$("#status").textContent="Draft saved in this browser";}catch(e){}},400);}
+function rerender(){const open=[...document.querySelectorAll("details.panel")].map(d=>d.open);render();document.querySelectorAll("#app details.panel").forEach((d,i)=>{if(open[i]!=null)d.open=open[i];});touch();}
+
+function field(obj,key,label,o={}){
+  o=o||{};let inp;
+  if(o.type==="textarea")inp=h("textarea",{rows:o.rows||4,placeholder:o.ph||""});
+  else if(o.type==="select")inp=h("select",{},o.options.map(x=>{const v=Array.isArray(x)?x[0]:x,t=Array.isArray(x)?x[1]:x;return h("option",{value:v},t);}));
+  else inp=h("input",{type:o.type||"text",placeholder:o.ph||"",list:o.list||null});
+  inp.value=obj[key]==null?"":obj[key];
+  inp.oninput=inp.onchange=()=>{obj[key]=inp.value;if(o.after)o.after();touch();};
+  return h("label",{class:"f"},label,inp,o.hint?h("div",{class:"hint",style:"text-transform:none;letter-spacing:0;font-family:inherit"},o.hint):null);
+}
+function check(obj,key,label,after){const c=h("input",{type:"checkbox"});c.checked=!!obj[key];c.onchange=()=>{obj[key]=c.checked;if(after)after();touch();};return h("label",{class:"c"},c,label);}
+function move(arr,i,d){const j=i+d;if(j<0||j>=arr.length)return;[arr[i],arr[j]]=[arr[j],arr[i]];rerender();}
+function ctl(arr,i,tag){return h("div",{class:"itemhead"},tag,h("span",{class:"sp"}),
+  h("button",{class:"sm",title:"Move up",onclick:()=>move(arr,i,-1)},"↑"),h("button",{class:"sm",title:"Move down",onclick:()=>move(arr,i,1)},"↓"),
+  h("button",{class:"sm danger",title:"Remove",onclick:()=>{if(confirm("Remove this?")){arr.splice(i,1);rerender();}}},"✕"));}
+function panel(title,count,...kids){return h("details",{class:"panel",open:true},h("summary",{},title,count!=null?h("span",{class:"count"},count):null),h("div",{class:"body"},kids));}
+
+/* ---------------- render ---------------- */
+function render(){const app=$("#app");app.innerHTML="";
+  /* Lesson */
+  app.append(panel("Lesson",null,
+    h("div",{class:"grid"},field(S,"id","Lesson (type 4.2 or 4-2)",{list:"dl-les",ph:"4.2",after:()=>{if(applyLesson())rerender();else{const i=$("#lesInfo");if(i)i.replaceWith(lessonInfo());}}}),field(S,"number","Number (display)",{ph:"2.1"}),field(S,"title","Title")),
+    lessonInfo(),
+    field(S,"skills","Lesson skills (everyone works on these; separate with ; or ,)",{ph:"Central Ideas; Cite Text Evidence",hint:"Students' own Focus Skills (Roster) are added on top of these."}),
+    h("div",{class:"grid"},field(S,"notesLink","Notes Link (teacher only)",{ph:"https://docs.google.com/…"}),field(S,"notesTitle","Notes button hover text"))));
+  /* Objectives */
+  app.append(panel("Objectives",S.objectives.filter(x=>x.trim()).length,
+    S.objectives.map((o,i)=>{const inp=h("input",{type:"text",value:o,placeholder:"Students will be able to…"});inp.oninput=()=>{S.objectives[i]=inp.value;touch();};
+      return h("div",{class:"row"},h("span",{class:"n"},(i+1)+"."),inp,h("button",{class:"sm danger",onclick:()=>{S.objectives.splice(i,1);rerender();}},"✕"));}),
+    h("button",{onclick:()=>{S.objectives.push("");rerender();}},"+ Objective"),
+    h("div",{class:"hint"},"Questions tag objectives by these numbers (1, 2, 3…).")));
+  /* Terms + inquiries */
+  app.append(termsPanel());
+  app.append(inquiryPanel());
+  /* Sources */
+  app.append(panel("Sources (readings, videos, images) — shown in this order",S.sources.length,
+    S.sources.map((s,i)=>sourceItem(s,i)),
+    h("button",{onclick:()=>{S.sources.push(newSource("reading"));rerender();}},"+ Reading"),
+    h("button",{style:"margin-left:.4rem",onclick:()=>{S.sources.push(newSource("video"));rerender();}},"+ Video"),
+    h("button",{style:"margin-left:.4rem",onclick:()=>{S.sources.push(newSource("image"));rerender();}},"+ Image / gallery")));
+  /* Questions */
+  app.append(panel("Questions (checks for understanding, Do Now)",S.questions.length,
+    h("div",{class:"hint"},"Place each question: after a paragraph of a reading, below a video or image, in the Do Now, or in the lesson’s Check Your Understanding list. Max 5 per source are shown to students."),
+    S.questions.map((q,i)=>questionItem(q,i)),
+    h("button",{onclick:()=>{S.questions.push(newQuestion());rerender();}},"+ Question"),
+    h("button",{style:"margin-left:.4rem",onclick:bulkQuestions},"+ Paste questions (table)")));
+  /* Assessments */
+  app.append(panel("Assessments (links to Hexagon Web, Stock Market Game…)",S.assessments.length,
+    h("div",{class:"hint"},"Hidden from students unless “Show to students” is checked. Teacher always sees them."),
+    S.assessments.map((a,i)=>h("div",{class:"item a"},ctl(S.assessments,i,h("span",{class:"tag"},"Assessment")),
+      h("div",{class:"grid"},field(a,"title","Title"),field(a,"link","Link (hexagons, stockmarket, or full address)"),field(a,"linkLabel","Button text")),
+      field(a,"description","Description"),check(a,"visible","Show to students"),check(a,"doNow","Also in Do Now"))),
+    h("button",{onclick:()=>{S.assessments.push({title:"",link:"hexagons",description:"",linkLabel:"",visible:false,doNow:false});rerender();}},"+ Assessment")));
+  updateLists();updatePreview();
+}
+
+/* ---------------- Lessons List lookup ---------------- */
+const lessonKey=v=>String(v||"").trim().toLowerCase().replace(/^lesson\s*/,"").replace(/[^0-9a-z]+/g,"-").replace(/^-|-$/g,"");
+function findLesson(v){const k=lessonKey(v);if(!k)return null;return LESSONS.find(l=>lessonKey(l.id)===k)||LESSONS.find(l=>lessonKey(l.number)===k)||null;}
+function applyLesson(){const l=findLesson(S.id);if(!l)return false;
+  S.id=l.id;S.number=l.number||S.number;S.title=l.title||S.title;S.unit=l.unit||"";S.unitTitle=l.unitTitle||"";return true;}
+function fileName(){return (S.number||S.id||"lesson").trim()+(S.ext?".json":"");}
+function lessonInfo(){
+  const box=h("div",{class:"hint",id:"lesInfo"});
+  const l=findLesson(S.id);
+  if(l)box.append(`Found in your Lessons List — ${l.unitTitle&&!/^Unit \d+$/.test(l.unitTitle)?l.unitTitle:"Unit "+(l.unit||"").replace(/\D+/g,"")} · ${l.number} ${l.title}`);
+  else if(S.id.trim())box.append(LESSONS.length?"Not in your Lessons List yet — add it there first, or fill in the number and title yourself.":"Lessons List not loaded (offline?) — fill in the number and title yourself.");
+  else box.append(LESSONS.length?`${LESSONS.length} lessons loaded from your Lessons List — type a number like 4.2 and the title fills in.`:"Loading your Lessons List…");
+  const url=LESSON_FILES_URL+encodeURIComponent(fileName());
+  const ext=h("input",{type:"checkbox"});ext.checked=S.ext;ext.onchange=()=>{S.ext=ext.checked;rerender();};
+  box.append(h("div",{style:"margin-top:.3rem"},"Downloads as ",h("code",{},fileName()),h("label",{class:"c",style:"margin-left:.6rem"},ext," add .json"),
+    h("div",{},"URL for the Lessons List tab: ",h("code",{style:"word-break:break-all"},url))));
+  return box;}
+async function loadLessonsList(){
+  try{const r=await fetch(LESSONS_LIST_URL);if(!r.ok)throw 0;const rows=parseCsv(await r.text()).map(normalizeRow);
+    LESSONS.length=0;rows.forEach(r=>{const id=(r.lesson||r.lessonid||r.id||"").trim();if(!id)return;
+      const un=(r.unitnumber||"").trim()||((r.unit||"").match(/\d+/)||[""])[0];
+      LESSONS.push({id,number:(r.number||"").trim(),title:(r.title||"").trim(),unit:(r.unit||r.unitid||"").trim(),unitTitle:(r.unittitle||"").trim()||(un?"Unit "+un:""),era:(r.era||"").trim()});});
+    try{localStorage.setItem("lessonComposerLessons",JSON.stringify(LESSONS));}catch(e){}
+  }catch(e){try{const c=JSON.parse(localStorage.getItem("lessonComposerLessons")||"[]");LESSONS.length=0;LESSONS.push(...c);}catch(x){}}
+  updateLists();if(S.id.trim()&&applyLesson())rerender();else{const i=$("#lesInfo");if(i){const n=lessonInfo();i.replaceWith(n);}}}
+function entityName(id){const e=COURSE.entities.find(x=>x.id===(id||"").trim());return e?e.name:"";}
+function updateLists(){
+  $("#dl-les").innerHTML="";LESSONS.forEach(l=>$("#dl-les").append(h("option",{value:l.number||l.id},l.title+" ("+(l.unitTitle||"")+")")));
+  $("#dl-ent").innerHTML="";COURSE.entities.forEach(e=>{$("#dl-ent").append(h("option",{value:e.id},e.name+(e.category?" · "+e.category:"")));$("#dl-ent").append(h("option",{value:e.name},e.id+(e.category?" · "+e.category:"")));});
+  $("#dl-inq").innerHTML="";COURSE.inquiries.forEach(e=>$("#dl-inq").append(h("option",{value:e.id},e.question)));
+  $("#dl-tl").innerHTML="";COURSE.timeline.forEach(e=>$("#dl-tl").append(h("option",{value:e.id},e.date+" "+e.title)));
+}
+
+/* ---------------- terms: tabs of checkboxes ---------------- */
+let termTab="sel",termQ="",termSub="";
+const catLabel=c=>({Person:"People",Topic:"Topics",Event:"Events"})[c]||c;
+const entCat=e=>e.category||"Other";
+function selSet(){return new Set(S.terms.map(t=>t.id.trim()).filter(Boolean));}
+function setTerm(id,on){
+  const i=S.terms.findIndex(t=>t.id.trim()===id);
+  if(on&&i<0)S.terms.push({id,key:true,pin:false,groups:"",order:""});
+  if(!on&&i>=0)S.terms.splice(i,1);
+  touch();updateTermCounts();}
+function updateTermCounts(){
+  const sel=selSet();const el=$("#termCount");if(el)el.textContent=S.terms.length;
+  const tc=$("#tc-sel");if(tc)tc.textContent=S.terms.length;
+  [...new Set(COURSE.entities.map(entCat))].forEach(c=>{const e=$("#tc-"+c.replace(/\W/g,"_"));if(e)e.textContent=COURSE.entities.filter(x=>entCat(x)===c&&sel.has(x.id)).length+"/"+COURSE.entities.filter(x=>entCat(x)===c).length;});}
+function refreshTerms(){const old=$("#termsPanel");if(!old)return;const n=termsPanel();n.open=old.open;old.replaceWith(n);}
+function termsPanel(){
+  const ents=COURSE.entities;const cats=[...new Set(ents.map(entCat))].sort((x,y)=>(x==='Person'?0:1)-(y==='Person'?0:1)||x.localeCompare(y));
+  if(termTab!=="sel"&&!cats.includes(termTab))termTab="sel";
+  const p=h("details",{class:"panel",id:"termsPanel",open:true},
+    h("summary",{},"People, Topics & Events (key terms)",h("span",{class:"count",id:"termCount"},S.terms.length)));
+  const body=h("div",{class:"body"});p.append(body);
+  if(!ents.length)body.append(h("div",{class:"hint"},"Click “Load entities” (bottom bar) to get checkbox lists of your people, topics and events. You can still add ids by hand under Selected."));
+  const sel=selSet();
+  const tabs=h("div",{class:"tabs"});
+  const tabBtn=(key,label,ctId,ct)=>h("button",{class:"tab"+(termTab===key?" on":""),onclick:()=>{termTab=key;termSub="";termQ="";refreshTerms();}},label,h("span",{class:"ct",id:ctId},ct));
+  tabs.append(tabBtn("sel","Selected","tc-sel",S.terms.length));
+  cats.forEach(c=>{const all=ents.filter(x=>entCat(x)===c);tabs.append(tabBtn(c,catLabel(c),"tc-"+c.replace(/\W/g,"_"),all.filter(x=>sel.has(x.id)).length+"/"+all.length));});
+  body.append(tabs);
+  if(termTab==="sel"){
+    if(!S.terms.length)body.append(h("div",{class:"hint"},"Nothing selected yet — open a tab above and check the people, topics and events this lesson uses."));
+    S.terms.forEach((t,i)=>{const nm=entityName(t.id);
+      body.append(h("div",{class:"item"},ctl(S.terms,i,h("span",{class:"tag"},"Term"+(nm?" — "+nm:""))),
+        h("div",{class:"grid"},field(t,"id","Term (name or id)",{list:"dl-ent",after:()=>{const m=COURSE.entities.find(e=>e.name.toLowerCase()===t.id.trim().toLowerCase());if(m){t.id=m.id;rerender();return;}const c=$("#nm"+i);if(c)c.textContent=entityName(t.id)}}),
+          field(t,"groups","Key-term group(s) (; separated)",{ph:"Trusts; Gilded Age"}),field(t,"order","Order in group",{type:"number"})),
+        h("div",{},h("span",{class:"chip",id:"nm"+i},nm||""),check(t,"key","Key term (“What You Need to Know”)"),check(t,"pin","Pinned for everyone"))));});
+    body.append(h("button",{onclick:()=>{S.terms.push({id:"",key:true,pin:false,groups:"",order:""});rerender();}},"+ Term by id"),
+      h("button",{style:"margin-left:.4rem",onclick:bulkTerms},"+ Paste several names or ids"));
+  } else {
+    const inCat=ents.filter(e=>entCat(e)===termTab);
+    const subs=[...new Set(inCat.map(e=>e.subcategory).filter(Boolean))].sort();
+    const search=h("input",{class:"search",type:"text",placeholder:"Search "+catLabel(termTab).toLowerCase()+"…",value:termQ});
+    const list=h("div",{class:"opts"});
+    const fill=()=>{list.innerHTML="";const q=termQ.trim().toLowerCase();const cur=selSet();
+      const shown=inCat.filter(e=>(!termSub||e.subcategory===termSub)&&(!q||(e.name+" "+e.id).toLowerCase().includes(q))).sort((a,b)=>a.name.localeCompare(b.name));
+      if(!shown.length)list.append(h("em",{},"No matches."));
+      shown.forEach(e=>{const c=h("input",{type:"checkbox"});c.checked=cur.has(e.id);
+        const lab=h("label",{class:"opt"+(c.checked?" on":"")},c,h("span",{},e.name,e.subcategory?h("small",{},e.subcategory):null));
+        c.onchange=()=>{lab.classList.toggle("on",c.checked);setTerm(e.id,c.checked);};list.append(lab);});};
+    search.oninput=()=>{termQ=search.value;fill();};
+    body.append(search);
+    if(subs.length)body.append(h("div",{class:"subs"},[["","All"],...subs.map(x=>[x,x])].map(([v,t])=>h("button",{class:termSub===v?"on":"",onclick:()=>{termSub=v;refreshTerms();}},t))));
+    body.append(list);fill();
+  }
+  return p;}
+function bulkTerms(){const t=prompt("Paste entity names or ids (comma, semicolon or one per line):");if(!t)return;
+  t.split(/[\n,;]+/).map(x=>x.trim()).filter(Boolean).map(x=>{const m=COURSE.entities.find(e=>e.name.toLowerCase()===x.toLowerCase());return m?m.id:x;}).forEach(id=>{if(!S.terms.some(x=>x.id===id))S.terms.push({id,key:true,pin:false,groups:"",order:""});});rerender();}
+
+/* ---------------- inquiries: checkboxes ---------------- */
+function inquiryPanel(){
+  const chosen=splitLC(S.inquiries);
+  const known=COURSE.inquiries.map(q=>q.id);
+  const p=h("details",{class:"panel",id:"inqPanel",open:true},h("summary",{},"Big questions (inquiries)",h("span",{class:"count",id:"inqCount"},chosen.length)));
+  const body=h("div",{class:"body"});p.append(body);
+  if(!COURSE.inquiries.length)body.append(h("div",{class:"hint"},"No inquiries loaded yet — click “Load entities” (it loads inquiries too), or add one below."));
+  else body.append(h("div",{class:"hint"},"Check the big questions this lesson returns to."));
+  const opts=h("div",{class:"opts one"});
+  const apply=()=>{const on=new Set([...opts.querySelectorAll("input:checked")].map(c=>c.value));
+    const extra=splitLC(S.inquiries).filter(x=>!known.includes(x));
+    S.inquiries=[...known.filter(id=>on.has(id)),...extra].join("; ");
+    $("#inqCount").textContent=splitLC(S.inquiries).length;touch();};
+  COURSE.inquiries.forEach(q=>{const c=h("input",{type:"checkbox",value:q.id});c.checked=chosen.includes(q.id);
+    const lab=h("label",{class:"opt"+(c.checked?" on":"")},c,h("span",{},q.question,h("small",{},q.id)));
+    c.onchange=()=>{lab.classList.toggle("on",c.checked);apply();};opts.append(lab);});
+  body.append(opts);
+  const extra=chosen.filter(x=>!known.includes(x));
+  if(extra.length)body.append(h("div",{class:"hint"},"Ids on this lesson that aren't in your inquiry list: "+extra.join(", ")));
+  body.append(h("button",{onclick:newInquiry},"+ New big question"));
+  return p;}
+function newInquiry(){
+  const nums=COURSE.inquiries.map(q=>parseInt(String(q.id).replace(/\D/g,""),10)).filter(n=>!isNaN(n));
+  const id="inq"+((nums.length?Math.max(...nums):0)+1);
+  const q=prompt("New big question (it will get the id "+id+"):");if(!q||!q.trim())return;
+  COURSE.inquiries.push({id,question:q.trim()});S.inquiries=[...splitLC(S.inquiries),id].join("; ");
+  try{localStorage.setItem("lessonComposerCourse",JSON.stringify(COURSE));}catch(e){}
+  $("#status").textContent="Added "+id+" — click “Save inquiries.json” and upload it to GitHub to keep it.";rerender();}
+function setInquiries(list,from){COURSE.inquiries=list.filter(q=>q.id&&q.question);
+  try{localStorage.setItem("lessonComposerCourse",JSON.stringify(COURSE));}catch(e){}
+  rerender();return from;}
+function saveInquiries(){if(!COURSE.inquiries.length){alert("No inquiries loaded.");return;}
+  const blob=new Blob([JSON.stringify(COURSE.inquiries,null,1)],{type:"application/json"});const a=h("a",{href:URL.createObjectURL(blob),download:"inquiries.json"});document.body.append(a);a.click();a.remove();}
+async function loadInquiries(){
+  try{const r=await fetch(INQUIRIES_URL,{cache:"no-cache"});if(!r.ok)throw 0;const j=await r.json();
+    setInquiries((Array.isArray(j)?j:j.inquiries||[]).map(q=>({id:String(q.id||"").trim(),question:String(q.question||"").trim()})),"GitHub");return true;}catch(e){}
+  try{const r=await fetch(`${SHEETS_BASE_URL}?gid=1131780470&single=true&output=csv`);if(!r.ok)throw 0;
+    setInquiries(parseCsv(await r.text()).map(normalizeRow).map(q=>({id:String(q.id||"").trim(),question:String(q.question||q.inquiry||"").trim()})),"sheet");return true;}catch(e){}
+  return false;}
+
+
+/* ---------------- reading blocks (same block types as the Reading Composer) ---------------- */
+const BLOCK_TYPES=[["paragraph","Paragraph"],["h1","Heading 1"],["h2","Heading 2"],["h3","Heading 3 (small)"],["quote","Quote"],["poem","Poem"],["centered","Centered"],["attribution","Attribution"],["list","Bullet list"],["callout","Callout box"],["divider","Divider line"]];
+const BLOCK_PH={paragraph:"Type a paragraph of the reading.",h1:"Heading text",h2:"Subheading text",h3:"Small subheading text",quote:"Quoted text",poem:"Type or paste the poem. Enter = new line, blank line = new stanza (each stanza counts as its own block for questions).",centered:"Centered text (a poem's title, an epigraph)",attribution:"Who it's by, e.g. Langston Hughes, 1926 (the dash is added for you)",list:"One item per line",callout:"Text for the highlighted box"};
+const cleanBT=t=>t.replace(/\s*\n\s*/g," ").trim();
+const blkLines=t=>t.replace(/\r/g,"").split("\n").map(l=>l.replace(/\s+$/,"").replace(/ \/\/ /g," / ")).filter(l=>l.trim()!=="");
+function blockToRaws(b){
+  if(b.type==="divider")return["---"];
+  if(b.type==="poem")return b.text.replace(/\r/g,"").split(/\n\s*\n/).map(blkLines).filter(l=>l.length).map(l=>"~ "+l.join(" // "));
+  if(b.type==="list"){const l=blkLines(b.text).map(x=>x.trim().replace(/^[-•*]\s+/,""));return l.length?["- "+l.join(" // ")]:[];}
+  const t=cleanBT(b.text);if(!t)return[];
+  return({h1:"# ",h2:"## ",h3:"### ",quote:"> ",centered:"^ ",callout:"! "}[b.type]!==undefined)?[({h1:"# ",h2:"## ",h3:"### ",quote:"> ",centered:"^ ",callout:"! "})[b.type]+t]
+    :b.type==="attribution"?["-- "+t.replace(/^[-—–]+\s*/,"")]:[t];
+}
+function rawsOf(s){return(s.blocks||[]).flatMap(blockToRaws);}
+function parseRawText(text){const out=[];
+  String(text||"").split(/\n\s*\n/).map(x=>x.trim()).filter(Boolean).forEach(r=>{
+    const pre=[["### ","h3"],["## ","h2"],["# ","h1"],["> ","quote"],["^ ","centered"],["-- ","attribution"],["! ","callout"]];
+    if(/^---+$/.test(r)){out.push({type:"divider",text:""});return;}
+    const hit=pre.find(([p])=>r.startsWith(p));
+    if(hit){out.push({type:hit[1],text:r.slice(hit[0].length).trim()});return;}
+    if(r.startsWith("~ ")){const lines=r.slice(2).split(/\r?\n|[ \t]+\/\/(?=[ \t]|$)[ \t]?/).map(l=>l.replace(/\s+$/,"")).filter(l=>l.trim()).join("\n");
+      const last=out[out.length-1];if(last&&last.type==="poem")last.text+="\n\n"+lines;else out.push({type:"poem",text:lines});return;}
+    if(r.startsWith("- ")){out.push({type:"list",text:r.slice(2).split(/\r?\n|[ \t]+\/\/(?=[ \t]|$)[ \t]?/).map(l=>l.trim()).filter(Boolean).join("\n")});return;}
+    out.push({type:"paragraph",text:r.replace(/\s*\n\s*/g," ")});});
+  return out;}
+function previewInto(box,s){box.innerHTML="";let n=0;
+  const add=(tag,text,cls)=>{const e=h(tag,{class:cls||null});e.append(h("span",{class:"bn"},"#"+n),text);box.append(e);n++;};
+  (s.blocks||[]).forEach(b=>{
+    if(b.type==="divider"){box.append(h("hr"));n++;return;}
+    if(b.type==="poem"){b.text.replace(/\r/g,"").split(/\n\s*\n/).map(blkLines).filter(l=>l.length).forEach(l=>add("p",l.join("\n"),"poem"));return;}
+    if(b.type==="list"){const l=blkLines(b.text).map(x=>x.trim().replace(/^[-•*]\s+/,""));if(!l.length)return;const ul=h("ul",{},l.map(x=>h("li",{},x)));box.append(h("span",{class:"bn"},"#"+n),ul);n++;return;}
+    const t=cleanBT(b.text);if(!t)return;
+    ({h1:()=>add("h1",t),h2:()=>add("h2",t),h3:()=>add("h5",t),quote:()=>add("blockquote",t),centered:()=>add("p",t,"centered"),attribution:()=>add("p","— "+t.replace(/^[-—–]+\s*/,""),"attribution"),callout:()=>add("p",t,"callout")}[b.type]||(()=>add("p",t)))();});
+  if(!n)box.append(h("em",{},"Nothing to preview yet."));}
+function blockEditor(s){
+  const wrap=h("div",{});
+  if(!s.blocks)s.blocks=[{type:"paragraph",text:""}];
+  const pv=h("div",{class:"pv"});const refresh=()=>previewInto(pv,s);
+  let rawIdx=0;
+  s.blocks.forEach((b,i)=>{
+    const sel=h("select",{},BLOCK_TYPES.map(([v,t])=>h("option",{value:v},t)));sel.value=b.type;sel.onchange=()=>{b.type=sel.value;rerender();};
+    const cnt=blockToRaws(b).length;const lab=cnt>1?`#${rawIdx}–${rawIdx+cnt-1}`:(cnt?`#${rawIdx}`:"#–");rawIdx+=cnt;
+    const box=h("div",{class:"blk t-"+b.type},h("div",{class:"blk-head"},h("span",{class:"num"},lab),sel,h("span",{class:"sp"}),
+      h("button",{class:"sm",title:"Move up",onclick:()=>move(s.blocks,i,-1)},"↑"),h("button",{class:"sm",title:"Move down",onclick:()=>move(s.blocks,i,1)},"↓"),
+      h("button",{class:"sm danger",title:"Remove block",onclick:()=>{s.blocks.splice(i,1);rerender();}},"✕")));
+    if(b.type==="divider")box.append(h("div",{class:"dv"},"A divider line — nothing to type."));
+    else{const ta=h("textarea",{placeholder:BLOCK_PH[b.type]||"",rows:b.type==="poem"?6:2});ta.value=b.text;ta.oninput=()=>{b.text=ta.value;refresh();touch();};box.append(ta);}
+    wrap.append(box);});
+  wrap.append(h("div",{class:"addrow"},BLOCK_TYPES.map(([v,t])=>h("button",{class:"sm",onclick:()=>{s.blocks.push({type:v,text:""});rerender();}},"+ "+t.replace(" (small)","")))),
+    h("div",{class:"addrow"},h("button",{class:"sm",onclick:()=>{const t=prompt("Paste the reading text. Blank lines separate blocks. You can also use the sheet symbols (# heading, > quote, ~ poem, - list, ! callout, --- divider).");
+      if(t){const nb=parseRawText(t);if(s.blocks.length===1&&!s.blocks[0].text)s.blocks=nb;else s.blocks.push(...nb);rerender();}}},"Paste whole text…")));
+  const d=h("details",{open:true},h("summary",{style:"cursor:pointer;font-size:.82rem;margin-bottom:.3rem"},"Preview (numbers = block # for “after paragraph”)"),pv);wrap.append(d);refresh();
+  return wrap;}
+
+function newSource(kind){return {kind,title:"",source:"",note:"",blocks:[{type:"paragraph",text:""}],image:"",embedUrl:"",length:"",src:"",files:[{src:"",caption:""}],set:"",setOrder:"",order:"",termGroup:"",pin:false};}
+function sourceItem(s,i){
+  const tag={reading:"Reading",video:"Video",image:"Image / gallery"}[s.kind];
+  const box=h("div",{class:"item "+s.kind},ctl(S.sources,i,h("span",{class:"tag"},tag+" "+(i+1))));
+  box.append(h("div",{class:"grid"},field(s,"title","Title",{after:refreshQTargets})));
+  if(s.kind==="reading"){
+    box.append(field(s,"source","Source / citation"),field(s,"note","Note (optional)"),
+      h("div",{class:"field-label hint"},"Reading text — build it block by block"),blockEditor(s),
+      h("div",{class:"grid"},field(s,"image","Image URL (optional)"),field(s,"embedUrl","Embed URL (optional)")));
+    const n=rawsOf(s).length;box.append(h("div",{class:"hint"},n+" block"+(n===1?"":"s")+" · question “after block” numbers start at 0"));
+  }
+  if(s.kind==="video"){
+    box.append(h("div",{class:"grid"},field(s,"src","Video link (YouTube or Google Drive share link)"),field(s,"length","Length",{ph:"4:32"}),field(s,"image","Thumbnail URL (optional)")),field(s,"note","Note (optional)"));
+  }
+  if(s.kind==="image"){
+    box.append(field(s,"note","Note (optional)"),h("div",{class:"field-label hint"},"Images (several = a gallery)"));
+    s.files.forEach((f,j)=>{const a=h("input",{type:"text",placeholder:"Image URL",value:f.src}),b=h("input",{type:"text",placeholder:"Caption (optional)",value:f.caption});
+      a.oninput=()=>{f.src=a.value;touch();};b.oninput=()=>{f.caption=b.value;touch();};
+      box.append(h("div",{class:"row"},a,b,h("button",{class:"sm danger",onclick:()=>{s.files.splice(j,1);rerender();}},"✕")));});
+    box.append(h("button",{class:"sm",onclick:()=>{s.files.push({src:"",caption:""});rerender();}},"+ Image"),h("div",{style:"height:.6rem"}));
+  }
+  box.append(h("details",{},h("summary",{style:"cursor:pointer;font-size:.8rem;margin-bottom:.5rem"},"More options (sets, order, term group, pin)"),
+    h("div",{class:"grid"},field(s,"set","Set name (groups sources)"),field(s,"setOrder","Set order",{type:"number"}),field(s,"order","Order",{type:"number"}),field(s,"termGroup","Show term group(s)")),
+    check(s,"pin","Pin this source open for everyone")));
+  return box;
+}
+
+function newQuestion(){return {type:"multiple_choice",where:"standalone",target:"",afterParagraph:0,prompt:"",choices:["","","",""],correct:0,explanation:"",sampleAnswer:"",link:"",linkLabel:"",skill:"",objectives:"",group:"",image:"",termGroup:"",requiresApproval:false};}
+function refreshQTargets(){/* titles changed: just recompute preview; selects rebuild on next structural change */}
+function questionItem(q,i){
+  const box=h("div",{class:"item q"},ctl(S.questions,i,h("span",{class:"tag"},"Question "+(i+1)+(q.prompt?" — "+q.prompt.slice(0,50):""))));
+  box.append(h("div",{class:"grid"},
+    field(q,"type","Type",{type:"select",options:[["multiple_choice","Multiple choice"],["short_answer","Short answer"],["link","Link (opens something)"]],after:rerender}),
+    field(q,"where","Where it appears",{type:"select",options:[["standalone","Check Your Understanding list"],["donow","Do Now"],["reading","Inside a reading"],["video","Below a video"],["gallery","Below an image / gallery"]],after:rerender})));
+  if(["reading","video","gallery"].includes(q.where)){
+    const kind={reading:"reading",video:"video",gallery:"image"}[q.where];
+    const opts=S.sources.filter(s=>s.kind===kind&&s.title.trim()).map(s=>s.title.trim());
+    const sel=h("select",{},h("option",{value:""},opts.length?"— choose —":"(add a titled "+kind+" first)"),opts.map(t=>h("option",{value:t},t)));
+    sel.value=q.target;sel.onchange=()=>{q.target=sel.value;touch();};
+    box.append(h("div",{class:"grid"},h("label",{class:"f"},"Which one?",sel),q.where==="reading"?afterSelect(q):null));
+  }
+  box.append(field(q,"prompt","Question",{type:"textarea",rows:2}));
+  if(q.type==="multiple_choice"){
+    box.append(h("div",{class:"field-label hint"},"Answer choices — select the correct one"));
+    q.choices.forEach((c,j)=>{const r=h("input",{type:"radio",name:"q"+i+"c"});r.checked=q.correct===j;r.onchange=()=>{q.correct=j;touch();};
+      const t=h("input",{type:"text",value:c,placeholder:"Choice "+String.fromCharCode(65+j)});t.oninput=()=>{q.choices[j]=t.value;touch();};
+      box.append(h("div",{class:"row"},r,t,h("button",{class:"sm danger",onclick:()=>{q.choices.splice(j,1);if(q.correct>=q.choices.length)q.correct=0;rerender();}},"✕")));});
+    box.append(h("button",{class:"sm",onclick:()=>{q.choices.push("");rerender();}},"+ Choice"),h("div",{style:"height:.6rem"}),field(q,"explanation","Explanation (shown after answering)",{type:"textarea",rows:2}));
+  } else if(q.type==="short_answer"){
+    box.append(field(q,"sampleAnswer","Sample answer (shown after answering)",{type:"textarea",rows:2}),check(q,"requiresApproval","Hold answers until I approve them"));
+  } else {
+    box.append(h("div",{class:"grid"},field(q,"link","Link (hexagons, stockmarket, or address)"),field(q,"linkLabel","Button text")));
+  }
+  box.append(h("div",{class:"grid"},field(q,"skill","Skill",{ph:"Central Ideas",list:"dl-skill"}),field(q,"objectives","Objective numbers",{ph:"1, 3"}),field(q,"group","Sequence group (same name = answered one after another)")),
+    h("details",{},h("summary",{style:"cursor:pointer;font-size:.8rem;margin-bottom:.5rem"},"More options"),h("div",{class:"grid"},field(q,"image","Image URL"),field(q,"termGroup","Term group"))));
+  return box;
+}
+function afterSelect(q){
+  const src=S.sources.find(x=>x.kind==="reading"&&x.title.trim().toLowerCase()===q.target.trim().toLowerCase());
+  const raws=src?rawsOf(src):[];
+  if(!raws.length)return field(q,"afterParagraph","After block # (0 = after the first)",{type:"number"});
+  const sel=h("select",{},raws.map((r,i)=>h("option",{value:i},`After #${i}: ${r.replace(/^(###|##|#|>|\^|--|!|~|-)\s+/,"").slice(0,48)}`)));
+  sel.value=Math.min(Number(q.afterParagraph)||0,raws.length-1);sel.onchange=()=>{q.afterParagraph=Number(sel.value);touch();};
+  return h("label",{class:"f"},"Appears after",sel);}
+function bulkQuestions(){
+  const t=prompt("Paste rows, one question per line, tab-separated:\nPrompt ⇥ Choice A ⇥ Choice B ⇥ Choice C ⇥ Choice D ⇥ Correct (A–D) ⇥ Skill ⇥ Explanation\n(copy straight from a spreadsheet)");
+  if(!t)return;
+  t.split(/\r?\n/).filter(l=>l.trim()).forEach(l=>{const c=l.split("\t");const q=newQuestion();q.prompt=(c[0]||"").trim();
+    q.choices=[c[1],c[2],c[3],c[4]].map(x=>(x||"").trim()).filter(Boolean);const k=(c[5]||"A").trim().toUpperCase().charCodeAt(0)-65;q.correct=k>=0&&k<q.choices.length?k:0;q.skill=(c[6]||"").trim();q.explanation=(c[7]||"").trim();S.questions.push(q);});
+  rerender();}
+
+/* ---------------- state -> lesson JSON ---------------- */
+const splitL=t=>String(t||"").split(/\s*;\s*/).map(x=>x.trim()).filter(Boolean);
+const splitLC=t=>String(t||"").split(/[;,]/).map(x=>x.trim()).filter(Boolean);
+const numOr=v=>{const n=parseFloat(String(v==null?"":v).trim());return isNaN(n)?undefined:n;};
+function clean(o){Object.keys(o).forEach(k=>{if(o[k]===undefined||o[k]===""||(Array.isArray(o[k])&&!o[k].length&&k!=="choices"))delete o[k];});return o;}
+function toJson(S){
+  const id=S.id.trim();const out={schemaVersion:1,id};
+  if(S.number.trim())out.number=S.number.trim();if(S.title.trim())out.title=S.title.trim();if(S.unit)out.unit=S.unit;if(S.unitTitle)out.unitTitle=S.unitTitle;
+  const objs=S.objectives.map(x=>x.trim()).filter(Boolean);
+  if(objs.length)out.objectives=objs.map((t,i)=>({id:`${id}-o${i+1}`,text:t}));
+  const sk=splitLC(S.skills);if(sk.length)out.skills=sk;
+  if(S.notesLink.trim()){out.notesLink=S.notesLink.trim();if(S.notesTitle.trim())out.notesTitle=S.notesTitle.trim();}
+  const terms=S.terms.filter(t=>t.id.trim());
+  if(terms.length){out.mentions=[];out.keyTerms=[];out.pinnedTerms=[];const groups={};let pos=0;
+    terms.forEach(t=>{const e=t.id.trim();out.mentions.push(e);if(t.key)out.keyTerms.push(e);if(t.pin)out.pinnedTerms.push(e);
+      splitL(t.groups).forEach(g=>{const k=g.toLowerCase();if(!groups[k])groups[k]={name:g,members:[]};
+        if(!groups[k].members.some(m=>m.id===e))groups[k].members.push(clean({id:e,order:numOr(t.order),pos:pos++}));});});
+    const gl=Object.values(groups);if(gl.length)out.termGroups=gl;}
+  const inq=splitLC(S.inquiries);if(inq.length)out.inquiryFocus=inq;
+  ["presetLabels","timelineFocus","timelineStartYear","timelineEndYear"].forEach(k=>{if(S.keep&&S.keep[k]!==undefined)out[k]=S.keep[k];}); // not edited here, but kept if the file had them
+  /* sources */
+  const readings=[],videos=[],images=[];
+  S.sources.forEach((s,i)=>{
+    if(!s.title.trim()&&!(s.kind==="image"&&s.files.some(f=>f.src.trim())))return;
+    const common={set:s.set.trim()||undefined,setOrder:numOr(s.setOrder),order:numOr(s.order),termGroup:splitL(s.termGroup),teacherPinned:s.pin||undefined,_order:i};
+    if(s.kind==="reading")readings.push(clean({title:s.title.trim(),source:s.source.trim(),note:s.note.trim()||undefined,
+      text:rawsOf(s).join("\n\n"),image:s.image.trim()||undefined,embedUrl:s.embedUrl.trim()||undefined,...common}));
+    if(s.kind==="video")videos.push(clean({title:s.title.trim(),length:s.length.trim()||undefined,note:s.note.trim()||undefined,src:s.src.trim(),image:s.image.trim()||undefined,...common}));
+    if(s.kind==="image")images.push(clean({title:s.title.trim(),note:s.note.trim()||undefined,
+      files:s.files.filter(f=>f.src.trim()).map(f=>f.caption.trim()?{src:f.src.trim(),caption:f.caption.trim()}:f.src.trim()),...common}));
+  });
+  /* questions */
+  const doNow=[],std=[];
+  S.questions.forEach(q=>{if(!q.prompt.trim())return;
+    const o={type:q.type,prompt:q.prompt.trim()};
+    const on=(q.objectives||"").split(",").map(x=>x.trim()).filter(Boolean);if(on.length)o.objectiveIds=on.map(n=>`${id}-o${n}`);
+    if(q.image.trim())o.image=q.image.trim();if(q.termGroup.trim())o.termGroup=q.termGroup.trim();if(q.skill.trim())o.skill=q.skill.trim();
+    if(q.requiresApproval&&q.type==="short_answer")o.requiresApproval=true;if(q.group.trim())o.group=q.group.trim();
+    if(q.type==="link"){o.link=q.link.trim();if(q.linkLabel.trim())o.linkLabel=q.linkLabel.trim();}
+    else if(q.type==="short_answer")o.sampleAnswer=q.sampleAnswer.trim();
+    else{o.choices=q.choices.map(c=>c.trim()).filter(Boolean);o.correctIndex=Number(q.correct)||0;if(q.explanation.trim())o.explanation=q.explanation.trim();}
+    const find=(arr)=>arr.find(x=>x.title.toLowerCase()===q.target.trim().toLowerCase());
+    if(q.where==="donow")doNow.push(o);
+    else if(q.where==="reading"&&find(readings)){o.afterParagraph=Number(q.afterParagraph)||0;(find(readings).questions=find(readings).questions||[]).push(o);}
+    else if(q.where==="video"&&find(videos))(find(videos).questions=find(videos).questions||[]).push(o);
+    else if(q.where==="gallery"&&find(images))(find(images).questions=find(images).questions||[]).push(o);
+    else std.push(o);
+  });
+  if(readings.length)out.readings=readings;if(videos.length)out.videos=videos;if(images.length)out.images=images;
+  if(doNow.length)out.doNow=doNow;if(std.length)out.assessment=std;
+  const as=S.assessments.filter(a=>a.link.trim()).map(a=>clean({title:a.title.trim(),description:a.description.trim(),link:a.link.trim(),linkLabel:a.linkLabel.trim(),visible:!!a.visible,doNow:!!a.doNow}));
+  if(as.length)out.assessments=as.map(a=>({visible:false,doNow:false,...a}));
+  return out;
+}
+
+/* ---------------- lesson JSON -> state ---------------- */
+function toState(j){const s=blankState();
+  s.id=j.id||"";s.number=j.number||"";s.title=j.title||"";s.unit=j.unit||"";s.unitTitle=j.unitTitle||"";
+  s.objectives=(j.objectives||[]).map(o=>o.text);if(!s.objectives.length)s.objectives=[""];
+  s.skills=(j.skills||[]).join("; ");s.notesLink=j.notesLink||"";s.notesTitle=j.notesTitle||"";
+  const g={};(j.termGroups||[]).forEach(tg=>tg.members.forEach(m=>{(g[m.id]=g[m.id]||[]).push({name:tg.name,order:m.order});}));
+  s.terms=(j.mentions||[]).map(id=>({id,key:(j.keyTerms||[]).includes(id),pin:(j.pinnedTerms||[]).includes(id),groups:(g[id]||[]).map(x=>x.name).join("; "),order:(g[id]||[]).find(x=>x.order!=null)?.order??""}));
+  s.inquiries=(j.inquiryFocus||[]).join("; ");
+  ["presetLabels","timelineFocus","timelineStartYear","timelineEndYear"].forEach(k=>{if(j[k]!==undefined)s.keep[k]=j[k];});
+  const src=[];const qs=[];
+  const cq=(q,where,target,ap)=>{const n=newQuestion();Object.assign(n,{type:q.type||"multiple_choice",where,target:target||"",afterParagraph:ap||0,prompt:q.prompt||"",
+    choices:q.choices&&q.choices.length?q.choices.slice():(q.type==="multiple_choice"||!q.type?["","","",""]:[]),correct:q.correctIndex||0,explanation:q.explanation||"",sampleAnswer:q.sampleAnswer||"",
+    link:q.link||"",linkLabel:q.linkLabel||"",skill:q.skill||"",objectives:(q.objectiveIds||[]).map(x=>String(x).split("-o").pop()).join(", "),group:q.group||"",image:q.image||"",termGroup:q.termGroup||"",requiresApproval:!!q.requiresApproval});qs.push(n);};
+  const base=(x,kind,order)=>({...newSource(kind),title:x.title||"",note:x.note||"",set:x.set||"",setOrder:x.setOrder??"",order:x.order??"",termGroup:(x.termGroup||[]).join("; "),pin:!!x.teacherPinned,_o:x._order??order});
+  (j.readings||[]).forEach((r,i)=>{src.push({...base(r,"reading",i),source:r.source||"",blocks:(()=>{const b=parseRawText(r.text);return b.length?b:[{type:"paragraph",text:""}];})(),image:r.image||"",embedUrl:r.embedUrl||""});(r.questions||[]).forEach(q=>cq(q,"reading",r.title,q.afterParagraph));});
+  (j.videos||[]).forEach((v,i)=>{src.push({...base(v,"video",100+i),src:v.src||"",length:v.length||"",image:v.image||""});(v.questions||[]).forEach(q=>cq(q,"video",v.title));});
+  (j.images||[]).forEach((m,i)=>{src.push({...base(m,"image",200+i),files:(m.files||[]).map(f=>typeof f==="string"?{src:f,caption:""}:{src:f.src,caption:f.caption||""})});(m.questions||[]).forEach(q=>cq(q,"gallery",m.title));});
+  src.sort((a,b)=>a._o-b._o);src.forEach(x=>delete x._o);s.sources=src;
+  (j.doNow||[]).forEach(q=>cq(q,"donow"));(j.assessment||[]).forEach(q=>cq(q,"standalone"));
+  s.questions=qs;
+  s.assessments=(j.assessments||[]).map(a=>({title:a.title||"",link:a.link||"",description:a.description||"",linkLabel:a.linkLabel||"",visible:!!a.visible,doNow:!!a.doNow}));
+  return s;}
+
+/* ---------------- checks, preview, io ---------------- */
+function problems(){const w=[];const id=S.id.trim();
+  if(!id)w.push("Pick a lesson — type its number (like 4.2) so the id, title and unit fill in.");
+  const titles=S.sources.map(s=>s.title.trim().toLowerCase()).filter(Boolean);
+  if(new Set(titles).size!==titles.length)w.push("Two sources share a title; questions attach by title, so make them different.");
+  S.questions.forEach((q,i)=>{const n="Question "+(i+1);
+    if(!q.prompt.trim())return;
+    if(["reading","video","gallery"].includes(q.where)&&!q.target.trim())w.push(n+": choose which "+q.where+" it belongs to (it will land in the Check Your Understanding list otherwise).");
+    if(q.type==="multiple_choice"){const c=q.choices.map(x=>x.trim()).filter(Boolean);if(c.length<2)w.push(n+": needs at least 2 answer choices.");
+      if(!q.choices[q.correct]||!q.choices[q.correct].trim())w.push(n+": the selected correct answer is blank.");}
+    if(q.type==="link"&&!q.link.trim())w.push(n+": add a link.");
+    if(/YOUR READING TITLE/i.test(q.target))w.push(n+": placeholder text left in.");});
+  const per={};S.questions.forEach(q=>{if(q.where!=="standalone"&&q.where!=="donow"&&q.target){const k=q.where+"|"+q.target;per[k]=(per[k]||0)+1;}});
+  Object.entries(per).forEach(([k,n])=>{if(n>5)w.push(`"${k.split("|")[1]}" has ${n} questions; students see at most 5.`);});
+  S.terms.forEach(t=>{if(t.id.trim()&&COURSE.entities.length&&!COURSE.entities.some(e=>e.id===t.id.trim()))w.push(`Term id “${t.id}” isn't in the loaded entities.`);});
+  return w;}
+
+/* ---------------- lesson preview ---------------- */
+function lpQuestion(q,tag){
+  const box=h("div",{class:"q"});
+  box.append(h("div",{class:"tagline"},[tag,q.skill?"Skill: "+q.skill:""].filter(Boolean).join(" · ")),h("div",{class:"qt"},q.prompt||""));
+  if(q.type==="link"){box.append(h("span",{class:"btn"},q.linkLabel||"Open →"),h("span",{class:"hint",style:"margin-left:.5rem"},q.link||""));}
+  else if(q.type==="short_answer"){box.append(h("textarea",{rows:2,placeholder:"Student types an answer…"}));
+    if(q.sampleAnswer)box.append(h("div",{class:"fb"},"Sample answer: "+q.sampleAnswer));if(q.requiresApproval)box.append(h("div",{class:"fb"},"(Answers held until you approve them.)"));}
+  else{const fb=h("div",{class:"fb"});const labs=[];
+    (q.choices||[]).forEach((c,i)=>{const r=h("input",{type:"radio",name:"lp"+Math.random()});const lab=h("label",{},r,"  "+c);labs.push(lab);
+      r.onchange=()=>{labs.forEach((l,k)=>l.className=k===(q.correctIndex||0)?"right":(k===i?"wrong":""));fb.textContent=(i===(q.correctIndex||0)?"Correct. ":"Not quite. ")+(q.explanation||"");};box.append(lab);});
+    box.append(fb);}
+  return box;}
+function lpBlocks(text,questions){
+  const wrap=h("div",{});const raws=String(text||"").split(/\n\s*\n/).map(x=>x.trim()).filter(Boolean);
+  const qs=(questions||[]);
+  raws.forEach((r,i)=>{
+    let el;
+    if(/^---+$/.test(r))el=h("hr");
+    else if(r.startsWith("### "))el=h("h5",{class:"rb"},r.slice(4));
+    else if(r.startsWith("## "))el=h("h4",{class:"rb"},r.slice(3));
+    else if(r.startsWith("# "))el=h("h2",{class:"rb"},r.slice(2));
+    else if(r.startsWith("> "))el=h("blockquote",{},r.slice(2));
+    else if(r.startsWith("^ "))el=h("p",{class:"cen"},r.slice(2));
+    else if(r.startsWith("-- "))el=h("p",{class:"att"},"— "+r.slice(3));
+    else if(r.startsWith("! "))el=h("p",{class:"call"},r.slice(2));
+    else if(r.startsWith("~ "))el=h("p",{class:"poem"},r.slice(2).split(/ \/\/ /).join("\n"));
+    else if(r.startsWith("- "))el=h("ul",{},r.slice(2).split(/ \/\/ /).map(x=>h("li",{},x)));
+    else el=h("p",{},r);
+    wrap.append(el);
+    qs.filter(q=>(q.afterParagraph||0)===i).forEach(q=>wrap.append(lpQuestion(q,"Question after block #"+i)));});
+  qs.filter(q=>(q.afterParagraph||0)>=raws.length).forEach(q=>wrap.append(lpQuestion(q,"Question")));
+  return wrap;}
+function renderLessonPreview(){
+  const box=$("#lessonPv");if(!box)return;box.innerHTML="";const j=toJson(S);
+  const sec=t=>box.append(h("h3",{class:"sec"},t));
+  box.append(h("div",{class:"unit"},[j.unitTitle||(j.unit?"Unit "+String(j.unit).replace(/\D+/g,""):""),j.number?"Lesson "+j.number:""].filter(Boolean).join(" · ")),
+    h("h1",{class:"lt"},j.title||"(untitled lesson)"));
+  if(j.skills&&j.skills.length)box.append(h("div",{class:"hint"},"Lesson skills: "+j.skills.join(", ")));
+  if(j.notesLink)box.append(h("div",{class:"hint"},"📝 Notes button (teacher only) → "+j.notesLink));
+  const dn=[...(j.doNow||[]),...(j.assessments||[]).filter(a=>a.doNow).map(a=>({type:"link",prompt:a.title||"Assessment",link:a.link,linkLabel:a.linkLabel||"Start"}))];
+  if(dn.length){sec("Do Now");const d=h("div",{class:"donow"});dn.forEach(q=>d.append(lpQuestion(q,"Do Now")));box.append(d);}
+  if(j.objectives&&j.objectives.length){sec("Objectives");box.append(h("ul",{},j.objectives.map(o=>h("li",{},o.text))));}
+  if(j.inquiryFocus&&j.inquiryFocus.length){sec("Big questions");
+    box.append(h("ul",{},j.inquiryFocus.map(id=>{const q=COURSE.inquiries.find(x=>x.id===id);return h("li",{},q?q.question:id+" (not in your inquiry list)");})));}
+  if(j.mentions&&j.mentions.length){sec("People, topics & events");
+    const keys=new Set(j.keyTerms||[]);box.append(h("div",{class:"chips"},j.mentions.map(id=>h("span",{class:keys.has(id)?"key":""},entityName(id)||id))));
+    const k=j.mentions.filter(id=>keys.has(id));
+    if(k.length){box.append(h("div",{class:"hint"},"Filled chips are key terms (“What You Need to Know”)."));}}
+  const src=[...(j.readings||[]).map(x=>({k:"reading",x})),...(j.videos||[]).map(x=>({k:"video",x})),...(j.images||[]).map(x=>({k:"image",x}))].sort((a,b)=>(a.x._order??0)-(b.x._order??0));
+  if(src.length){sec("Sources");
+    src.forEach(({k,x})=>{const card=h("div",{class:"src "+k},h("h4",{},x.title||"(untitled)"),
+      h("div",{class:"meta"},[k==="reading"?"Reading":k==="video"?"Video"+(x.length?" · "+x.length:""):"Image"+((x.files||[]).length>1?" gallery":""),x.source,x.note].filter(Boolean).join(" · ")));
+      if(k==="reading"){card.append(lpBlocks(x.text,x.questions));if(x.image)card.append(h("img",{src:x.image,alt:""}));}
+      if(k==="video"){card.append(h("div",{class:"ph"},"▶ "+(x.src||"no video link yet")));(x.questions||[]).forEach(q=>card.append(lpQuestion(q,"Question below video")));}
+      if(k==="image"){(x.files||[]).forEach(f=>{const u=typeof f==="string"?f:f.src;card.append(h("img",{src:u,alt:"",onerror:function(){this.style.display="none";}}));if(typeof f!=="string"&&f.caption)card.append(h("div",{class:"hint"},f.caption));});(x.questions||[]).forEach(q=>card.append(lpQuestion(q,"Question below image")));}
+      box.append(card);});}
+  if(j.assessment&&j.assessment.length){sec("Check your understanding");j.assessment.forEach(q=>box.append(lpQuestion(q,"Check your understanding")));}
+  if(j.assessments&&j.assessments.length){sec("Assessments");
+    j.assessments.forEach(a=>box.append(h("div",{class:"acard"},a.visible?null:h("div",{class:"hid"},"Hidden from students — you see it in teacher mode"),h("h4",{style:"margin:.1rem 0"},a.title||"Assessment"),
+      a.description?h("p",{style:"margin:.2rem 0 .5rem"},a.description):null,h("span",{class:"btn"},a.linkLabel||"Open →"))));}
+  if(box.children.length<=2)box.append(h("div",{class:"hint"},"Start filling in the lesson above and it shows up here."));
+}
+function updatePreview(){const w=problems();const box=$("#warns");box.innerHTML="";
+  if(w.length)box.append(h("div",{class:"warns"},"Check before you download:",h("ul",{},w.map(x=>h("li",{},x)))));
+  $("#preview").textContent=JSON.stringify(toJson(S),null,2);
+  if($("#lpPanel").open){clearTimeout(lpTimer);lpTimer=setTimeout(renderLessonPreview,250);}}
+let lpTimer=null;
+function download(){const w=problems();if(!S.id.trim()){alert("Add a Lesson ID first.");return;}
+  if(w.length&&!confirm(w.length+" thing(s) to check:\n\n• "+w.slice(0,6).join("\n• ")+"\n\nDownload anyway?"))return;
+  const blob=new Blob([JSON.stringify(toJson(S),null,2)],{type:"application/json"});const a=h("a",{href:URL.createObjectURL(blob),download:fileName()});document.body.append(a);a.click();a.remove();$("#status").textContent="Downloaded "+fileName();}
+function readFile(f,cb){const r=new FileReader();r.onload=()=>cb(String(r.result));r.readAsText(f);}
+function parseCsv(text){const rows=[];let row=[],f="",q=false;text=text.replace(/^\uFEFF/,"");
+  for(let i=0;i<text.length;i++){const c=text[i];
+    if(q){if(c==='"'){if(text[i+1]==='"'){f+='"';i++;}else q=false;}else f+=c;}
+    else if(c==='"')q=true;else if(c===","){row.push(f);f="";}
+    else if(c==="\n"||c==="\r"){if(c==="\r"&&text[i+1]==="\n")i++;row.push(f);f="";rows.push(row);row=[];}
+    else f+=c;}
+  if(f!==""||row.length){row.push(f);rows.push(row);}
+  const head=rows.shift()||[];return rows.filter(r=>r.some(x=>x.trim())).map(r=>{const o={};head.forEach((k,i)=>o[k]=r[i]||"");return o;});}
+function importCsv(text,idGuess){
+  const rows=parseCsv(text);const lesson={id:idGuess||S.id||""};
+  const COURSE_DATA={timeline:[]};
+  const warn=console.warn;console.warn=()=>{};
+  try{applyLessonSheetRowsLocal(lesson,rows,COURSE_DATA);}finally{console.warn=warn;}
+  const st=toState(lesson);
+  st.id=lesson.id;st.number=S.number;st.title=S.title;S=st;applyLesson();rerender();
+  $("#status").textContent="Imported "+rows.length+" rows — check each section, then set the Lesson ID.";}
+const entRow=r=>({id:String(r.id||"").trim(),name:String(r.name||"").trim(),category:String(r.category||"").trim(),subcategory:r.subcategory||r.role||r.type||undefined,
+  definition:r.definition||"",actions:Array.isArray(r.actions)?r.actions:(r.actions?String(r.actions).split(/\s*\|\|\|\s*/).filter(Boolean):[]),image:r.image||undefined});
+function setEntities(list,from){COURSE.entities=list.filter(e=>e.id&&e.name);
+  try{localStorage.setItem("lessonComposerCourse",JSON.stringify(COURSE));}catch(e){}
+  $("#status").textContent=`${COURSE.entities.length} entities loaded from ${from}.`;rerender();}
+async function loadCourse(){
+  loadInquiries();
+  /* 1) entities.json on GitHub  2) the published Entities tab  3) a file you pick */
+  try{const res=await fetch(ENTITIES_URL,{cache:"no-cache"});if(!res.ok)throw 0;const j=await res.json();
+    setEntities((Array.isArray(j)?j:j.entities||[]).map(entRow),"GitHub (entities.json)");return;}catch(e){}
+  try{const res=await fetch(`${SHEETS_BASE_URL}?gid=2103913057&single=true&output=csv`);if(!res.ok)throw 0;
+    setEntities(parseCsv(await res.text()).map(normalizeRow).map(entRow),"your sheet (no entities.json on GitHub yet)");return;}catch(e){}
+  $("#status").textContent="Couldn't reach GitHub or the sheet — pick an entities file instead.";$("#fEnt").click();}
+function saveEntities(){if(!COURSE.entities.length){alert("Load entities first.");return;}
+  const blob=new Blob([JSON.stringify(COURSE.entities,null,1)],{type:"application/json"});const a=h("a",{href:URL.createObjectURL(blob),download:"entities.json"});document.body.append(a);a.click();a.remove();}
+
+$("#dl").onclick=download;
+$("#cp").onclick=()=>{navigator.clipboard.writeText(JSON.stringify(toJson(S),null,2)).then(()=>$("#status").textContent="Copied JSON");};
+$("#ld").onclick=()=>$("#fJson").click();
+$("#fJson").onchange=e=>{const f=e.target.files[0];if(!f)return;readFile(f,t=>{try{S=toState(JSON.parse(t));rerender();$("#status").textContent="Opened "+f.name;}catch(err){alert("That file isn't valid lesson JSON: "+err.message);}});e.target.value="";};
+$("#csv").onclick=()=>$("#fCsv").click();
+$("#fCsv").onchange=e=>{const f=e.target.files[0];if(!f)return;readFile(f,t=>importCsv(t,(f.name.match(/\d+[-–]\d+/)||[""])[0].replace("–","-")));e.target.value="";};
+$("#ent").onclick=loadCourse;$("#entdl").onclick=saveEntities;$("#inqdl").onclick=saveInquiries;
+$("#fEnt").onchange=e=>{const f=e.target.files[0];if(!f)return;readFile(f,t=>{let rows;try{rows=JSON.parse(t);}catch(x){rows=parseCsv(t).map(normalizeRow);}
+  setEntities((Array.isArray(rows)?rows:rows.entities||[]).map(entRow),f.name);});e.target.value="";};
+$("#nw").onclick=()=>{if(confirm("Start a blank lesson? (Download first if you need this one.)")){S=blankState();rerender();}};
+
+document.body.append(h("datalist",{id:"dl-skill"},SKILL_HINTS.map(x=>h("option",{value:x}))));
+try{const c=JSON.parse(localStorage.getItem("lessonComposerCourse")||"null");if(c)Object.assign(COURSE,c);}catch(e){}
+try{const d=JSON.parse(localStorage.getItem("lessonComposerDraft")||"null");if(d&&(d.id||d.sources&&d.sources.length||d.questions&&d.questions.length)){S=Object.assign(blankState(),d);$("#status").textContent="Restored your unsaved draft";}}catch(e){}
+$("#lpPanel").addEventListener("toggle",()=>{if($("#lpPanel").open)renderLessonPreview();});
+render();loadLessonsList();
+loadInquiries();
+if(!COURSE.entities.length||true)fetch(ENTITIES_URL,{cache:"no-cache"}).then(r=>r.ok?r.json():Promise.reject()).then(j=>{COURSE.entities=(Array.isArray(j)?j:j.entities||[]).map(entRow).filter(e=>e.id&&e.name);rerender();$("#status").textContent=COURSE.entities.length+" entities loaded from GitHub";}).catch(()=>{});
+</script>
+</body>
+</html>
