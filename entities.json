@@ -1,0 +1,1843 @@
+[
+ {
+  "id": "e1",
+  "name": "Progressivism",
+  "category": "Topic",
+  "subcategory": "Idea",
+  "definition": "",
+  "actions": [
+   "An early-1900s reform movement responding to industrialization's problems through government regulation, social activism, and political reform."
+  ]
+ },
+ {
+  "id": "e2",
+  "name": "Ida B. Wells",
+  "category": "Person",
+  "subcategory": "Suffragist",
+  "definition": "",
+  "actions": [
+   "Tennessean for a time and journalist",
+   "She was an anti-lynching crusader, and suffragist.",
+   "Founded the Alpha Suffrage Club in Chicago, one of the first organizations for Black women voters and co-founded the NAACP",
+   "She challenged racism within the suffrage movement while fighting for universal rights.\n\n"
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPmtG6myj7XtSPk4N-A9rqWNmeLIT7kp4gJETdI2X1wT7VUdNr8Qc9eeOY:https://www.usmint.gov/content/dam/usmint/news/inside-the-mint/ida-b-wells-portrait-feature.jpg&s=10"
+ },
+ {
+  "id": "e3",
+  "name": "Boss Tweed",
+  "category": "Person",
+  "subcategory": "Political Boss",
+  "definition": "",
+  "actions": [
+   "Corrupt leader of New York's Tammany Hall political machine, a symbol of political boss corruption."
+  ],
+  "image": "https://upload.wikimedia.org/wikipedia/commons/2/24/William_M._%28Boss%29_Tweed%2C_N.Y_-_NARA_-_526217_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"
+ },
+ {
+  "id": "e4",
+  "name": "Andrew Carnegie",
+  "category": "Person",
+  "subcategory": "Industrialist",
+  "definition": "",
+  "actions": [
+   "Carnegie built a steel empire in the late 1800s: Carnegie Steel. He used the Bessemer Process to make steel more efficiently and stronger. A believer in charity, he gave much of his fortune away, especially to educational foundations."
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKJpK7hhMVPjQQl3DmshsoC3q54H1fLzi2ggrRsW1x_y9GXDWmGDG1P3Y:https://upload.wikimedia.org/wikipedia/commons/b/b0/Andrew_Carnegie%252C_by_Theodore_Marceau_%2528cropped%2529_%25282%2529.jpg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dindex%26utm_content%3Doriginal&s=10"
+ },
+ {
+  "id": "e5",
+  "name": "Assembly Line",
+  "category": "Topic",
+  "subcategory": "Innovation",
+  "definition": "",
+  "actions": [
+   "A manufacturing process popularized by Henry Ford that dramatically sped up production and lowered the cost of goods."
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_RjM7xftU1T_P4GzELcGmdzISuuCkM_fz3mhIj8oG51rXmAWF-4Qkf_h3:https://www.dialogueseconomiques.fr/sites/default/files/styles/article_header/public/2024-01/Miniature-%2520jovannig-%2520Adobe%2520Stock.jpeg%3Fh%3Dd0589352%26itok%3Ddn75KQcM&s=10"
+ },
+ {
+  "id": "e6",
+  "name": "Muckraker",
+  "category": "Topic",
+  "subcategory": "General",
+  "definition": "",
+  "actions": [
+   "A journalist who investigated and exposed corruption, corporate abuses, and social problems in the early 1900s."
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJbhg95i9zn8rxA4fJF3m-YC9MODr0xty70h1leytblhZ_mJJ5TUrB1KU:https://apiams.com/wp-content/uploads/ThinkstockPhotos-618179760.jpg&s=10"
+ },
+ {
+  "id": "e7",
+  "name": "Factory",
+  "category": "Topic",
+  "subcategory": "General",
+  "definition": "",
+  "actions": [
+   "A centralized site of industrial production, often associated with long hours, low wages, and dangerous working conditions."
+  ],
+  "image": "https://cdn.britannica.com/19/222419-138-65A5A0B7/did-you-know-Industrial-Revolution.jpg?w=800&h=450&c=crop"
+ },
+ {
+  "id": "e8",
+  "name": "Labor Union",
+  "category": "Topic",
+  "subcategory": "Reform",
+  "definition": "",
+  "actions": [
+   "An organization of workers formed to negotiate collectively with employers over wages, hours, and working conditions."
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK9_6pFNtalqACsg6-L11cduZlB6WCLtDe8oUnCRfGOpr6yPPgnhfu_tw:https://miro.medium.com/v2/resize:fit:1200/1*wgRTT41Cb2W8lpOxgMHzlA.png&s=10"
+ },
+ {
+  "id": "e9",
+  "name": "Political Boss",
+  "category": "Topic",
+  "subcategory": "General",
+  "definition": "",
+  "actions": [
+   "A powerful, often corrupt figure who controlled a political machine and traded favors or patronage for votes."
+  ],
+  "image": "https://bri-wp-images.s3.amazonaws.com/wp-content/uploads/BRI_APUSH_09_03_BossTweed.jpg"
+ },
+ {
+  "id": "e10",
+  "name": "Corruption",
+  "category": "Topic",
+  "subcategory": "Idea",
+  "definition": "",
+  "actions": [
+   "The abuse of political or economic power for private gain, a central target of Progressive Era reformers."
+  ],
+  "image": "https://cdn.vectorstock.com/i/1000v/42/53/business-handshake-corruption-sketch-vector-61464253.jpg"
+ },
+ {
+  "id": "e11",
+  "name": "Reform",
+  "category": "Topic",
+  "subcategory": "Idea",
+  "definition": "",
+  "actions": [
+   "Organized efforts to improve social, political, or economic conditions, a defining feature of the Progressive Era."
+  ]
+ },
+ {
+  "id": "e12",
+  "name": "Tenement",
+  "category": "Topic",
+  "subcategory": "General",
+  "definition": "",
+  "actions": [
+   "Crowded, often unsafe multi-family housing common in industrial-era cities, and a target of housing reform."
+  ],
+  "image": "https://images.squarespace-cdn.com/content/v1/545a686fe4b059216c7cb8cc/1558041986167-X6F11HRBYHFCEMF22RMR/mac_0798.jpg"
+ },
+ {
+  "id": "e13",
+  "name": "Political Primary",
+  "category": "Topic",
+  "subcategory": "Politics",
+  "definition": "",
+  "actions": [
+   "An election in which party members vote to select their candidate for office."
+  ]
+ },
+ {
+  "id": "e14",
+  "name": "John D. Rockefeller",
+  "category": "Person",
+  "subcategory": "Industrialist",
+  "definition": "",
+  "actions": [
+   "In 1863, Rockefeller entered the oil refining business and created the Standard Oil Company. He bought up most of the other oil refining companies in the US so that by 1879, his company Standard Oil controlled 90% of the nation’s oil business. Later, his company was broken up into smaller companies by the US government, including ExxonMobil, Chevron and Conoco."
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwMSK1xctQG6FaVYDYPA95c3v3c2K7E7FcE25My58taEKatE8wJajf4JU6:https://cdn.britannica.com/58/38458-050-10ED7A08/John-D-Rockefeller-1884.jpg%3Fw%3D385&s=10"
+ },
+ {
+  "id": "e15",
+  "name": "Urbanization",
+  "category": "Topic",
+  "subcategory": "General",
+  "definition": "",
+  "actions": [
+   "Urbanization is the process where more people move from rural or country areas to live and work in cities and towns."
+  ],
+  "image": "https://studentmadehistory.wordpress.com/wp-content/uploads/2015/05/0f7c7424-ce2f-872e-80bb-2015095a9e98.jpg?w=584"
+ },
+ {
+  "id": "e16",
+  "name": "Cornelius Vanderbilt",
+  "category": "Person",
+  "subcategory": "Industrialist",
+  "definition": "",
+  "actions": [
+   "Vanderbilt got his start in the steamboat business, but in 1862 he began buying railroad lines, which became the source of most of his wealth."
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgCFU7VUcLG95kVlifISsp8ULZSkmyvLxWIBeX0H8GFr_yYI2gq9VnJY8:toplevels.dev.vanderbilt.edu/wp-content/uploads/sites/3/2021/04/CorneliusVanderbilt-232x300.jpg&s=10"
+ },
+ {
+  "id": "e17",
+  "name": "JP Morgan",
+  "category": "Person",
+  "subcategory": "Industrialist",
+  "definition": "",
+  "actions": [
+   "JP Morgan was one of the wealthiest financiers and bankers in the US. He was largely responsible for the formation of large corporations like General Electric and US Steel. He even helped save the US from financial ruin by loaning the US government money on two separate occasions."
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTumCVASq96vPyoilm0P1i8siO4MvkqBu0hGcukz7NMZ8LyNY9Ov0DRdsFj:https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/J.P._Morgan_-_Haldane_-_Sir_K._M._McKenzie_LCCN2014694257_%2528cropped%2529_%2528cropped%2529.jpg/250px-J.P._Morgan_-_Haldane_-_Sir_K._M._McKenzie_LCCN2014694257_%2528cropped%2529_%2528cropped%2529.jpg%3Futm_source%3Den.wikipedia.org%26utm_campaign%3Dparser%26utm_content%3Dthumbnail&s=10"
+ },
+ {
+  "id": "e18",
+  "name": "Thomas Edison",
+  "category": "Person",
+  "subcategory": "Industrialist",
+  "definition": "",
+  "actions": [
+   "Thomas Edison invented and patented the modern electric light bulb in the 1870s."
+  ],
+  "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Thomas_Edison2.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"
+ },
+ {
+  "id": "e19",
+  "name": "Industry",
+  "category": "Topic",
+  "subcategory": "Economics",
+  "definition": "",
+  "actions": [
+   "The type of specialty a specific business specializes in. "
+  ],
+  "image": "https://classroomclipart.com/image/static7/preview2/industrial-factory-icon-clip-art-59199.jpg"
+ },
+ {
+  "id": "e20",
+  "name": "Monopoly",
+  "category": "Topic",
+  "subcategory": "Economics",
+  "definition": "",
+  "actions": [
+   "This is when a company controls all aspects of an industry, allowing them to set prices unfairly and take advantage of consumers"
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzojfoG_lqAP8ETofZPStB4H9felt82-uN_Y9CCwEV_33o2EmFAPQzaew:https://www.thoughtco.com/thmb/bmlmeGUMwFWN2vhrExhH429N3B0%3D/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/165619076-58b8758b5f9b58af5c26cb10.jpg&s=10"
+ },
+ {
+  "id": "e21",
+  "name": "Wealth Gap",
+  "category": "Topic",
+  "subcategory": "Economics",
+  "definition": "",
+  "actions": [
+   "Wealth inequality is the unequal distribution of assets among individuals, groups, or organisations within a society or country."
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2hM6KA1VpKmchaFT0R65QXO_LPd1ICKLJ9LXYcQp0FhbT_CgIhL8nlnQr:https://i0.wp.com/wordinblack.com/wp-content/uploads/2024/02/GettyImages-1286506258.jpg%3Ffit%3D2000%252C1333%26ssl%3D1&s=10"
+ },
+ {
+  "id": "e22",
+  "name": "Settlement Houses",
+  "category": "Topic",
+  "subcategory": "Reform",
+  "definition": "",
+  "actions": [
+   "community centers in poor urban areas where middle-class volunteer workers lived to help low-income families and immigrants"
+  ]
+ },
+ {
+  "id": "e23",
+  "name": "Pure Food and Drug Act",
+  "category": "Topic",
+  "subcategory": "Reform",
+  "definition": "",
+  "actions": [
+   "The Pure Food and Drug Act was passed in 1906 stating that it was “for preventing the manufacture, sale, or transportation of adulterated or misbranded or poisonous or deleterious foods, drugs, medicines, and liquors, and for regulating traffic therein, and for other purposes.”"
+  ]
+ },
+ {
+  "id": "e24",
+  "name": "Social Darwinism",
+  "category": "Topic",
+  "subcategory": "Idea",
+  "definition": "",
+  "actions": [
+   "The application of \"survival of the fittest\" to justify economic inequality."
+  ]
+ },
+ {
+  "id": "e25",
+  "name": "Secret Ballot",
+  "category": "Topic",
+  "subcategory": "Politics",
+  "definition": "",
+  "actions": [
+   "Voters were less subject to pressure and intimidation when they could vote in secret"
+  ]
+ },
+ {
+  "id": "e26",
+  "name": "Recall",
+  "category": "Topic",
+  "subcategory": "Politics",
+  "definition": "",
+  "actions": [
+   "Elected officials could be removed from office by voters in a special election"
+  ]
+ },
+ {
+  "id": "e27",
+  "name": "Direct Primary",
+  "category": "Topic",
+  "subcategory": "Politics",
+  "definition": "",
+  "actions": [
+   "Special elections were held to determine whom party members wanted to represent them as candidates in the general election"
+  ]
+ },
+ {
+  "id": "e28",
+  "name": "Direct Election of Senators",
+  "category": "Topic",
+  "subcategory": "Politics",
+  "definition": "",
+  "actions": [
+   "Senators were elected directly by the people (17th Amendment) instead of being chosen by state legislatures"
+  ]
+ },
+ {
+  "id": "e29",
+  "name": "Referendum",
+  "category": "Topic",
+  "subcategory": "Politics",
+  "definition": "",
+  "actions": [
+   "Voters could compel legislators to place a bill on the ballot for approval"
+  ]
+ },
+ {
+  "id": "e30",
+  "name": "Conservation",
+  "category": "Topic",
+  "subcategory": "Reform",
+  "definition": "",
+  "actions": [
+   "Conservation is the responsible care, protection, and sustainable use of Earth's natural resources to prevent depletion, waste, and harm"
+  ]
+ },
+ {
+  "id": "e32",
+  "name": "Trustbusting",
+  "category": "Topic",
+  "subcategory": "Reform",
+  "definition": "",
+  "actions": [
+   "Trustbusting was the act of the government breaking up large companies that controlled too much of an industry. This stopped one company from getting too powerful which hurts consumers."
+  ]
+ },
+ {
+  "id": "e33",
+  "name": "Meat Inspection Act",
+  "category": "Topic",
+  "subcategory": "Reform",
+  "definition": "",
+  "actions": [
+   "makes it illegal to sell adulterated or misbranded meat and ensures that livestock are slaughtered and processed under sanitary conditions"
+  ]
+ },
+ {
+  "id": "e34",
+  "name": "Collective Bargaining",
+  "category": "Topic",
+  "subcategory": "Reform",
+  "definition": "",
+  "actions": [
+   "This is the main tool unions use. It means workers negotiate as one united group with management, rather than each person speaking alone. The final deal is written into a legal contract."
+  ]
+ },
+ {
+  "id": "e35",
+  "name": "Upton Sinclair",
+  "category": "Person",
+  "subcategory": "Muckraker",
+  "definition": "",
+  "actions": [
+   "Muckraking journalist whose novel The Jungle (1906) exposed unsanitary conditions in the meatpacking industry, leading to federal food safety laws."
+  ],
+  "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Upton_Sinclair_LCCN2014686178_Crop.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"
+ },
+ {
+  "id": "e36",
+  "name": "Elections",
+  "category": "Topic",
+  "subcategory": "Politics",
+  "definition": "",
+  "actions": [
+   "People voting to elect mayors, representatives, and other polititions"
+  ]
+ },
+ {
+  "id": "e37",
+  "name": "Ida Tarbell",
+  "category": "Person",
+  "subcategory": "Muckraker",
+  "definition": "",
+  "actions": [
+   "Muckraking journalist whose investigative reporting on Standard Oil helped spur antitrust action against Rockefeller's monopoly."
+  ],
+  "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Ida_M._Tarbell_crop.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"
+ },
+ {
+  "id": "e38",
+  "name": "Lincoln Steffens",
+  "category": "Person",
+  "subcategory": "Muckraker",
+  "definition": "",
+  "actions": [
+   "Muckraking journalist known for The Shame of the Cities, exposing political corruption in urban government."
+  ],
+  "image": "https://static01.nyt.com/images/2011/05/15/books/review/BAKER/BAKER-jumbo.jpg?quality=75&auto=webp&disable=upscale"
+ },
+ {
+  "id": "e39",
+  "name": "Jacob Riis",
+  "category": "Person",
+  "subcategory": "Muckraker",
+  "definition": "",
+  "actions": [
+   "Photojournalist and reformer whose How the Other Half Lives documented slum conditions in New York City tenements."
+  ],
+  "image": "https://www.timeforkids.com/wp-content/uploads/2018/08/heroGettyImages-96808204.jpg"
+ },
+ {
+  "id": "e40",
+  "name": "George Washington",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "no party",
+   "President from 1789-1797"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-gwashington.jpg"
+ },
+ {
+  "id": "e41",
+  "name": "John Adams",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Federalist",
+   "President from 1797-1801"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-jadams.jpg"
+ },
+ {
+  "id": "e42",
+  "name": "Thomas Jefferson",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Democratic-Republican",
+   "President from 1801-1809"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-tjefferson.jpg"
+ },
+ {
+  "id": "e43",
+  "name": "James Madison",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Democratic-Republican",
+   "President from 1809-1817"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-jmadison.jpg"
+ },
+ {
+  "id": "e44",
+  "name": "James Monroe",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Democratic-Republican",
+   "President from 1817-1825"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-jmonroe.jpg"
+ },
+ {
+  "id": "e45",
+  "name": "John Quincy Adams",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Democratic-Republican",
+   "President from 1825-1829"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-jqadams.jpg"
+ },
+ {
+  "id": "e46",
+  "name": "Andrew Jackson",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Democrat",
+   "President from 1829-1837"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-ajackson.jpg"
+ },
+ {
+  "id": "e47",
+  "name": "Martin Van Buren",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Democrat",
+   "President from 1837-1841"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-mvburen.jpg"
+ },
+ {
+  "id": "e48",
+  "name": "William Harrison",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Whig",
+   "President from 1841-1841"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-whharrison.jpg"
+ },
+ {
+  "id": "e49",
+  "name": "John Tyler",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Whig",
+   "President from 1841-1845"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-jtyler.jpg"
+ },
+ {
+  "id": "e50",
+  "name": "James Knox Polk",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Democrat",
+   "President from 1845-1849"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-jkpolk.jpg"
+ },
+ {
+  "id": "e51",
+  "name": "Zachary Taylor",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Whig",
+   "President from 1849-1850"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-ztaylor.jpg"
+ },
+ {
+  "id": "e52",
+  "name": "Millard Fillmore",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Whig",
+   "President from 1850-1853"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-mfillmore.jpg"
+ },
+ {
+  "id": "e53",
+  "name": "Franklin Pierce",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Democrat",
+   "President from 1853-1857"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-fpierce.jpg"
+ },
+ {
+  "id": "e54",
+  "name": "James Buchanan",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Democrat",
+   "President from 1857-1861"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/jbuchanan-short-one-third2.jpg"
+ },
+ {
+  "id": "e55",
+  "name": "Abraham Lincoln",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Republican",
+   "President from 1861-1865"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-alincoln.jpg"
+ },
+ {
+  "id": "e56",
+  "name": "Andrew Johnson",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Democrat",
+   "President from 1865-1869"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-ajohnson.jpg"
+ },
+ {
+  "id": "e57",
+  "name": "Ulysses Grant",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Republican",
+   "President from 1869-1877"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-usgrant.jpg"
+ },
+ {
+  "id": "e58",
+  "name": "Rutherford Hayes",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Republican",
+   "President from 1877-1881"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-rbhayes.jpg"
+ },
+ {
+  "id": "e59",
+  "name": "James Garfield",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Republican",
+   "President from 1881-1881"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-jgarfield.jpg"
+ },
+ {
+  "id": "e60",
+  "name": "Chester Arthur",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Republican",
+   "President from 1881-1885"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-carthur.jpg"
+ },
+ {
+  "id": "e61",
+  "name": "Grover Cleveland",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Democrat",
+   "President from 1885-1889"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-gcleveland.jpg"
+ },
+ {
+  "id": "e62",
+  "name": "Benjamin Harrison",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Republican",
+   "President from 1889-1893"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-bharrison.jpg"
+ },
+ {
+  "id": "e64",
+  "name": "William McKinley Jr.",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Republican",
+   "President from 1897-1901"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-wmckinley.jpg"
+ },
+ {
+  "id": "e65",
+  "name": "Theodore Roosevelt",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Republican",
+   "President from 1901-1909"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-troosevelt.jpg"
+ },
+ {
+  "id": "e66",
+  "name": "William Taft",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Republican",
+   "President from 1909-1913"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-whtaft.jpg"
+ },
+ {
+  "id": "e67",
+  "name": "Woodrow Wilson",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Democrat",
+   "President from 1913-1921"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-wwilson.jpg"
+ },
+ {
+  "id": "e68",
+  "name": "Warren Harding",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Republican",
+   "President from 1921-1923"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-wharding.jpg"
+ },
+ {
+  "id": "e69",
+  "name": "Calvin Coolidge",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Republican",
+   "President from 1923-1929"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-ccoolidge.jpg"
+ },
+ {
+  "id": "e70",
+  "name": "Herbert Hoover",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Republican",
+   "President from 1929-1933"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-hhoover.jpg"
+ },
+ {
+  "id": "e71",
+  "name": "Franklin Roosevelt",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Democrat",
+   "President from 1933-1945"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-fdroosevelt.jpg"
+ },
+ {
+  "id": "e72",
+  "name": "Harry Truman",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Democrat",
+   "President from 1945-1953"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-hstruman.jpg"
+ },
+ {
+  "id": "e73",
+  "name": "Dwight Eisenhower",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Republican",
+   "President from 1953-1961"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-ddeisenhower.jpg"
+ },
+ {
+  "id": "e74",
+  "name": "John Fitzgerald Kennedy",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Democrat",
+   "President from 1961-1963"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-jfkennedy.jpg"
+ },
+ {
+  "id": "e75",
+  "name": "Lyndon Johnson",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Democrat",
+   "President from 1963-1969"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-lbjohnson.jpg"
+ },
+ {
+  "id": "e76",
+  "name": "Richard Nixon",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Republican",
+   "President from 1969-1974"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-rmnixon.jpg"
+ },
+ {
+  "id": "e77",
+  "name": "Gerald Ford",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Republican",
+   "President from 1974-1977"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-grford.jpg"
+ },
+ {
+  "id": "e78",
+  "name": "Jimmy Carter",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Democrat",
+   "President from 1977-1981"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-jcarter.jpg"
+ },
+ {
+  "id": "e79",
+  "name": "Ronald Reagan",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Republican",
+   "President from 1981-1989"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-rreagan.jpg"
+ },
+ {
+  "id": "e80",
+  "name": "George Herbert Walker Bush",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Republican",
+   "President from 1989-1993"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-gbush3.jpg"
+ },
+ {
+  "id": "e81",
+  "name": "Bill Clinton",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Democrat",
+   "President from 1993-2001"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-wjclinton2.jpg"
+ },
+ {
+  "id": "e82",
+  "name": "George Walker Bush",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Republican",
+   "President from 2001-2009"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-gwbush.jpg"
+ },
+ {
+  "id": "e83",
+  "name": "Barack Obama",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Democrat",
+   "President from 2009-2017"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/coll-presidents-barack-obama-short-one-third.jpg"
+ },
+ {
+  "id": "e84",
+  "name": "Donald Trump",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Republican",
+   "President from 2017-2021"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/President-Donald-Trump-Official-Presidential-Portrait-2025-JPG.jpg"
+ },
+ {
+  "id": "e85",
+  "name": "Joseph Biden",
+  "category": "Person",
+  "subcategory": "President",
+  "definition": "",
+  "actions": [
+   "Democrat",
+   "President from 2021-2025"
+  ],
+  "image": "https://d1y822qhq55g6.cloudfront.net/layout/_306x350_crop_center-center_none/Coll-Presidents-JBiden-2021-short-one-third.jpg"
+ },
+ {
+  "id": "e86",
+  "name": "National American Woman Suffrage Association (NAWSA)",
+  "category": "Topic",
+  "subcategory": "Suffrage Organization",
+  "definition": "",
+  "actions": [
+   "Focused on a state-by-state approach to win voting rights for women in local elections before pursuing federal change.",
+   "traditional and moderate methods",
+   "lobbying politicians",
+   "circulating petitions"
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpWjWvLJhH9ddn4SaOodHugPxlS8I0LQXBGeN0B9PH4eOeGVMt3mgq7a02:https://rlv.zcache.com/nawsa_suffrage_historic_button_womens_vote_classic_round_sticker-r9e0e248c8089468c861c91d16b4076f1_zg2qos_644.webp%3Frlvnet%3D1&s=10"
+ },
+ {
+  "id": "e87",
+  "name": "National Woman’s Party (NWP)",
+  "category": "Topic",
+  "subcategory": "Suffrage Organization",
+  "definition": "",
+  "actions": [
+   "Demanded an immediate federal constitutional amendment to enfranchise all American women at once",
+   "Used militant and confrontational tactics",
+   "Public parades",
+   "Mass protests",
+   "Picketing the White House",
+   "Enduring voluntary imprisonment and hunger strikes."
+  ],
+  "image": "https://socialwelfare.library.vcu.edu/wp-content/uploads/2011/01/National_Womens_Suffrage_Association.jpg"
+ },
+ {
+  "id": "e88",
+  "name": "Alice Paul",
+  "category": "Person",
+  "subcategory": "Suffragist",
+  "definition": "",
+  "actions": [
+   "NWP",
+   "organized parades, pickets, and hunger strikes. She was arrested for her activism and endured harsh isolation, force feeding, and other forms of torture in prison. Her bold tactics kept suffrage in the headlines and pressured lawmakers to act."
+  ],
+  "image": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Alice_Paul_cph.3a38295.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"
+ },
+ {
+  "id": "e89",
+  "name": "Carrie Chapman Catt",
+  "category": "Person",
+  "subcategory": "Suffragist",
+  "definition": "",
+  "actions": [
+   "NAWSA",
+   "succeeded Susan B. Anthony as president of the National American Woman Suffrage Association (NAWSA). Ever the optimist, she later found the League of Women Voters. shortly before the final ratification was complete."
+  ],
+  "image": "https://www.pbs.org/wgbh/americanexperience/media/filer_public_thumbnails/filer_public/f1/73/f1733c37-9781-46db-b0b3-7cefc4ef1e04/wilson-carrie-chapman-catt-1909-loc.jpg__2000x2256_q85_crop_subsampling-2_upscale.jpg"
+ },
+ {
+  "id": "e90",
+  "name": "Susan B. Anthony",
+  "category": "Person",
+  "subcategory": "Suffragist",
+  "definition": "",
+  "actions": [
+   "NAWSA",
+   "One of the most recognizable figures of the suffrage movement, Anthony co-founded the National Woman Suffrage Association and later presided over the National American Woman Suffrage Association as well. She traveled the country for decades organizing, giving speeches, lobbying lawmakers, and laying the groundwork for future generations to succeed."
+  ],
+  "image": "https://cdn.britannica.com/28/13428-050-37CEEE27/Susan-B-Anthony.jpg"
+ },
+ {
+  "id": "e91",
+  "name": "Elizabeth Cady Stanton",
+  "category": "Person",
+  "subcategory": "Suffragist",
+  "definition": "",
+  "actions": [
+   "NAWSA",
+   "central to the first women’s rights convention in Seneca Falls in 1848 and authored it’s Declaration of Sentiments. A powerful writer and thinker, she provided much of the philosophical foundation for women’s equality."
+  ],
+  "image": "https://upload.wikimedia.org/wikipedia/commons/d/da/Elizabeth_Stanton.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"
+ },
+ {
+  "id": "e92",
+  "name": "Seneca Falls Convention",
+  "category": "Topic",
+  "subcategory": "Event",
+  "definition": "",
+  "actions": [
+   "The Seneca Falls Convention was the first formal women's rights convention in United States history, held on July 19–20, 1848, at the Wesleyan Chapel in Seneca Falls, New York. [1] (https://www.history.com/articles/seneca-falls-convention), [2] (https://www.gilderlehrman.org/history-resources/essays/seneca-falls-convention-setting-national-stage-womens-suffrage)"
+  ],
+  "image": "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_3840,h_1920,g_auto/dpr_auto/f_auto/q_auto:eco/v1/seneca-falls-convention-gettyimages-517324498?_a=BAVMn6E80"
+ },
+ {
+  "id": "e93",
+  "name": "Civil Disobedience",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "Breaking the law to show its injustice",
+   "Public to gain awareness",
+   "Nonviolent"
+  ]
+ },
+ {
+  "id": "e94",
+  "name": "María Adelina Isabel Emilia Otero-Warren",
+  "category": "Person",
+  "subcategory": "Suffragist",
+  "definition": "",
+  "actions": [
+   "NWP",
+   "She weader in New Mexico’s woman’s suffrage movement.",
+   "She spearheaded the lobbying effort to ratify the 19th Amendment in New Mexico."
+  ],
+  "image": "https://static.wixstatic.com/media/c99a0a_0348f6ab2f26420398ed93c51bed7426~mv2.png/v1/fill/w_280,h_355,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/suffrageadelina.png"
+ },
+ {
+  "id": "e95",
+  "name": "American Dream",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "The American Dream is the national belief that anyone, regardless of where they were born or their social class, can achieve success, prosperity, and upward mobility through hard work and determination. "
+  ]
+ },
+ {
+  "id": "e96",
+  "name": "Segregation",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "Racial segregation is the separation of people into racial or other ethnic groups in daily life.",
+   "Segregation can involve the spatial separation of the races, and mandatory use of different institutions, such as schools and hospitals by people of different races."
+  ]
+ },
+ {
+  "id": "e97",
+  "name": "Lynching",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "A lynching is the public killing of an individual who has not received any due process. These executions were often carried out by lawless mobs, though police officers did participate, under the pretext of justice."
+  ]
+ },
+ {
+  "id": "e98",
+  "name": "Discrimination",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "the unfair or unequal treatment of a person or group based on specific personal characteristics. [1] (https://www.apa.org/topics/racism-bias-discrimination/types-stress), [2] (https://study.com/academy/lesson/video/what-is-discrimination-definition-examples-quiz.html)"
+  ]
+ },
+ {
+  "id": "e99",
+  "name": "Marginalized",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "Marginalized means treated as unimportant, powerless, or pushed to the outer edges of a society or group"
+  ]
+ },
+ {
+  "id": "e100",
+  "name": "Jim Crow",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "Jim Crow was the name of the racial caste system which operated primarily, but not exclusively in southern and border states, between 1877 and the mid-1960s."
+  ]
+ },
+ {
+  "id": "e101",
+  "name": "Literacy Test",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "A literacy test is an examination that assesses a person's ability to read, write, and understand written material. This was used to restrict people's write to vote and enter the country as immigrants"
+  ]
+ },
+ {
+  "id": "e102",
+  "name": "Immigrant",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "A person who moves who moves their residence from one country to another"
+  ]
+ },
+ {
+  "id": "e103",
+  "name": "Nativism",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "Nativism is a political belief that favors native-born people over immigrants"
+  ]
+ },
+ {
+  "id": "e104",
+  "name": "Xenophobic",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "showing an extreme dislike or fear of people from foreign countries"
+  ]
+ },
+ {
+  "id": "e105",
+  "name": "Activist",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "a person who takes vigorous action to support or oppose political, social, economic, or environmental change."
+  ]
+ },
+ {
+  "id": "e106",
+  "name": "Suffrage",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "The right to vote"
+  ]
+ },
+ {
+  "id": "e107",
+  "name": "Imperialism",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "A policy in which a country extends its power by taking control of other countries or territories."
+  ]
+ },
+ {
+  "id": "e108",
+  "name": "Queen Liliuokalani",
+  "category": "Person",
+  "definition": "",
+  "actions": [
+   "The last monarch of Hawaii, who was overthrown by American businessmen in 1893."
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQomDNcoe_04hRutam9_9DeV19asLlddHEHV8mPyEmGcCUr4R5eMNgVMLOd:https://upload.wikimedia.org/wikipedia/commons/9/9f/Queen_Liliuokalani_color.jpg%3Futm_source%3Dcommons.wikimedia.org%26utm_campaign%3Dindex%26utm_content%3Doriginal&s=10"
+ },
+ {
+  "id": "e109",
+  "name": "Sanford B. Dole",
+  "category": "Person",
+  "definition": "",
+  "actions": [
+   "An American businessman and politician who helped overthrow Hawaii's queen and later became president of the Republic of Hawaii."
+  ],
+  "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Sanford_B._Dole%2C_painting_by_Matteo_Sandon%C3%A0.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original"
+ },
+ {
+  "id": "e110",
+  "name": "coup",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "A sudden and often illegal takeover of a government by a small group."
+  ]
+ },
+ {
+  "id": "e111",
+  "name": "American Territory",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "Land controlled by the United States that is not a state."
+  ]
+ },
+ {
+  "id": "e112",
+  "name": "Annex",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "To add a territory or country to another country."
+  ]
+ },
+ {
+  "id": "e113",
+  "name": "self-governance",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "The ability of a people or territory to govern itself."
+  ]
+ },
+ {
+  "id": "e114",
+  "name": "M.A.N.I.A.",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "Militarism, Alliances, Nationalism, Imperialism, and Assassination—the main causes of World War I."
+  ]
+ },
+ {
+  "id": "e115",
+  "name": "Nationalism",
+  "category": "Topic",
+  "subcategory": "Element of Propaganda",
+  "definition": "",
+  "actions": [
+   "Strong pride in and loyalty to one's country or nation."
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfRx8qSyvl-VgmLPkkFg_wFkitD4r6OcitDvfhjPf3WdZhnJ816ABUQ_M:https://d2eehagpk5cl65.cloudfront.net/img/q60/uploads/2021/01/Nationalism.jpg&s=10"
+ },
+ {
+  "id": "e116",
+  "name": "Alliance",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "An agreement between countries to help and support each other."
+  ]
+ },
+ {
+  "id": "e117",
+  "name": "Propaganda",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "Information, often biased or misleading, used to influence people's opinions or actions."
+  ]
+ },
+ {
+  "id": "e118",
+  "name": "Sinking of the Lusitania",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "The 1915 sinking of the British passenger ship Lusitania by a German submarine, killing nearly 1,200 people, including 128 Americans."
+  ],
+  "image": "https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/15411181/GettyImages-551186111.0.0.1537731492.jpg?quality=90&strip=all&crop=0,7.351864466307,100,85.296271067386"
+ },
+ {
+  "id": "e119",
+  "name": "Zimmerman Telegram",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "A secret 1917 message from Germany asking Mexico to join Germany against the United States in exchange for help getting back land lost to the U.S."
+  ]
+ },
+ {
+  "id": "e120",
+  "name": "Trench Warfare",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "A type of fighting in which soldiers fought from deep ditches called trenches for protection from enemy fire."
+  ],
+  "image": "https://i.ebayimg.com/images/g/xLcAAOSw3ctkXRfY/s-l1200.jpg"
+ },
+ {
+  "id": "e121",
+  "name": "Chemical Warfare",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "The use of poisonous gases or other chemicals as weapons during war."
+  ]
+ },
+ {
+  "id": "e122",
+  "name": "Charles Schenck",
+  "category": "Person",
+  "definition": "",
+  "actions": [
+   "A man who was arrested during World War I for encouraging people to resist the military draft; his case led to the Supreme Court's decision in Schenck v. United States."
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUpzVuh7b3kzsVkNWzy6kRiXX-bmlAywvE7YwmuZG1XkaKAnBQOW3XUOU:https://njdigitalhistory.org/1919/wp-content/uploads/2019/04/schenck.jpg&s=10"
+ },
+ {
+  "id": "e123",
+  "name": "Elizabeth Baer",
+  "category": "Person",
+  "definition": "",
+  "actions": [
+   "An American woman who was arrested during World War I for speaking and writing against the war and the government; her case raised questions about freedom of speech during wartime."
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjcPbxhtWgtL3-1sXU2J_z_1yGhmXePNWXcigRq4KhAwGnwC_1RkJmaQU:https://cdn1.historyit.com/iiif/2/5edfd98ccc4f69.54593064/6722824a675d93.98407723.jpg/full/400,/0/default.jpg&s=10"
+ },
+ {
+  "id": "e124",
+  "name": "Freedom of Speech",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "The right to express ideas and opinions without unreasonable government punishment."
+  ]
+ },
+ {
+  "id": "e125",
+  "name": "Isolationism",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "When a nation stays isolated from others and stays out of foreign conflicts"
+  ],
+  "image": "https://www.atlanticcouncil.org/wp-content/uploads/2012/01/Isolationism.jpg"
+ },
+ {
+  "id": "e126",
+  "name": "feasible",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "practical "
+  ]
+ },
+ {
+  "id": "e127",
+  "name": "menace",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "danger, threat"
+  ]
+ },
+ {
+  "id": "e128",
+  "name": "autocratic",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "a government where the ruler has absolute power"
+  ]
+ },
+ {
+  "id": "e129",
+  "name": "quarrel",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "clash, feud "
+  ]
+ },
+ {
+  "id": "e130",
+  "name": "impulse",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   " urge or inspire"
+  ]
+ },
+ {
+  "id": "e131",
+  "name": "dynasties",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   " empire, regime"
+  ]
+ },
+ {
+  "id": "e132",
+  "name": "steadfast",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "loyal, faithful"
+  ]
+ },
+ {
+  "id": "e133",
+  "name": "dominion",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "government"
+  ]
+ },
+ {
+  "id": "e134",
+  "name": "indemnities",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "security, guarantee "
+  ]
+ },
+ {
+  "id": "e135",
+  "name": "Name-calling",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "Using derogatory language or insults to discredit an opponent or a competing product.",
+   "It often relies on stereotypes to create an immediate negative association."
+  ],
+  "image": "https://t3.ftcdn.net/jpg/09/61/36/98/360_F_961369895_EdpNrPMzcY2EaypASXp8OA38JylkV6Pr.jpg"
+ },
+ {
+  "id": "e136",
+  "name": "Glittering generalities",
+  "category": "Topic",
+  "subcategory": "Element of Propaganda",
+  "definition": "",
+  "actions": [
+   "These are vague, high-value words that sound positive but lack a concrete definition.",
+   "Words like \"freedom,\" \"justice,\" or \"refreshing\" are used to evoke a feeling without providing evidence."
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoS656Zjrop92aaCiHLDcYTNPV9bUs10JuMrRpS0I3RmSraJ4s3PeghiU&s=10"
+ },
+ {
+  "id": "e137",
+  "name": "Transfer",
+  "category": "Topic",
+  "subcategory": "Element of Propaganda",
+  "definition": "",
+  "actions": [
+   "This technique carries the prestige and authority of a respected symbol over to a person or product.",
+   "An example is a politician standing in front of a national flag to inherit its perceived patriotism."
+  ],
+  "image": "https://propagandacritic.com/wp-content/uploads/2018/08/decoding-transfer.png"
+ },
+ {
+  "id": "e138",
+  "name": "Testimonial",
+  "category": "Topic",
+  "subcategory": "Element of Propaganda",
+  "definition": "",
+  "actions": [
+   "This uses the endorsement of a celebrity or an expert to validate a claim. The goal is to make the audience trust the message because they respect the person delivering it."
+  ],
+  "image": "https://propagandacritic.com/wp-content/uploads/2018/08/decoding-testimonial.png"
+ },
+ {
+  "id": "e139",
+  "name": "Plain-folk",
+  "category": "Topic",
+  "subcategory": "Element of Propaganda",
+  "definition": "",
+  "actions": [
+   "This strategy attempts to convince the audience that a leader or a product is \"just like them.\" It frames elite figures as average citizens to build rapport and relatability."
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWLcq0WGb_vUaqyDtD7-RFz-3KtG-jkmg6SSOgqaWfcvw8KoQ6TrPWMeQ&s=10"
+ },
+ {
+  "id": "e140",
+  "name": "Card-stacking",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "This involves selectively presenting only the positive aspects of an idea while deliberately omitting the negatives. It provides a biased and incomplete picture to the viewer."
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMBAxYTaAo3G3MbeRW4vBwtCE2XuthTYmuTtOJmNARrgdsXlYHVzIA0sY&s=10"
+ },
+ {
+  "id": "e141",
+  "name": "Bandwagon",
+  "category": "Topic",
+  "subcategory": "Element of Propaganda",
+  "definition": "",
+  "actions": [
+   "This plays on the fear of missing out by suggesting that \"everyone else is doing it.\" It pressures individuals to join a movement to avoid being the odd one out."
+  ],
+  "image": "https://propagandacritic.com/wp-content/uploads/2018/08/decoding-bandwagon.png"
+ },
+ {
+  "id": "e142",
+  "name": "Disenfranchised",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "being deprived of a right, privilege, or power, most commonly the right to vote."
+  ]
+ },
+ {
+  "id": "e143",
+  "name": "Self Defense",
+  "category": "Topic",
+  "subcategory": "Element of Propaganda",
+  "definition": "",
+  "actions": [
+   "Defending yourself after an attack"
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWjKA-okfwFkdL_46qoNQdFc9PG8iUhGZgTCKoJiM79ig4smDluOWcSl8:https://cdn-icons-png.flaticon.com/512/2621/2621831.png&s=10"
+ },
+ {
+  "id": "e144",
+  "name": "Defending Democracy",
+  "category": "Topic",
+  "subcategory": "Element of Propaganda",
+  "definition": "",
+  "actions": [
+   "Many people supported joining the war because the believed they were defending democracy (governments where people vote for their leaders) accross the world."
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScnGSH8qWJLZ1a1pYN5uVP-wYWAdAUv7xucHHjsNLWNVQppeMn8X8GWaoE:https://thereader.mitpress.mit.edu/wp-content/uploads/2020/06/voting-700x420.jpg&s=10"
+ },
+ {
+  "id": "e145",
+  "name": "Fighting for Equality",
+  "category": "Topic",
+  "subcategory": "Element of Propaganda",
+  "definition": "",
+  "actions": [
+   "The fight for equality in the United States is a long historical journey driven by marginalized groups demanding civil rights, freedom, and fair treatment under the law"
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbTi4nHL8FOl9n6Fw2pz3MehzbAF2Pds8zv0ZPITAqCQVxcQzvQQ43Pjgb:https://www.thoughtco.com/thmb/GvfodhP22RanRwzZYj5pC1lh2CI%3D/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/gender-equality-165793283x-56aa236b3df78cf772ac8752.jpg&s=10"
+ },
+ {
+  "id": "e146",
+  "name": "Model T",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "Henry Ford made the automobile affordable for the average American. By the 1920s, the growing “car culture” was changing the nation in deeper ways than even Ford might have imagined."
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDtAC8tsPP3tkjS36p65x0iTmdpdvCx3JrTnjEPbMaQLxHl5tODvceKGvm:https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_3840,h_1920,g_auto/dpr_auto/f_auto/q_auto:eco/v1/model-t-gettyimages-613478586%3F_a%3DBAVMn6E80&s=10"
+ },
+ {
+  "id": "e147",
+  "name": "Gas Stations",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "Automobiles encouraged the growth of related industries—especially the oil industry. The gas station—and gas fumes—became a permanent feature of the U.S. landscape."
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGYFq_y0C3v28ol5JyyEV0bne2N-6eqpi_ZBdlAjBZmhVBEO4RZFL0w4f-:https://i.etsystatic.com/26093099/r/il/028bb4/3978742283/il_fullxfull.3978742283_sjp6.jpg&s=10"
+ },
+ {
+  "id": "e148",
+  "name": "Highway System",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "By 1925, states had built hundreds of highways, and the federal government organized them into a numbered system. One of the first federal highways was Route 66, which ran from Illinois to California."
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd5LrZ3YBhggdlEh69wv4NThDJh5CMDE8haKnWBkOXObl9OYQ0sEtjAJ7x:https://www.pictorem.com/uploads/collection/A/AB7CQI5BHA/900_Best-Map-Shop_521591_1928_Pictorial_Map_of_the_Proposed_United_States_.jpg&s=10"
+ },
+ {
+  "id": "e149",
+  "name": "Vacation Industry",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "Americans used their new cars and expanded leisure time to travel. Motels and motor camps sprung up all over the nation."
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSar9YsNfqL6bdeYN2oRgmzgBP8iUjflukxFzU6gdF2QVzBeIT4N4OCImY:https://www.altexsoft.com/media/2019/12/word-image-24.png&s=10"
+ },
+ {
+  "id": "e150",
+  "name": "Advertising",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "Ads stressed what cars gave their owners—speed, status, and a new sense of freedom."
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY_GRHgs8u2apAvZwUD4GpYeR44BrZyIcJziz4AmphIApKJk5vsl1vALcn:https://walthers.com/cdn/shop/files/361-162_01_a690028f-b7b1-421b-85ee-3b6b8b9387e9.gif%3Fv%3D1774978936%26width%3D1214&s=10"
+ },
+ {
+  "id": "e151",
+  "name": "Radio",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "As more radios were sold, the radio became the centerpiece of millions of American living rooms. At first, headsets were required to listen to broadcasts."
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq7d3Nbk_0aA_FVC_gSJovLaDzbPI_6Hdsq-oXWhwgG6V47tDPuSpS_BK-:https://newsela.imgix.net/article_media/2017/06/lib-ushistory-consumer-economy-radio-1920s-a83667cc.jpg%3Fauto%3Dformat&s=10"
+ },
+ {
+  "id": "e153",
+  "name": "Movies",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "By the 1920s, Americans were going to the movies so often that attendance at other forms of public entertainment, such as theater, suffered. Decades later, the rise of television would have the same effect on movie attendance."
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIup9T4d0MRKm17TbT7PnfycDZiMqEreUoC_uRcnXWY6Yc4yKJVCTfwpxv:https://fs.artdevivre.com/storage/articles/main-photos-articles/09e14291279683eb782057a6648fef9d.jpg&s=10"
+ },
+ {
+  "id": "e154",
+  "name": "Flappers",
+  "category": "Topic",
+  "definition": "",
+  "actions": [],
+  "image": "https://i.guim.co.uk/img/media/424708bc7fa90be534e3be138f6c269f08267c92/0_0_2100_1661/master/2100.jpg?width=375&dpr=1&s=none&crop=none"
+ },
+ {
+  "id": "e155",
+  "name": "New Household Products",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "Even for the majority of women who stayed at home to care for the house and children, life changed. New consumer products such as dishwashers and vacuum cleaners made housework easier."
+  ],
+  "image": "https://www.cooksbookcase.com/cdn/shop/files/FullSizeRender_fbba2551-2da0-4178-9908-6404a0ed8a69_1024x1024.heic?v=1692303358"
+ },
+ {
+  "id": "e156",
+  "name": "Washing Machine",
+  "category": "Topic",
+  "definition": "",
+  "actions": [],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzcvY6213FPouZBST1jLXMw9sOqqWXGIYLBDG2yJAMpSNq2I6NpDtUkKs:https://evolutionhomeappliances.weebly.com/uploads/1/0/8/3/108313617/1924-easy-brand-washer-cornell-dd-hem-26_1_orig.jpg&s=10"
+ },
+ {
+  "id": "e158",
+  "name": "Florence Allen",
+  "category": "Person",
+  "definition": "",
+  "actions": [
+   "First woman state judge (1920)"
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4XUn5YAfVQBHmfuWEj3ywunuz__dBMLXSfLR95BxXMRfR04ITp-dLguy9:https://cdn.britannica.com/93/217993-050-048E6239/Judge-Florence-Ellinwood-Allen-circa-1915-1920.jpg&s=10"
+ },
+ {
+  "id": "e159",
+  "name": "Marie Luhring",
+  "category": "Person",
+  "definition": "",
+  "actions": [
+   "First woman automotive engineer (1920)"
+  ],
+  "image": "https://www.motorcities.org/images/file-20161130204723_Marie_Luhring_truck_designer.jpg"
+ },
+ {
+  "id": "e160",
+  "name": "Rebecca Felton",
+  "category": "Person",
+  "definition": "",
+  "actions": [
+   " First woman in U.S. Senate (1922)"
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnCCC-NVxasyyI3AQScp3VrCEh1YUQVigheEQnJunZit6miN8BC_R4QzA:https://th-thumbnailer.cdn-si-edu.com/lXb81OgIbZIcN__0fBByInTwSyI%3D/fit-in/1072x0/filters:focal(640x914:641x915)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/00/9a/009aac40-1a80-46b4-aab4-efdab6c5b3f5/mary.png&s=10"
+ },
+ {
+  "id": "e161",
+  "name": "Nellie Tayloe Ross",
+  "category": "Person",
+  "definition": "",
+  "actions": [
+   "First woman governor (1924)"
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvf_hXutWkUt7EDckcg_a8aGtjEQ-v8md2b-9CBHk8FnLyBz18Qfgj4cbi:https://cdn.britannica.com/74/61874-050-FAFBE50B/Nellie-Tayloe-Ross.jpg&s=10"
+ },
+ {
+  "id": "e162",
+  "name": "Gertrude Ederle",
+  "category": "Person",
+  "definition": "",
+  "actions": [
+   "First woman to swim English Channel (1926)"
+  ],
+  "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Bundesarchiv_Bild_102-10212%2C_Gertrud_Ederle.jpg/250px-Bundesarchiv_Bild_102-10212%2C_Gertrud_Ederle.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+ },
+ {
+  "id": "e163",
+  "name": "Dorothy Arzner",
+  "category": "Person",
+  "definition": "",
+  "actions": [
+   " First woman to direct a talking movie (1927)"
+  ],
+  "image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Dorothy_Arzner.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"
+ },
+ {
+  "id": "e164",
+  "name": "Phoebe Omie",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "First woman to earn a federal pilot’s license (1927)"
+  ],
+  "image": "https://upload.wikimedia.org/wikipedia/en/f/fe/Phoebe_Omlie.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original"
+ },
+ {
+  "id": "e165",
+  "name": "Charleston",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "No fad symbolizes the Roaring Twenties more than the Charleston. Here, two young people demonstrate the wild, loose-limbed dance that swept the nation."
+  ],
+  "image": "https://www.ccpl.org/sites/default/files/Charleston_dancers_1920s.jpg"
+ },
+ {
+  "id": "e166",
+  "name": "Consumerism",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "Consumerism is a social, cultural, and economic phenomenon where personal happiness, social status, and economic health are tied to the continuous purchase and consumption of goods and services"
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4phWsE1C509cr1Uoc5Sz7onb271fikg5kdenBwffJJT5M9SciIT3-hSw6:https://thereader.mitpress.mit.edu/wp-content/uploads/2021/01/kellogg.jpg&s=10"
+ },
+ {
+  "id": "e167",
+  "name": "Baseball",
+  "category": "Topic",
+  "definition": "",
+  "actions": [],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1M-ViSg1scPzhtTCxXaCdrnFiq8psjUDFiv5V1UVkEcqQwHpkQS8ZFmd1:https://baseballhall.org/sites/default/files/styles/story_popup_thumb_540/public/islandora_images/Ruth%2520Babe%25201386.86_Bat_%2520NBL.jpg.jpeg%3Fitok%3DibOYmdNd&s=10"
+ },
+ {
+  "id": "e168",
+  "name": "Magazines",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "Mass-market magazines with eye-catching covers were more popular than ever. This Life magazine cover (left) highlights the growing popularity of golf among both men and women. Amazing Stories (right) was the first “pulp” magazine devoted exclusively to science fiction."
+  ],
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ69WWjS8UYPXorOwHZp_1wGu7zy7rzM7m6jURKZiOCyl33qaaY9b1WLCw:https://i.etsystatic.com/23988771/r/il/8a3437/6177977105/il_fullxfull.6177977105_rr1u.jpg&s=10"
+ },
+ {
+  "id": "e169",
+  "name": "Backlash",
+  "category": "Topic",
+  "definition": "",
+  "actions": [],
+  "image": "https://github.com/zacharywolff-teach/wolffsite/blob/main/Consumerism.png?raw=true"
+ },
+ {
+  "id": "e170",
+  "name": "Temperance Movement",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "A reform movement, strongest in the 1800s and early 1900s, that urged people to drink less alcohol or quit entirely because it was blamed for crime, poverty, and broken families."
+  ]
+ },
+ {
+  "id": "e171",
+  "name": "Prohibition",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "The nationwide ban on making, selling, and transporting alcohol in the U.S. from 1920 to 1933, created by the 18th Amendment."
+  ]
+ },
+ {
+  "id": "e172",
+  "name": "Vote Wet",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "To vote in favor of legal alcohol; \"wets\" wanted Prohibition ended or relaxed."
+  ]
+ },
+ {
+  "id": "e173",
+  "name": "Vote Dry",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "To vote to keep alcohol banned; \"drys\" supported Prohibition."
+  ]
+ },
+ {
+  "id": "e174",
+  "name": "Speakeasy",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "A secret, illegal bar that sold alcohol during Prohibition."
+  ]
+ },
+ {
+  "id": "e175",
+  "name": "Bootlegger",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "A person who illegally made, smuggled, or sold alcohol during Prohibition."
+  ]
+ },
+ {
+  "id": "e176",
+  "name": "Enforcement",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "The work of government agents to make people obey a law; Prohibition enforcement was weak because of too few agents, bribery, and widespread public defiance."
+  ]
+ },
+ {
+  "id": "e177",
+  "name": "Organized Crime",
+  "category": "Topic",
+  "definition": "",
+  "actions": [
+   "Criminal groups that work together like a business, using bribery and violence to protect their profits; Prohibition gave them a huge new source of money."
+  ]
+ },
+ {
+  "id": "e178",
+  "name": "Al Capone",
+  "category": "Person",
+  "definition": "",
+  "actions": [
+   "Chicago gang boss and the most famous Prohibition-era gangster, who made millions from bootlegging and was finally convicted of tax evasion in 1931."
+  ]
+ }
+]
