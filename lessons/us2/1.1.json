@@ -1,47 +1,99 @@
-function onOpen() {
-  var ui = SpreadsheetApp.getUi();
-  ui.createMenu('Download CSVs')
-      .addItem('Download All Tabs as ZIP', 'downloadAllTabsAsZip')
-      .addToUi();
-}
-
-function downloadAllTabsAsZip() {
-  var ss = SpreadsheetApp.getActiveSpreadsheet();
-  var sheets = ss.getSheets();
-  var blobs = [];
-  
-  for (var i = 0; i < sheets.length; i++) {
-    var sheet = sheets[i];
-    if (!sheet.isSheetHidden()) {
-      var sheetName = sheet.getName();
-      var gid = sheet.getSheetId();
-      var url = ss.getUrl().replace(/edit$/, '') + 'export?format=csv&gid=' + gid;
-      
-      var response = UrlFetchApp.fetch(url, {
-        headers: {
-          'Authorization': 'Bearer ' +  ScriptApp.getOAuthToken(),
-          'MuteHttpExceptions': true
-        }
-      });
-      
-      var blob = response.getBlob().setName(sheetName + ".csv");
-      blobs.push(blob);
+{
+  "schemaVersion": 1,
+  "id": "1-1",
+  "number": "1.1",
+  "title": "Growth of Cities",
+  "unit": "unit1",
+  "unitTitle": "Unit 1",
+  "objectives": [
+    {
+      "id": "1-1-o1",
+      "text": "Explain urbanization and assess the positive and negative impacts on Americans."
     }
-  }
-  
-  var zip = Utilities.zip(blobs, ss.getName() + "_CSVs.zip");
-  
-  // Create HTML to force immediate browser download
-  var html = HtmlService.createHtmlOutput(
-    '<html><script>' +
-    'var a = document.createElement("a");' +
-    'a.href = "data:application/zip;base64,' + Utilities.base64Encode(zip.getBytes()) + '";' +
-    'a.download = "' + zip.getName() + '";' +
-    'document.body.appendChild(a);' +
-    'a.click();' +
-    'google.script.host.close();' +
-    '</script><body>Downloading...</body></html>'
-  ).setWidth(300).setHeight(100);
-  
-  SpreadsheetApp.getUi().showModalDialog(html, 'Exporting CSVs...');
+  ],
+  "mentions": [
+    "e15",
+    "e5",
+    "e7",
+    "e16",
+    "e17",
+    "e18",
+    "e4",
+    "e14"
+  ],
+  "keyTerms": [
+    "e15"
+  ],
+  "pinnedTerms": [],
+  "inquiryFocus": [
+    "inq1"
+  ],
+  "readings": [
+    {
+      "title": "Transcontinental Railroad",
+      "text": "# Transcontinental Railroad\n\n## Description of Transportation\n\nThe transcontinental railroad was a series of railroad tracks. The tracks allowed California, Texas, and Washington state to be connected with the factories and large cities on the east coast. As the US grew in size and population, the Transcontinental Railroad provided quick transportation from the east to the west coast, a journey that used to take many months now took one week.\n\n## Impact on Industrial Revolution\n\n> This allowed for expansion of farmland available due to the railroad being able to get goods to market in a reasonable time. It also lead to the creation of time zones so travel time would be uniform (adopted by Congress in 1918). It influenced business and industry because of the need for natural resources including iron, coal, steel, lumber, and glass.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmXAN2cmUT0CYi8LWa1uyR8XraeX1rRks-uNOGOlxtwt6Rvfcw6HsKomzs:https://cdn-icons-png.flaticon.com/512/1185/1185558.png&s=10",
+      "_order": 0
+    },
+    {
+      "title": "Incandescent Light Bulb",
+      "text": "# Incandescent Light Bulb\n\n## Description of Technology\n\nThe light bulb was perfected by Thomas Edison in 1878. The incandescent light bulb is an electric light with a wire filament heated to a temperature that causes it to glow with a visible light.\n\n## Impact on Industrial Revolution\n\nThis meant that homes and businesses could have better lighting, and lighting that would last later into the evening.  This eventually led to longer work hours and night shifts in factories where manufactured goods could be produced in large quantities.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwcR14_z6JI9q2wKFY7QvDlXPbaUz5aeU1yu0ku2vx9xS7Pw6KZLeYqM4:https://www.citypng.com/public/uploads/preview/light-bulb-idea-black-icon-download-png-701751695034363st8pfbgfas.png&s=10",
+      "_order": 2
+    },
+    {
+      "title": "Telephone",
+      "text": "# Telephone\n\n## Description of Technology\n\nPrior to the the telephone, the telegraph was the only way to communicate over long distances.  With the rapidly expanding United States, the need for an effective and cheaper communication device was necessary- the telephone was invented by Alexander Graham Bell in 1876.\n\n## Impact on Industrial Revolution\n\nNew and efficient form of communication that impacted businesses and office work.  The telephone also created jobs for women as secretaries.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkOD7Vs2a16v5sdVbknM035D3zIFbc2GNyybxBwSahTWM8RUE8ugsy6DaL:https://toppng.com/uploads/preview/phone-icon-11549498584attf3ik674.png&s=10",
+      "_order": 3
+    },
+    {
+      "title": "Iron Ore",
+      "text": "# Iron Ore\n\n## Description of Resource\n\nThe largest iron deposits were discovered in the mid to late 1800’s in the midwest.  Iron ore could be processed into steel, which could be used to build railroads, buildings, bridges, etc.\n\n## Impact on Industrial Revolution\n\nAs the US expanded, the need for more infrastructure (railroads, buildings, bridges) grew as well.  Additionally, steel could be used to build factories for manufacturing consumer goods.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMF9YBoOduKWn-iI-dTMEpRBPuyLWPLuMgCR3L5_mVIKbsQNpE-nRRrhE:https://static.thenounproject.com/png/213892-200.png&s=10",
+      "_order": 4
+    },
+    {
+      "title": "Coal",
+      "text": "# Coal\n\n## Description of Resource\n\nCoal was first mined in the United States during the early 1700’s.  It is used as a fossil fuel to produce heat and energy.\n\n## Impact on Industrial Revolution\n\nCoal replaced wood in fueling the steam engine and machinery; it was used in both transportation and manufacturing. During the Industrial Revolution, coal helped power the railways of America (needed to transport goods across a growing nation) and power machines in factories.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVMhyfmXhwaOhdkZBkQpeSqrccZwp3mdEIJj7K4VE609L2CMCeBsvEP7I:https://cdn-icons-png.flaticon.com/512/1870/1870671.png&s=10",
+      "_order": 5
+    },
+    {
+      "title": "Oil",
+      "text": "# Oil\n\n## Description of Resource\n\nWith the discovery of a large oil well in Western Pennsylvania in the late 1850’s, an industry was born in the US.  Drilling for oil also led to the petroleum refining industry.\n\n## Impact on Industrial Revolution\n\nOil could be transformed into kerosene, which could be used for lighting lamps and later as gasoline for automobiles.  Kerosene was the major source of lighting for most American homes until 1930.  Additionally, as the use of the automobile grew in the early 1900’s, oil was a needed commodity.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmeQ1ykzsRuXgjWSd9XQHWObFBCasYOiXmkeT5nilbXtOCWS9aJx5OWcs:https://static.thenounproject.com/png/1053409-200.png&s=10",
+      "_order": 6
+    }
+  ],
+  "images": [
+    {
+      "title": "Charts",
+      "note": "Percentage of Population in Cities",
+      "files": [
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vS-78sWVG9SSNcy2aVDuOoo6o2_dIqH8zDXrGkulp7iFneMfTWH_uNOdn2uC6bOA9jjrQ6yFPMxFyTD/pubchart?oid=1739153253&format=image",
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vS-78sWVG9SSNcy2aVDuOoo6o2_dIqH8zDXrGkulp7iFneMfTWH_uNOdn2uC6bOA9jjrQ6yFPMxFyTD/pubchart?oid=515737508&format=image",
+        "data:image/jpeg;base64,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"
+      ],
+      "_order": 1
+    }
+  ],
+  "doNow": [
+    {
+      "type": "multiple_choice",
+      "prompt": "This rate of urbanization during the US Industrial Revolution. Based on the chart, how would you define urbanization?",
+      "objectiveIds": [
+        "1-1-o1.1"
+      ],
+      "image": "https://o.quizlet.com/SGgIKVSDnSdsEC4c2ugs1A.jpg",
+      "skill": "Charts",
+      "choices": [
+        "More people living on farms",
+        "More people living in cities",
+        "Existing cities becoming larger",
+        "Birth Rates increasing over time"
+      ],
+      "correctIndex": 1
+    }
+  ]
 }
