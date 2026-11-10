@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "1-3",
+  "number": "1.3",
+  "title": "Progressive Solutions",
+  "unit": "unit1",
+  "unitTitle": "Unit 1",
+  "objectives": [
+    {
+      "id": "1-3-o1",
+      "text": "Describe how Progressives and Muckrakers addressed society's problems."
+    }
+  ],
+  "mentions": [
+    "e1",
+    "e6",
+    "e65",
+    "e35",
+    "e37",
+    "e38",
+    "e39",
+    "e8",
+    "e27",
+    "e30",
+    "e12",
+    "e34",
+    "e36",
+    "e11"
+  ],
+  "keyTerms": [
+    "e1",
+    "e65",
+    "e35",
+    "e37",
+    "e38",
+    "e39",
+    "e34",
+    "e36",
+    "e11"
+  ],
+  "pinnedTerms": [],
+  "inquiryFocus": [
+    "inq3",
+    "inq5"
+  ],
+  "readings": [
+    {
+      "title": "Settlement Houses",
+      "text": "In a way, the settlement house movement was an offshoot of the Social Gospel movement. It attracted idealistic reformers who believed it was their Christian duty to improve living conditions for the poor. During the late 1800s, reformers such as Jane Addams established settlement houses in poor neighborhoods. In these establishments, middle-class residents lived and helped poor residents, mostly immigrants. Addams, who opened the famous Hull House in Chicago in 1889, inspired many more such settlements across the country, including the Henry Street Settlement run by Lillian Wald in New York City. The women who ran settlement houses provided everything from medical care, recreation programs, and English classes to hot lunches for factory workers. Their efforts helped shape the social work profession, in which women came to play a major role.",
+      "image": "https://www.mcny.org/sites/default/files/objects/2_and%20banner_Settlement47-609L.jpg",
+      "_order": 0
+    },
+    {
+      "title": "Labor Unions",
+      "text": "As industrialization grew, owners demanded more of their workers. To deal with the problems, workers formed organizations called labor unions. Workers realized that they had strength if they acted together. Unions wanted the right to collective bargaining. This is a process where representatives of workers negotiate employment conditions with representatives of management. If collective bargaining is successful, a contract (legal agreement) is formed. If it is unsuccessful, workers may go on strike. This means that workers intentionally refuse to do their jobs until their demands are met.\n\nMany labor unions formed during the late 1800s, including the Knights of Labor and the American Federation of Labor. Overall, their goals were to fight for shorter workdays, higher wages, shorter hours, improved working conditions, and an end to child labor. Certain labor unions would support going on strike while others did not. Those labor unions who supported striking would collect money from members over time to be saved for when members were on strike. The money would be used as a source of income for members while they were on strike. Some unions only allowed skilled, white laborers who could not be replaced easily. Others, however, were open to people of different skill levels and backgrounds. By the early 1900s, labor unions became a powerful force in the American industry.\n\n# The Anthracite Coal Strike\n\nIn 1902, the United Mine Workers went on strike for better working conditions. President Roosevelt stepped in and negotiated between the coal companies and the union, marking the first time the government did not intervene on the side of business in a strike. The union got their hours reduced from 10 to 9 hours a day and received a 10% increase in pay.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpEj3N3GXf6IxC-Pz0XdQuXEM937Lbgh_x3E6ZhPVfdt18uktsHKhwxAo-:https://files.libcom.org/files/images/history/labor.jpg&s=10",
+      "_order": 1
+    },
+    {
+      "title": "Government Regulations",
+      "text": "# Protecting Consumers\n\nIn 1906, Congress passed the following acts in response to Sinclair’s book The Jungle:\n\n> The Meat Inspection Act (1906), mandating government enforcement of sanitary and health standards in meatpacking plants;\n\n> The Pure Food and Drug Act (1906), prohibiting false advertising and harmful additives in food\n\n# Conservation\n\nUnder Roosevelt, conservation became a major focus for the national government, leading to the following laws and organizations:\n\n> National Forest Service: protects and maintains wildlife and national parks such as Yellowstone\n\n> The Antiquities Act: allowed the president to protect lands and monuments, including the Grand Canyon\n\n> The creation of 5 new national parks, 18 new U.S. national monuments, 51 bird reserves, four game (animal) preserves, and 150 national forests\n\n> National Conservation Commission of 1909: oversaw the long term preservation of natural resources",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz56IVsMMjCxBa7ksov-uhfcpz8vWZ-EuEomOA1Prz-0-T0kqz_D3mYw8:https://www.nnph.org/images/ehs/food-services/washoeeats1.png&s=10",
+      "_order": 2
+    },
+    {
+      "title": "Political Reforms",
+      "text": "# Voter Reform\n\nMany states adopted the following reforms for voting\n\n> Secret Ballot-Up: voters could mark their ballots in private so that they could not be bullied into voting for someone.\n\n> Initiative-A process allowing voters to suggest bills (laws) to state governments, which would then be voted on by the people\n\n> Recall-voters could recall (dismiss from office) an elected official\n\n> Referendum-allowing voters to vote to repeal (take away) or pass certain laws suggested by voters or by the legislature\n\n# Amendments during the Progressive Era\n\n> 16th Amendment: Established a federal income tax so that the wealthy would pay their share of taxes. Previously, the government used tariffs and sales taxes that impacted the poor much more than the wealthy.\n\n> 17th Amendment: voters directly elect their Senators, rather than the state legislatures choosing the Senators.",
+      "image": "https://www.acludc.org/app/uploads/2016/11/voting-rights-issue-image-1.jpg",
+      "_order": 3
+    },
+    {
+      "title": "Trustbusting",
+      "text": "# Labor and Anti-Monopoly Laws\n\nPresidents Roosevelt, Taft and Wilson all supported Progressive ideas. During their presidencies, they helped pass the following laws\n\n> The Clayton Antitrust Act (1914): Gave the government power to prevent the formation of monopolies and to protect the rights of workers\n\n> The Department of Labor (1913): Allowed the government to oversee labor laws and provide benefits such as worker’s compensation to injured or sick workers\n\n> The Federal Trade Commission (1914): increased the government’s power to regulate monopolies and protect consumers\n\n> Federal Reserve Act (1913): created a national banking system (Federal Reserve) to regulate banks and stabilize the economy\n\n> laws limiting work hours for women and children in 32 states\n\n> A minimum wage for women workers in 11 states",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST7yJLRK-z9H1AJgCxTZ97GkaJiH0VGWPLqyB19663-T_7_vH1OvAdVII:https://lookaside.fbsbx.com/lookaside/crawler/media/%3Fmedia_id%3D10157091695536027&s=10",
+      "_order": 4
+    }
+  ],
+  "doNow": [
+    {
+      "type": "short_answer",
+      "prompt": "Based on these people's roles, how would you define the term Muckraker?",
+      "termGroup": "Muckraker",
+      "sampleAnswer": ""
+    }
+  ]
+}
