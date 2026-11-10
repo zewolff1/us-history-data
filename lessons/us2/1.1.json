@@ -1,0 +1,47 @@
+function onOpen() {
+  var ui = SpreadsheetApp.getUi();
+  ui.createMenu('Download CSVs')
+      .addItem('Download All Tabs as ZIP', 'downloadAllTabsAsZip')
+      .addToUi();
+}
+
+function downloadAllTabsAsZip() {
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var sheets = ss.getSheets();
+  var blobs = [];
+  
+  for (var i = 0; i < sheets.length; i++) {
+    var sheet = sheets[i];
+    if (!sheet.isSheetHidden()) {
+      var sheetName = sheet.getName();
+      var gid = sheet.getSheetId();
+      var url = ss.getUrl().replace(/edit$/, '') + 'export?format=csv&gid=' + gid;
+      
+      var response = UrlFetchApp.fetch(url, {
+        headers: {
+          'Authorization': 'Bearer ' +  ScriptApp.getOAuthToken(),
+          'MuteHttpExceptions': true
+        }
+      });
+      
+      var blob = response.getBlob().setName(sheetName + ".csv");
+      blobs.push(blob);
+    }
+  }
+  
+  var zip = Utilities.zip(blobs, ss.getName() + "_CSVs.zip");
+  
+  // Create HTML to force immediate browser download
+  var html = HtmlService.createHtmlOutput(
+    '<html><script>' +
+    'var a = document.createElement("a");' +
+    'a.href = "data:application/zip;base64,' + Utilities.base64Encode(zip.getBytes()) + '";' +
+    'a.download = "' + zip.getName() + '";' +
+    'document.body.appendChild(a);' +
+    'a.click();' +
+    'google.script.host.close();' +
+    '</script><body>Downloading...</body></html>'
+  ).setWidth(300).setHeight(100);
+  
+  SpreadsheetApp.getUi().showModalDialog(html, 'Exporting CSVs...');
+}
