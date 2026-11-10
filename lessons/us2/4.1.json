@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "4-1",
+  "number": "4.1",
+  "title": "Causes of the Great Depression",
+  "unit": "unit4",
+  "unitTitle": "The Great Depression",
+  "objectives": [
+    {
+      "id": "4-1-o1",
+      "text": "Test Worked"
+    }
+  ],
+  "inquiryFocus": [
+    "inq5"
+  ],
+  "readings": [
+    {
+      "title": "The Stock Market Crash",
+      "text": "## Credit Crisis\n\nAnother factor that fueled the depression was the growing gap between rich people and most Americans. By 1929, about 75% of Americans lived in poverty or on the edge of it. To pay for things, many of these families borrowed money. Farmers, consumers, and investors all borrowed money during the 1920s. Many banks suffered when these farmers, consumers, and investors failed to meet their loan payments. These losses in revenue forced thousands of banks across the nation to close. At that time, the government did not insure bank deposits. Therefore, if the bank closed, the depositors lost their money.\n\n## An Unbalanced Economy\n\nAt the end of WWI, farmers’ income began to decrease due to the slowing demand for food during peacetime. Also, factories began having trouble selling everything they produced. This overproduction of goods forced factory owners to slow production and fire or cut the wages of workers. Jobless or with reduced income, many Americans had to cut back on purchases, further reducing sales.\n\n## Buying on a Margin\n\nA stock exchange is an organized system for buying and selling shares, or blocks of investment, in corporations. By the late 1920s, stock prices were very high. The rising stock prices convinced many people to buy stocks. Many investors did not have money to buy stocks, so they borrowed the money from brokers. This was called buying stocks “on margin”. To lend money to investors, the brokers borrowed their money from banks. As long as the value of stocks continued to increase, the buyers could sell the stocks, pay off their loans, and make a profit. If stock prices fell, the investors and brokers would not make enough money to pay off the loans.\n\n## Stock Market Crash\n\nPrices declined steadily until October 21st, but most experts thought there was no need to worry. Then, for three straight days, stock prices plunged as investors sold millions of shares each day. Panicked traders sold almost 13 million shares on Oct 24, a day that became known as “Black Thursday.”",
+      "set": "The Economy",
+      "_order": 0
+    },
+    {
+      "title": "The Dust Bowl",
+      "text": "The Dust Bowl was one of the most devastating environmental disasters in American history. The name was given to the drought-stricken Southern and Central Plains regions of the United States, which suffered severe dust storms during a drought in the 1930s.\n\nAs high winds and choking dust swept the region from Texas to Nebraska, people and livestock were killed and crops failed across the entire region. The Dust Bowl intensified the crushing economic impacts of the Great Depression and drove many farm families on a desperate migration in search of work and better living conditions.",
+      "embedUrl": "https://www.youtube.com/watch?v=3jSdDU9mUqQ",
+      "set": "The Environment",
+      "_order": 2
+    }
+  ],
+  "images": [
+    {
+      "title": "Graphs and Charts",
+      "files": [
+        "https://raw.githubusercontent.com/zewolff1/yourhistory/main/the_great_depression/causes_of_the_great_depression/buying_on_a_margin/image_reasons_for_the_crash/Number%20of%20Bank%20Suspensions%20vs.%20Year.svg",
+        "https://raw.githubusercontent.com/zewolff1/yourhistory/main/the_great_depression/causes_of_the_great_depression/buying_on_a_margin/image_reasons_for_the_crash/Per%20Capita%20Personal%20Income%20vs.%20Year.svg",
+        "https://raw.githubusercontent.com/zewolff1/yourhistory/main/the_great_depression/causes_of_the_great_depression/buying_on_a_margin/image_reasons_for_the_crash/Unemployment%20Rate%20vs.%20Year.svg"
+      ],
+      "set": "The Economy",
+      "_order": 1
+    },
+    {
+      "title": "Dust Bowl Images",
+      "files": [
+        {
+          "src": "https://raw.githubusercontent.com/zewolff1/yourhistory/main/the_great_depression/causes_of_the_great_depression/the_dust_bowl/image_photos/Dark%20Day%20in%20Kansas.svg",
+          "caption": "The huge Black Sunday storm as it approaches Ulysses, Kansas, April 14, 1935. It was the worst storm of the decade-long Dust Bowl in the southern Plains, and daylight turned to total blackness in mid-afternoon."
+        },
+        {
+          "src": "https://raw.githubusercontent.com/zewolff1/yourhistory/main/the_great_depression/causes_of_the_great_depression/the_dust_bowl/image_photos/Dust%20Storm%20Approaches.svg",
+          "caption": "A dust storm approaches fields and farm houses in Perryton, Texas, on Black Sunday, April 14, 1935."
+        },
+        {
+          "src": "https://raw.githubusercontent.com/zewolff1/yourhistory/main/the_great_depression/causes_of_the_great_depression/the_dust_bowl/image_photos/Kids%20Head%20to%20School.svg",
+          "caption": "In Lakin, Kansas, three children prepare to leave for school wearing goggles and homemade dust masks to protect them from the dust in 1935."
+        }
+      ],
+      "set": "The Environment",
+      "_order": 3
+    }
+  ],
+  "assessments": [
+    {
+      "visible": true,
+      "doNow": true,
+      "link": "https://sites.google.com/nplainfield.org/us2sources/stock-market-game",
+      "linkLabel": "Stock Market Simulation"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "3-2",
+  "number": "3.2",
+  "title": "Tulsa Massacre",
+  "unit": "unit3",
+  "unitTitle": "Unit 3",
+  "objectives": [
+    {
+      "id": "3-2-o1",
+      "text": "Describe the causes and effects of the Tulsa Massacre"
+    }
+  ],
+  "notesLink": "https://docs.google.com/document/d/1ifl_Q-tdhCzvmlh6c0ibOalAq6YX21XeS1d9A4DFw_M/edit?tab=t.0#heading=h.1go87bcci1o",
+  "notesTitle": "Tulsa Massacre Notes",
+  "inquiryFocus": [
+    "inq2",
+    "inq3",
+    "inq5"
+  ],
+  "readings": [
+    {
+      "title": "Black Wall Street",
+      "source": "The Atlantic",
+      "text": "## THIS IS ALL TRUE:\n\nIn 1921, about 11,000 Black residents lived in the neighborhood of Greenwood, north of the Frisco railroad tracks in Tulsa. It was self-contained and self-sufficient: Black-owned grocery stores, banks, libraries, hotels, movie theatres, and more lined the neighborhood's main thoroughfare, Greenwood Avenue.\n\nIt was a thriving commercial district. And as much as it could be, it was also a safe space.\n\n## This is true as well:\n\nIn the period from 1911 to 1921, 23 Black Oklahomans were lynched by White mobs. As part of the Jim Crow South, Tulsa was highly segregated, its Black voters suppressed and Black residents scapegoated. A sense of frontier lawlessness lingered across the state: In Tulsa, a vigilante group calling themselves the Knights of Liberty had for years been ambushing and forcibly exiling anyone they considered a radical. In 1920, a mob of hundreds of White Tulsans stormed the county courthouse to take a White prisoner into their own hands; they lynched him that night, facing almost no interference from the police.\n\nIn the following days, Tulsa's police chief called the lynching \"of real benefit to Tulsa and the vicinity.\"\n\nGreenwood residents knew this to be true: If the Tulsa police were not going to protect White residents, no one was going to protect Black Tulsans.\n\nIf the Tulsa police were not going to protect White residents, no one was going to protect Black Tulsans.\n\nThe events depicted below, to the knowledge of historians and survivors, are all true. They comprise one of the worst instances of mass racial violence in American history. Keep reading after the graphics to learn more about what happened next.",
+      "image": "https://www.pbs.org/wgbh/americanexperience/media/filer_public_thumbnails/filer_public/16/39/16396f1d-b4f4-4617-9ed0-4a2a0c2c6929/t-town-black-wall-street-greenwood-illustration.jpg__2000x922_q85_crop_subsampling-2.jpg",
+      "_order": 0
+    },
+    {
+      "title": "Comic",
+      "source": "The Atlantic",
+      "image": "https://cdn.theatlantic.com/assets/marketing/prod/images/2019/11/Watchmen_Atlantic_Tulsa_003_02.jpg",
+      "embedUrl": "https://www.theatlantic.com/sponsored/hbo-2019/the-massacre-of-black-wall-street/3217/",
+      "_order": 1
+    }
+  ],
+  "videos": [
+    {
+      "title": "History Channel",
+      "src": "https://www.youtube.com/watch?v=8ceL0qHVpak",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh2FOkiXgrNtOjhkxjvM5HEcHGJh8rUQLWCl71lT9Uy7tY-Jqrcw3eNrw:https://i.ytimg.com/vi/8ceL0qHVpak/mqdefault.jpg&s=10",
+      "_order": 2
+    },
+    {
+      "title": "Watchmen",
+      "src": "https://www.youtube.com/watch?v=yhhROY8jPV4",
+      "image": "https://compote.slate.com/images/2251971a-5ff2-4132-9f2a-483367b9d2d6.jpeg?width=1560&rect=5000x3333&offset=1x0",
+      "_order": 4
+    }
+  ],
+  "images": [
+    {
+      "title": "Real Photos",
+      "files": [
+        {
+          "src": "https://tile.loc.gov/storage-services/service/pnp/anrc/14700/14738v.jpg#h=746&w=1024",
+          "caption": "Ruins after the race riots,"
+        },
+        {
+          "src": "https://nmaahc.si.edu/sites/default/files/styles/max_1300x1300/public/images/blog/burning.webp?itok=1thD_Yj2",
+          "caption": "Witnesses to the massacre described white mobs looting black homes and churches. The American Red Cross reported that out of 1,471 houses in Greenwood, 1,256 were burned and the rest looted."
+        },
+        {
+          "src": "https://news.harvard.edu/gazette/wp-content/uploads/2020/06/Tulsa.jpg",
+          "caption": "Tulsa’s Greenwood District in 1921 after a white mob razed the predominately Black community."
+        }
+      ],
+      "_order": 3
+    }
+  ],
+  "assessments": [
+    {
+      "visible": false,
+      "doNow": false,
+      "description": "Discussion Questions on Tulsa Massacre",
+      "link": "https://docs.google.com/document/d/1ifl_Q-tdhCzvmlh6c0ibOalAq6YX21XeS1d9A4DFw_M/edit?tab=t.0",
+      "linkLabel": "Tulsa Massacre Discussion Questions"
+    },
+    {
+      "visible": false,
+      "doNow": false,
+      "link": "https://sites.google.com/nplainfield.org/us2sources/hexagon-matching",
+      "linkLabel": "Hexagon Matching"
+    }
+  ]
+}

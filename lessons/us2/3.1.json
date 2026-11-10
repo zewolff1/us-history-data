@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "id": "3-1",
+  "number": "3.1",
+  "title": "Culture and Changes",
+  "unit": "unit3",
+  "unitTitle": "Unit 3",
+  "objectives": [
+    {
+      "id": "3-1-o1",
+      "text": "Describe how new technologies led to changes in everyday life for Americans"
+    }
+  ],
+  "inquiryFocus": [
+    "inq1",
+    "inq2",
+    "inq5"
+  ],
+  "readings": [
+    {
+      "title": "The Roaring 20s",
+      "source": "Digital History",
+      "text": "The 1920s was a decade of exciting social changes and profound cultural conflicts. For many Americans, the growth of cities, the rise of a consumer culture, the upsurge of mass entertainment, and the so-called \"revolution in morals and manners\" represented freedom from the restrictions of the country's Victorian past. Gender roles, hairstyles, and dress all changed profoundly during the 1920s. But for many others, the United States seemed to be changing in undesirable ways. The result was a \"cultural civil war,\" in which a society clashed bitterly over such issues as foreign immigration, evolution, the Ku Klux Klan, prohibition, women’s roles, and race.\n\nThe 1920s was the first decade to have a nickname: “Roaring 20s\". It was a decade of prosperity and dissipation, and of jazz bands, bootleggers, raccoon coats, bathtub gin, flappers, flagpole sitters, bootleggers, and marathon dancers. It was, in the popular view, the Roaring 20s, when the younger generation rebelled against traditional taboos while their elders engaged in a lot of speculation.  It was known as the “Roaring 20s” for a variety of reasons - a reference to jazz, the economic growth, and luxurious lifestyle many indulged in.",
+      "_order": 0
+    }
+  ],
+  "images": [
+    {
+      "title": "The Automobile",
+      "files": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDtAC8tsPP3tkjS36p65x0iTmdpdvCx3JrTnjEPbMaQLxHl5tODvceKGvm:https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_3840,h_1920,g_auto/dpr_auto/f_auto/q_auto:eco/v1/model-t-gettyimages-613478586%3F_a%3DBAVMn6E80&s=10",
+          "caption": "Henry Ford made the automobile affordable for the average American. By the 1920s, the growing “car culture” was changing the nation in deeper ways than even Ford might have imagined."
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGYFq_y0C3v28ol5JyyEV0bne2N-6eqpi_ZBdlAjBZmhVBEO4RZFL0w4f-:https://i.etsystatic.com/26093099/r/il/028bb4/3978742283/il_fullxfull.3978742283_sjp6.jpg&s=10",
+          "caption": "Automobiles encouraged the growth of related industries—especially the oil industry. The gas station—and gas fumes—became a permanent feature of the U.S. landscape."
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd5LrZ3YBhggdlEh69wv4NThDJh5CMDE8haKnWBkOXObl9OYQ0sEtjAJ7x:https://www.pictorem.com/uploads/collection/A/AB7CQI5BHA/900_Best-Map-Shop_521591_1928_Pictorial_Map_of_the_Proposed_United_States_.jpg&s=10",
+          "caption": "By 1925, states had built hundreds of highways, and the federal government organized them into a numbered system. One of the first federal highways was Route 66, which ran from Illinois to California."
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSar9YsNfqL6bdeYN2oRgmzgBP8iUjflukxFzU6gdF2QVzBeIT4N4OCImY:https://www.altexsoft.com/media/2019/12/word-image-24.png&s=10",
+          "caption": "Americans used their new cars and expanded leisure time to travel. Motels and motor camps sprung up all over the nation."
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY_GRHgs8u2apAvZwUD4GpYeR44BrZyIcJziz4AmphIApKJk5vsl1vALcn:https://walthers.com/cdn/shop/files/361-162_01_a690028f-b7b1-421b-85ee-3b6b8b9387e9.gif%3Fv%3D1774978936%26width%3D1214&s=10",
+          "caption": "Ads stressed what cars gave their owners—speed, status, and a new sense of freedom."
+        }
+      ],
+      "_order": 1
+    },
+    {
+      "title": "New Inventions",
+      "files": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq7d3Nbk_0aA_FVC_gSJovLaDzbPI_6Hdsq-oXWhwgG6V47tDPuSpS_BK-:https://newsela.imgix.net/article_media/2017/06/lib-ushistory-consumer-economy-radio-1920s-a83667cc.jpg%3Fauto%3Dformat&s=10",
+          "caption": "As more radios were sold, the radio became the centerpiece of millions of American living rooms. At first, headsets were required to listen to broadcasts."
+        },
+        {
+          "src": "https://www.cooksbookcase.com/cdn/shop/files/FullSizeRender_fbba2551-2da0-4178-9908-6404a0ed8a69_1024x1024.heic?v=1692303358",
+          "caption": "Even for the majority of women who stayed at home to care for the house and children, life changed. New consumer products such as dishwashers and vacuum cleaners made housework easier."
+        },
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzcvY6213FPouZBST1jLXMw9sOqqWXGIYLBDG2yJAMpSNq2I6NpDtUkKs:https://evolutionhomeappliances.weebly.com/uploads/1/0/8/3/108313617/1924-easy-brand-washer-cornell-dd-hem-26_1_orig.jpg&s=10",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRix3ga_C9xh2V4tT2l3WW1YWx6D27WbmOYNytWdXfG_CsQ3IIseM9Y1ws:https://lookaside.fbsbx.com/lookaside/crawler/media/%3Fmedia_id%3D871973934934177&s=10"
+      ],
+      "_order": 2
+    },
+    {
+      "title": "Culture",
+      "files": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIup9T4d0MRKm17TbT7PnfycDZiMqEreUoC_uRcnXWY6Yc4yKJVCTfwpxv:https://fs.artdevivre.com/storage/articles/main-photos-articles/09e14291279683eb782057a6648fef9d.jpg&s=10",
+          "caption": "By the 1920s, Americans were going to the movies so often that attendance at other forms of public entertainment, such as theater, suffered. Decades later, the rise of television would have the same effect on movie attendance."
+        },
+        "https://i.guim.co.uk/img/media/424708bc7fa90be534e3be138f6c269f08267c92/0_0_2100_1661/master/2100.jpg?width=375&dpr=1&s=none&crop=none",
+        {
+          "src": "https://www.ccpl.org/sites/default/files/Charleston_dancers_1920s.jpg",
+          "caption": "No fad symbolizes the Roaring Twenties more than the Charleston. Here, two young people demonstrate the wild, loose-limbed dance that swept the nation."
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4phWsE1C509cr1Uoc5Sz7onb271fikg5kdenBwffJJT5M9SciIT3-hSw6:https://thereader.mitpress.mit.edu/wp-content/uploads/2021/01/kellogg.jpg&s=10",
+          "caption": "Consumerism is a social, cultural, and economic phenomenon where personal happiness, social status, and economic health are tied to the continuous purchase and consumption of goods and services"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1M-ViSg1scPzhtTCxXaCdrnFiq8psjUDFiv5V1UVkEcqQwHpkQS8ZFmd1:https://baseballhall.org/sites/default/files/styles/story_popup_thumb_540/public/islandora_images/Ruth%2520Babe%25201386.86_Bat_%2520NBL.jpg.jpeg%3Fitok%3DibOYmdNd&s=10",
+          "caption": "Baseball remained America’s favorite sport, but mass media brought it to an entirely new audience."
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ69WWjS8UYPXorOwHZp_1wGu7zy7rzM7m6jURKZiOCyl33qaaY9b1WLCw:https://i.etsystatic.com/23988771/r/il/8a3437/6177977105/il_fullxfull.6177977105_rr1u.jpg&s=10",
+          "caption": "Mass-market magazines with eye-catching covers were more popular than ever. This Life magazine cover (left) highlights the growing popularity of golf among both men and women. Amazing Stories (right) was the first “pulp” magazine devoted exclusively to science fiction."
+        },
+        "https://github.com/zacharywolff-teach/wolffsite/blob/main/Consumerism.png?raw=true"
+      ],
+      "_order": 3
+    },
+    {
+      "title": "Women's Milestones",
+      "files": [
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4XUn5YAfVQBHmfuWEj3ywunuz__dBMLXSfLR95BxXMRfR04ITp-dLguy9:https://cdn.britannica.com/93/217993-050-048E6239/Judge-Florence-Ellinwood-Allen-circa-1915-1920.jpg&s=10",
+          "caption": "First woman state judge (1920)"
+        },
+        {
+          "src": "https://www.motorcities.org/images/file-20161130204723_Marie_Luhring_truck_designer.jpg",
+          "caption": "First woman automotive engineer (1920)"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnCCC-NVxasyyI3AQScp3VrCEh1YUQVigheEQnJunZit6miN8BC_R4QzA:https://th-thumbnailer.cdn-si-edu.com/lXb81OgIbZIcN__0fBByInTwSyI%3D/fit-in/1072x0/filters:focal(640x914:641x915)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/00/9a/009aac40-1a80-46b4-aab4-efdab6c5b3f5/mary.png&s=10",
+          "caption": "First woman in U.S. Senate (1922)"
+        },
+        {
+          "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvf_hXutWkUt7EDckcg_a8aGtjEQ-v8md2b-9CBHk8FnLyBz18Qfgj4cbi:https://cdn.britannica.com/74/61874-050-FAFBE50B/Nellie-Tayloe-Ross.jpg&s=10",
+          "caption": "First woman governor (1924)"
+        },
+        {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Bundesarchiv_Bild_102-10212%2C_Gertrud_Ederle.jpg/250px-Bundesarchiv_Bild_102-10212%2C_Gertrud_Ederle.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "caption": "First woman to swim English Channel (1926)"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Dorothy_Arzner.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+          "caption": "First woman to direct a talking movie (1927)"
+        },
+        {
+          "src": "https://upload.wikimedia.org/wikipedia/en/f/fe/Phoebe_Omlie.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+          "caption": "First woman to earn a federal pilot’s license (1927)"
+        }
+      ],
+      "_order": 4
+    }
+  ],
+  "doNow": [
+    {
+      "type": "short_answer",
+      "prompt": "How do new technologies affect cutlure? How do people react to these changes differently based on why do these different reactions occur?\nFor example, something like AI or Social Media has had effects on culture that its inventors may not have predicted. Some people have embraced them and some people haven't.",
+      "sampleAnswer": ""
+    }
+  ]
+}
