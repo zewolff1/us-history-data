@@ -1,26 +1,32 @@
 [
  {
   "id": "inq1",
+  "title": "New Technologies",
   "question": "What impacts do new technologies have on people's lives?"
  },
  {
   "id": "inq2",
+  "title": "Discrimination and Inequity",
   "question": "How does racism and discrimination impact marginalized people?"
  },
  {
   "id": "inq3",
+  "title": "Protest and Change",
   "question": "How do people use protest and resistance to create change?"
  },
  {
   "id": "inq4",
+  "title": "Causes of War",
   "question": "What impacts people's support for a war?"
  },
  {
   "id": "inq5",
+  "title": "The American Dream",
   "question": "To what extent is the American Dream achievable?"
  },
  {
   "id": "inq6",
+  "title": "Role of Government",
   "question": "What role should the government take in people's lives?"
  }
 ]
