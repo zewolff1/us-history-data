@@ -27,7 +27,95 @@
       "text": "## Credit Crisis\n\nAnother factor that fueled the depression was the growing gap between rich people and most Americans. By 1929, about 75% of Americans lived in poverty or on the edge of it. To pay for things, many of these families borrowed money. Farmers, consumers, and investors all borrowed money during the 1920s. Many banks suffered when these farmers, consumers, and investors failed to meet their loan payments. These losses in revenue forced thousands of banks across the nation to close. At that time, the government did not insure bank deposits. Therefore, if the bank closed, the depositors lost their money.\n\n## An Unbalanced Economy\n\nAt the end of WWI, farmers’ income began to decrease due to the slowing demand for food during peacetime. Also, factories began having trouble selling everything they produced. This overproduction of goods forced factory owners to slow production and fire or cut the wages of workers. Jobless or with reduced income, many Americans had to cut back on purchases, further reducing sales.\n\n## Buying on a Margin\n\nA stock exchange is an organized system for buying and selling shares, or blocks of investment, in corporations. By the late 1920s, stock prices were very high. The rising stock prices convinced many people to buy stocks. Many investors did not have money to buy stocks, so they borrowed the money from brokers. This was called buying stocks “on margin”. To lend money to investors, the brokers borrowed their money from banks. As long as the value of stocks continued to increase, the buyers could sell the stocks, pay off their loans, and make a profit. If stock prices fell, the investors and brokers would not make enough money to pay off the loans.\n\n## Stock Market Crash\n\nPrices declined steadily until October 21st, but most experts thought there was no need to worry. Then, for three straight days, stock prices plunged as investors sold millions of shares each day. Panicked traders sold almost 13 million shares on Oct 24, a day that became known as “Black Thursday.”",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOxE_GtJF14Q543g8BXWdSnhuJ7DHVy__sqZYJWbAigEhVhgZIavv3T6MQ:https://static.vecteezy.com/system/resources/previews/008/425/133/non_2x/recession-or-stock-market-crash-line-art-icon-for-apps-or-websites-vector.jpg&s=10",
       "set": "The Economy",
-      "_order": 0
+      "_order": 0,
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "The author claims that borrowing by farmers, consumers, and investors helped weaken the banking system. Which detail from the paragraph best supports this claim?",
+          "skill": "Citing Evidence; Evidence and Claim",
+          "skills": [
+            "Citing Evidence",
+            "Evidence and Claim"
+          ],
+          "choices": [
+            "By 1929, about 75% of Americans lived in poverty or on the edge of it.",
+            "Many banks suffered when borrowers failed to meet their loan payments.",
+            "The government did not insure bank deposits.",
+            "Depositors lost their money if their bank closed."
+          ],
+          "correctIndex": 1,
+          "explanation": "The claim is about borrowing hurting banks. Only the second detail shows that missed loan payments caused banks to suffer. The other details are true, but they describe poverty or what happened after banks closed.",
+          "afterParagraph": 1
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which sequence correctly shows the chain of cause and effect in this paragraph?",
+          "skill": "Reasoning",
+          "skills": [
+            "Reasoning"
+          ],
+          "choices": [
+            "Factories overproduced, so owners cut jobs and wages, so people bought less, so sales fell even further.",
+            "Farm income fell, so factories produced more, so more people were hired, so sales rose.",
+            "Peacetime demand grew, so farmers earned more, so factories overproduced, so wages went up.",
+            "Workers lost jobs, so factories hired more workers, so overproduction ended."
+          ],
+          "correctIndex": 0,
+          "explanation": "Overproduction forced owners to slow production and cut jobs or pay. Less income meant less spending, which hurt sales again, creating a cycle.",
+          "afterParagraph": 3
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Based on how it is used in the paragraph, what does it mean to buy stocks \"on margin\"?",
+          "skill": "Context Clues",
+          "skills": [
+            "Context Clues"
+          ],
+          "choices": [
+            "Buying stocks with money borrowed from brokers",
+            "Buying stocks only when prices are very low",
+            "Buying stocks directly from a bank at a discount",
+            "Buying stocks that are guaranteed never to lose value"
+          ],
+          "correctIndex": 0,
+          "explanation": "The paragraph says many investors did not have the money, so they borrowed it from brokers. \"This was called buying stocks on margin.\"",
+          "afterParagraph": 4
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which sentence best states the main idea of this paragraph?",
+          "skill": "Main Ideas",
+          "skills": [
+            "Main Ideas"
+          ],
+          "choices": [
+            "Experts correctly predicted the crash and warned investors to sell.",
+            "After a steady decline, panic selling in late October 1929 sent stock prices plunging.",
+            "Black Thursday was the only day stock prices fell in 1929.",
+            "Most investors sold their stocks calmly before October 21st."
+          ],
+          "correctIndex": 1,
+          "explanation": "The paragraph moves from a quiet decline to three days of panic selling, including almost 13 million shares on Black Thursday.",
+          "afterParagraph": 7
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which type of source is this passage most like, and what does that tell you about it?",
+          "skill": "Document Analysis",
+          "skills": [
+            "Document Analysis"
+          ],
+          "choices": [
+            "A secondary source, written later to summarize and explain events, so it gives an overview rather than one person's experience.",
+            "A primary source, written by someone who lived through the crash, so it shows one person's feelings.",
+            "A political cartoon, which uses symbols to argue for a side.",
+            "A diary entry, which records private thoughts as events happen."
+          ],
+          "correctIndex": 0,
+          "explanation": "The passage explains causes and gives general facts and statistics without a personal voice, which is typical of a secondary source such as a textbook.",
+          "afterParagraph": 7
+        }
+      ]
     },
     {
       "title": "The Dust Bowl",
@@ -35,7 +123,60 @@
       "image": "https://www.metrowestdailynews.com/gcdn/authoring/2009/02/27/NLVT/ghows-KS-9123c9f6-cd3d-4031-a3b7-bf780b41c33f-9c8e6544.jpeg?width=660&height=534&fit=crop&format=pjpg&auto=webp",
       "embedUrl": "https://www.youtube.com/watch?v=3jSdDU9mUqQ",
       "set": "The Environment",
-      "_order": 2
+      "_order": 2,
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "The second sentence defines the term \"Dust Bowl.\" Why is this helpful to the reader?",
+          "skill": "Writing Clarity",
+          "skills": [
+            "Writing Clarity"
+          ],
+          "choices": [
+            "It shows exactly which region and conditions the name refers to.",
+            "It proves the drought was caused by farming.",
+            "It gives the number of people who were killed.",
+            "It explains how the federal government responded."
+          ],
+          "correctIndex": 0,
+          "explanation": "Defining the name right away tells readers what the term means (the drought-stricken Southern and Central Plains with severe dust storms) before the passage goes on.",
+          "afterParagraph": 0
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Which statement best expresses the central idea of this passage?",
+          "skill": "Central Ideas",
+          "skills": [
+            "Central Ideas"
+          ],
+          "choices": [
+            "Drought and dust storms ruined farms across the Plains, worsening the Great Depression and forcing many families to leave.",
+            "Texas and Nebraska had the worst weather in American history.",
+            "Livestock were harmed more than people during the Dust Bowl.",
+            "The Dust Bowl ended the Great Depression."
+          ],
+          "correctIndex": 0,
+          "explanation": "Both paragraphs build one idea: the environmental disaster added to the Depression's economic damage and pushed farm families to migrate.",
+          "afterParagraph": 1
+        },
+        {
+          "type": "multiple_choice",
+          "prompt": "Who is most likely the intended audience of this passage?",
+          "skill": "Intended Audience",
+          "skills": [
+            "Intended Audience"
+          ],
+          "choices": [
+            "Students learning about the Great Depression",
+            "Farmers deciding whether to leave Texas in 1935",
+            "Scientists studying soil chemistry",
+            "Officials writing 1930s drought relief laws"
+          ],
+          "correctIndex": 0,
+          "explanation": "The neutral, explanatory tone, the defined terms and the summary of effects fit a general reader or student, not experts or people living through it.",
+          "afterParagraph": 1
+        }
+      ]
     }
   ],
   "images": [
@@ -47,7 +188,25 @@
         "https://raw.githubusercontent.com/zewolff1/yourhistory/main/the_great_depression/causes_of_the_great_depression/buying_on_a_margin/image_reasons_for_the_crash/Unemployment%20Rate%20vs.%20Year.svg"
       ],
       "set": "The Economy",
-      "_order": 1
+      "_order": 1,
+      "questions": [
+        {
+          "type": "multiple_choice",
+          "prompt": "According to the bar chart, which statement about unemployment from 1929 to 1933 is best supported?",
+          "skill": "Charts and Graphs",
+          "skills": [
+            "Charts and Graphs"
+          ],
+          "choices": [
+            "Unemployment rose every year, reaching about one in four workers by 1932.",
+            "Unemployment peaked in 1931 and then began to fall.",
+            "Unemployment stayed below 10% until 1933.",
+            "Unemployment was higher in 1929 than in 1930."
+          ],
+          "correctIndex": 0,
+          "explanation": "Each bar is taller than the one before it. The 1932 bar sits at about 24%, which is roughly one in four workers. The 1931 bar is not the peak, since 1932 and 1933 are higher. The 1930 bar is under 10%, but 1931 is well above it. 1929 is the lowest bar, not the highest. |"
+        }
+      ]
     },
     {
       "title": "Dust Bowl Images",
