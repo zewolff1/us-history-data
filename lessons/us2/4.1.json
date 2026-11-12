@@ -228,6 +228,18 @@
       "_order": 3
     }
   ],
+  "doNow": [
+    {
+      "type": "define_term",
+      "prompt": "Based on this video and the Stock Market Simulation, how would you define Stock Market?",
+      "term": {
+        "name": "Stock Market",
+        "create": true,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3XdpkH7BOkLvlmLot4y3jmxbu7lUHQ3VD37mlPVLR8Dl2zNN0jAqu7sNF:https://cdn-icons-png.magnific.com/256/16756/16756532.png%3Fsemt%3Dais_white_label&s=10",
+        "keyTerm": true
+      }
+    }
+  ],
   "assessments": [
     {
       "visible": true,
