@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "4-3",
+  "number": "4.3",
+  "title": "Presidential Responses to the Great Depression",
+  "unit": "unit4",
+  "unitTitle": "The Great Depression",
+  "objectives": [
+    {
+      "id": "4-3-o1",
+      "text": "Explain the different viewpoints on government intervention in the economy and the effects of each approach."
+    }
+  ],
+  "notesLink": "https://docs.google.com/document/d/1cKXx38ANo6-URZD9IS_9xUCe3mZMcjZtTi-Z4GPg6-o/edit?tab=t.0",
+  "notesTitle": "Notes",
+  "mentions": [
+    "e71",
+    "e70"
+  ],
+  "keyTerms": [
+    "e71",
+    "e70"
+  ],
+  "pinnedTerms": [],
+  "inquiryFocus": [
+    "inq5",
+    "inq6"
+  ],
+  "readings": [
+    {
+      "title": "President Hoover's Letter to Girl",
+      "source": "Letter",
+      "note": "1931",
+      "text": "President Herbert Hoover wrote this letter in 1931 to 10-year-old Barbara McIntyre of Columbus, Ohio, after she wrote to him explaining that she and her friends planned to collect old blankets, clothing, shoes, and food to send to Washington for distribution to the poor.\n\n@date The White House Washington November 19, 1931\n\n@dear My dear Barbara,\n\nI have your very sweet letter of November 10th. It is a beautiful undertaking. I would suggest, however, that instead of sending the contributions which you collect to me, that you should distribute them to those in need in your own locality.\n\n@close Yours faithfully, // Herbert Hoover",
+      "set": "Presidential Responses to Depression",
+      "_order": 0
+    },
+    {
+      "title": "President Roosevelt's Letter to Clergyman",
+      "source": "Letter",
+      "note": "1935",
+      "text": "President Franklin D. Roosevelt sent this letter to clergymen around the country.\n\n@date The White House, Washington September 24, 1935\n\n@dear Reverend and Dear Sir:\n\nBecause of the grave responsibilities of my office, I am turning to representative clergymen for counsel and advice—feeling confident that no group can give more accurate or unbiased views. I am particularly anxious that the new Social Security legislation just enacted, for which we have worked so long, providing for old age pensions, aid for crippled children, and unemployment insurance, shall be carried out in keeping with the high purposes with which this program was enacted.\n\nI shall deem it a favor if you will write to me about conditions in your community. Tell me where you feel our government can better serve our people. We can solve our many problems, but no one man or single group can do it—we shall have to work together for the common end of better spiritual and material conditions for the American people.\n\n@close Very sincerely yours, // Franklin D. Roosevelt",
+      "set": "Presidential Responses to Depression",
+      "_order": 1
+    },
+    {
+      "title": "Civil Works Administration (CWA) (1933)",
+      "text": "The CWA was created on November 9, 1933 by Executive Order No. 6420B, under the power granted to President Roosevelt by Title II of the National Industrial Recovery Act of 1933 [1]. Harry Hopkins was made head of the CWA.\n\nLike other New Deal emergency employment programs, the CWA was designed to put jobless Americans back to work and to use them on beneficial public projects. More specifically, the CWA was designed to be a short-lived program to help jobless Americans get through the dire winter of 1933-34 [2]. It did just that: Two months after its start, the CWA had 4,263,644 formerly unemployed workers on its payroll [3].",
+      "set": "Roosevelt's New Deal",
+      "_order": 2
+    },
+    {
+      "title": "Civilian Conservation Corps (CCC) (1933)",
+      "text": "The CCC was created on March 31, 1933 by the Emergency Conservation Work Act [1] and put into action by President Roosevelt with Executive Order No. 6101 on April 5, 1933 [2].\n\nThe CCC was primarily geared towards the employment of young men in America’s forests and parks. The CCC ‘boys’, as they were called, received training, education, shelter, health care, food, and a monthly pay of $30 – $25 of which was required to be sent home to support their families. More than 3,000,000 men were enrolled in the CCC between 1933 and 1942 [5]. This enrollment included jobless World War I veterans and the employment of Indians on reservation land. CCC boys sometimes worked alongside WPA workers, as can be seen at Prince William Forest Park in Virginia and Catoctin Mountain",
+      "set": "Roosevelt's New Deal",
+      "_order": 3
+    },
+    {
+      "title": "Works Progress Administration (WPA) (1935)",
+      "text": "# Works Progress Administration (WPA) (1935)\n\nThe WPA was the largest and most diverse of the New Deal public works programs. It was created to alleviate the mass unemployment of the Great Depression and by the time it was terminated in 1943, the WPA had put 8.5 million Americans back to work [2].\n\nThe majority of WPA projects built infrastructure, such as bridges, airports, schools, parks, and water lines. In addition, the Federal Project Number One programs undertook theater, music, and visual arts projects, while other service programs supported historic preservation, library collections, and social science research. The WPA also employed women in sewing rooms and school classrooms and cafeterias, and in the later run-up to war it improved many military faci",
+      "set": "Roosevelt's New Deal",
+      "_order": 4
+    },
+    {
+      "title": "Federal Deposit Insurance Corporation (FDIC) (1933)",
+      "text": "The FDIC was created by the Banking Act of 1933 (frequently referred to as the Glass-Steagall Act). The FDIC is an independent government agency that “preserves and promotes public confidence in the U.S. financial system by insuring depositors for at least $250,000 per insured bank; by identifying, monitoring and addressing risks to the deposit insurance funds; and by limiting the effect on the economy and the financial system when a bank or thrift institution fails” [1]. FDIC is funded by insurance premiums paid by banks [2].\n\nBefore the creation of the FDIC, bank failures were very common, especially during periodic financial crises (e.g., 1836, 1855, 1875, 1895). When banks failed, depositors regularly lost their savings, bringing personal hardship and even disaster. Between 1930 and 1933, for example, Americans lost $1.3 billion from 9,000 bank failures (about $23 billion in today’s dollars) [3]. Moreover, the threat of failure frequently caused “bank runs,” a phenomenon where large numbers of people attempt to withdraw their money from the banks; ironically, these desperate actions made banking failures more likely. Furthermore, widespread bank failure made economic crises worse. The plunge into the Great Depression was led by the collapse of around one-third of all banks in the United States [4].",
+      "set": "Roosevelt's New Deal",
+      "_order": 5
+    },
+    {
+      "title": "Agricultural Adjustment Act (1933, Reauthorized 1938)",
+      "text": "The Agricultural Adjustment Act (AAA) was signed into law by President Franklin Roosevelt on May 12, 1933 [1]. Among the law’s goals were limiting crop production, reducing stock numbers, and refinancing mortgages with terms more favorable to struggling farmers [2]. The Agricultural Adjustment Administration was created to implement the act, and it was initially headed by George Peek – a man, ironically, not overly enthusiastic about the New Deal [3].\n\nLarge agricultural surpluses during the 1920s had caused prices for farm products to drop steadily from the highs of the First World War, and with the onset of the Great Depression the bottom dropped out of agricultural markets. As a consequence, millions of American farmers, tenants, and sharecroppers were left destitute and hundreds of thousands of farms were abandoned. In an effort to increase prices, New Deal policymakers sought to reduce output by destroying surpluses and taking acreage out of production [4].\n\nIn the short run, farmers were paid to destroy crops and livestock, which led to depressing scenes of fields plowed under, corn burned as fuel, and piglets slaughtered. Nevertheless, many of the farm products removed from economic circulation were utilized in productive ways. For example: “The pork products were distributed to unemployed families…Other food products purchased for surplus removal and distribution in relief channels included butter, cheese, and flour” [5]. Even piglets too small to consume were “converted into inedible by-products such as grease and fertilizer” [6].",
+      "set": "Roosevelt's New Deal",
+      "_order": 6
+    },
+    {
+      "title": "Home Owners’ Loan Act (1933)",
+      "text": "# Home Owners’ Loan Act (1933)\n\nThe HOLC was authorized to make loans from June 13, 1933 through June 12, 1936. During this period, HOLC made over 1 million loans totaling about $3.1 billion – $575 million of which went to individuals [6]. The average loan size was $3,039 (about $52,000 in 2014 dollars) [7]. The HOLC ceased operations on April 30, 1951 with “a slight profit,” defying expectations that taxpayer money would inevitably be lost in such a venture [8].\n\nThe Home Owners’ Loan Act of 1933 proved to be one of the most successful policies emanating from the first 100 days of the New Deal. Not only did its program of emergency lending rescue hundreds of thousands of home owners and mortgage institutions from loss, it and the Federal Housing Administration (FHA), created a year after HOLC, completely transformed the US mortgage market. It replaced the short-term mortgages and purchase contracts of the 1920s, with their high interest rates and higher risk of default, by long-term (mostly 30 year) mortgages at lower rates of interest backed by the federal government. These reforms greatly expanded home ownership in the post-World War II era, from under 50% to almost 70% of American families [9].",
+      "set": "Roosevelt's New Deal",
+      "_order": 7
+    },
+    {
+      "title": "National Industrial Recovery Act (1933)",
+      "text": "The National Industrial Recovery Act was a major initiative of the new Roosevelt Administration for coping with the Great Depression, designed to “encourage national industrial recovery, to foster fair competition, and to provide for the construction of certain useful public works, and for other purposes” [1]. It was signed into law by the president on June 16, 1933.\n\nThe National Industrial Recovery Act was a two-pronged effort to stimulate economic recovery and ameliorate unemployment. Title I of the act instituted codes of fair competition for a range of basic industries and Title II created a public works program, eventually called the “Public Works Administration” (PWA). The National Recovery Administration (NRA) was established to oversee the creation of the industry codes and Hugh Johnson was appointed head administrator [2].\n\nThe code provisions of the act were controversial because they created industrial alliances and “effectively fixed prices and wages, established production quotas, and imposed restrictions on entry of other companies into the alliances.” Participants in the code program placed Blue Eagle signs with red “N.R.A.” letters at their places of business [3].",
+      "set": "Roosevelt's New Deal",
+      "_order": 8
+    },
+    {
+      "title": "Securities Act (1933) & Securities Exchange Act (1934) (1935)",
+      "text": "The first Securities Act was signed into law by President Roosevelt on May 27, 1933. At the signing, Roosevelt stated that the law was “intended to correct some of the evils which have been so glaringly revealed in the private exploitation of the public’s money” [1].\n\nRoosevelt was referring to such things as the sale of fraudulent securities, trading on inside information, and secretive trading between small groups of investors to drive up stock prices. Many of these Wall Street misdeeds came under the public spotlight during the 1933 Pecora Commission investigations (led by New York attorney Ferdinand Percora, Chief Counsel to the U.S. Senate’s Committee on Banking and Currency) [2]. The Securities Act of 1933 had two main objectives: “require that investors receive financial and other significant information concerning securities being offered for public sale; and prohibit deceit, misrepresentations, and other fraud in the sale of securities” [3].\n\nNew Deal policymakers understood that the Securities Act of 1933 would not be enough to reign in Wall Street wrongdoing. Hence, they crafted the Securities Exchange Act of 1934, signed into law by President Roosevelt on June 6, 1934 [4]. The law created the Securities and Exchange Commission (SEC) and gave the SEC the power to “register, regulate, and oversee brokerage firms, transfer agents, and clearing agencies as well as the nation’s securities self regulatory organizations” (e.g., the New York Stock Exchange). The law also gave the SEC “disciplinary powers” and the authority to “require periodic reporting of information by companies with publicly traded securities” [5]. The first chair of the SEC was Joseph Kennedy, father of future president, John Kennedy.",
+      "set": "Roosevelt's New Deal",
+      "_order": 9
+    },
+    {
+      "title": "Tennessee Valley Authority (TVA) (1933)",
+      "text": "The TVA was created on May 18, 1933 by the Tennessee Valley Authority Act. It was established as an independent agency of the federal government to further the economic development of an impoverished, mountainous region covering most of Tennessee and parts of six surrounding states.\n\nThe TVA was one of several large river basin development projects launched during the 1930s, like those on the Columbia, Missouri and Colorado Rivers. It built dams up and down the river system for flood control and power generation, including the Norris, Wheeler, Pickwick Landing, Guntersville, Hiawassee, Chickamauga, Watts Bar, Kentucky, Cherokee, Fort Loudon, Ocoee #3, Chatuge, Nottely, Appalachia, Douglas, and Fontana dams [1]. The TVA engaged in many other activities, as well, such as malaria prevention, reforestation, forest fire suppression, erosion control, fertilizer development, agricultural education, advice to farmers and wildlife habitat protection [2]. CCC workers from nearly 200 camps in the region assisted TVA on many of these projects [3].\n\nA key purpose of TVA was to provide electricity to rural areas underserved, or even ignored, by private power companies. It grew out of a long struggle over the hydroelectric potential at Muscle Shoals, Alabama, and dovetailed with New Deal efforts to regulate private monopolies and bring electricity to the whole country [4]. It was not long before the TVA had an impact: “Across the Southeast, rates fell so sharply that residents and businesses started thinking up new ways to use electricity – a situation that had been unimaginable only a couple of years earlier, when electrical power was viewed as a luxury to be used sparingly….Ownership of electrical appliances tripled overall…By 1935 power rates were 30 percent below the national average across the region…” [5].",
+      "set": "Roosevelt's New Deal",
+      "_order": 10
+    }
+  ]
+}
