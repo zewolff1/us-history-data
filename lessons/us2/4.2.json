@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "4-2",
+  "number": "4.2",
+  "title": "Effects of the Great Depression",
+  "unit": "unit4",
+  "objectives": [
+    {
+      "id": "4-2-o1",
+      "text": "Describe the factors that led to the Great Depression"
+    }
+  ],
+  "inquiryFocus": [
+    "inq2",
+    "inq5"
+  ],
+  "readings": [
+    {
+      "title": "Overall Effects",
+      "_order": 0
+    },
+    {
+      "title": "Dustbowl Migrants",
+      "embedUrl": "https://drive.google.com/file/d/1HaHl0_5pTbgrwCGY0H3SdCCarg-Jp0Jy/view?usp=sharing",
+      "_order": 3
+    },
+    {
+      "title": "Sharecroppers",
+      "embedUrl": "https://drive.google.com/file/d/17s8NlQJo4txW_S_3quk01Crq34rJwX3e/view",
+      "_order": 5
+    },
+    {
+      "title": "Hoovervilles",
+      "text": "During the Great Depression, which began in 1929 and lasted about a decade, shantytowns appeared across America as unemployed people were evicted from their homes. As the Depression worsened in the 1930s many looked to the federal government for assistance. When the government failed to provide relief, President Herbert Hoover was blamed for the intolerable economic and social conditions, so the shantytowns that cropped up became known as Hoovervilles.",
+      "_order": 7
+    },
+    {
+      "title": "Dorethea Lange",
+      "text": "# Dorothea Lange and the Great Depression\n\nWhen the Great Depression hit, Dorothea felt conflicted about her career as a photographer for the elite. She felt separated from real Americans who were struggling every day. Embracing this feeling, she closed up her studio and took to the road. She photographed Americans of all walks of life, hoping to document the challenges of a severe economic depression.\n\nDorothea pursued a career that required constant motion and travel despite lifelong challenges with her leg and hip. Her disability made it difficult and painful to move around. But she often saw it as an important part of her process. She believed that many people were nicer to her because she had a visible disability. Once she gained their trust, they were more willing to allow her to photograph them in their natural state.\n\nAs Dorothea traveled and documented America, she met the economist Paul Taylor. Paul and Dorothea found they had much in common. They both cared deeply about Americans and worked to advocate for them through their chosen careers. Dorothea took photos of people, and Paul studied their economic habits and patterns.\n\nDorothea and Paul married in 1935. This time her marriage was one of cooperation and support. They remained married for the rest of Dorothea’s life. Paul thought Dorothea was incredibly talented. He recommended she work with him for the State Emergency Relief Administration. Paul researched the economics of agriculture, and Dorothea photographed struggling migrant workers. Dorothea’s work with Paul led to a similar job working for the Farm Security Administration.\n\nDorothea did not view her photographs as art. Rather, they were documentation of American life. Dorothea strongly believed in the ideals of American democracy, including equal rights for all citizens. She wanted her photographs to promote these ideals and demonstrate democracy’s limitations. It was not a coincidence that Dorothea captured so many different types of Americans. She intentionally photographed migrants, sharecroppers, and other marginalized Americans from varied ethnicities and races.\n\nDorothea was an optimist. Although her photographs often captured people at their lowest points, they also showed resiliency. Dorothea hoped others would see her images and sympathize with their fellow Americans who were struggling. Many of her images were published anonymously in newspapers and magazines. In many cases, the images would encourage the public to take action, raise funds, or advocate for those less fortunate in their communities.\n\nIn 1940, Dorothea received a prestigious grant that gave her enough money to live for one year and just create art. Dorothea invited her son Daniel Dixon and her friend Ansel Adams to photograph Mormon communities in America. As World War II escalated, though, Dorothea and Ansel put the project on hold to do something they considered more important.",
+      "_order": 9
+    }
+  ],
+  "videos": [
+    {
+      "title": "Video Overview",
+      "_order": 1
+    }
+  ],
+  "images": [
+    {
+      "title": "Price Drops",
+      "files": [
+        "https://raw.githubusercontent.com/zewolff1/yourhistory/main/the_great_depression/effects_of_the_great_depression/overall_effects/image_chart_and_maps/Price%20Drops.jpg"
+      ],
+      "set": "Overall Effects",
+      "_order": 2
+    },
+    {
+      "title": "Unemployment",
+      "files": [
+        "https://raw.githubusercontent.com/zewolff1/yourhistory/main/the_great_depression/effects_of_the_great_depression/overall_effects/image_chart_and_maps/Unemployment.png"
+      ],
+      "set": "Overall Effects",
+      "_order": 4
+    },
+    {
+      "title": "Migrant Mother",
+      "files": [
+        "https://raw.githubusercontent.com/zewolff1/yourhistory/main/the_great_depression/effects_of_the_great_depression/dorothea_lange/image_photographs/Migrant%20Mother.jpg"
+      ],
+      "set": "Dorethea Lange",
+      "_order": 6
+    },
+    {
+      "title": "Pea Pickers Home",
+      "files": [
+        "https://raw.githubusercontent.com/zewolff1/yourhistory/main/the_great_depression/effects_of_the_great_depression/dorothea_lange/image_photographs/Pea%20Pickers%20Home.jpeg"
+      ],
+      "set": "Dorethea Lange",
+      "_order": 8
+    },
+    {
+      "title": "Texas Farmer",
+      "files": [
+        "https://raw.githubusercontent.com/zewolff1/yourhistory/main/the_great_depression/effects_of_the_great_depression/dorothea_lange/image_photographs/Texas%20Farmer.jpeg"
+      ],
+      "set": "Dorethea Lange",
+      "_order": 10
+    },
+    {
+      "title": "White Angel Bread Line",
+      "files": [
+        "https://raw.githubusercontent.com/zewolff1/yourhistory/main/the_great_depression/effects_of_the_great_depression/dorothea_lange/image_photographs/White%20Angel%20Bread%20Line.jpg"
+      ],
+      "set": "Dorethea Lange",
+      "_order": 11
+    },
+    {
+      "title": "A Hooverville In Central Park",
+      "note": "New York City. 1933",
+      "files": [
+        "https://raw.githubusercontent.com/zewolff1/yourhistory/main/the_great_depression/effects_of_the_great_depression/hoovervilles/image_photographs/A%20Hooverville%20in%20Central%20Park%2C%20New%20York%20City.%201933..jpg"
+      ],
+      "set": "Hoovervilles",
+      "_order": 12
+    },
+    {
+      "title": "Shanties Along The Willamette Rive",
+      "note": "Portland, Oregon, 1936",
+      "files": [
+        {
+          "src": "https://raw.githubusercontent.com/zewolff1/yourhistory/main/the_great_depression/effects_of_the_great_depression/hoovervilles/image_photographs/A%20Hooverville%20of%20squatters%E2%80%99%20shanties%20along%20the%20Willamette%20River%20in%20Portland,%20Oregon,%201936..jpg",
+          "caption": "A Hooverville Of Squatters’ Shanties Along The Willamette River In Portland, Oregon, 1936."
+        }
+      ],
+      "set": "Hoovervilles",
+      "_order": 13
+    },
+    {
+      "title": "Shanty Town",
+      "note": "Central Park, New York City, 1932",
+      "files": [
+        "https://raw.githubusercontent.com/zewolff1/yourhistory/main/the_great_depression/effects_of_the_great_depression/hoovervilles/image_photographs/Shanty%20town%20in%20Central%20Park%2C%20New%20York%20City%2C%201932..jpg"
+      ],
+      "set": "Hoovervilles",
+      "_order": 14
+    },
+    {
+      "title": "Central Park Hooverville",
+      "note": "1933",
+      "files": [
+        "https://raw.githubusercontent.com/zewolff1/yourhistory/main/the_great_depression/effects_of_the_great_depression/hoovervilles/image_photographs/The%20Central%20Park%20Hooverville.%201933..jpg"
+      ],
+      "set": "Hoovervilles",
+      "_order": 15
+    },
+    {
+      "title": "Unemployed At Their Huts",
+      "note": "1935",
+      "files": [
+        {
+          "src": "https://raw.githubusercontent.com/zewolff1/yourhistory/main/the_great_depression/effects_of_the_great_depression/hoovervilles/image_photographs/Unemployed%20at%20their%20huts%20in%20a%20Hooverville%20in%20Manhattan%2C%20NYC%2C%20West%20Houston%20and%20Mercer%20Street.%201935..jpg",
+          "caption": "Unemployed At Their Huts In A Hooverville In Manhattan, NYC, West Houston And Mercer Street. 1935."
+        }
+      ],
+      "set": "Hoovervilles",
+      "_order": 16
+    },
+    {
+      "title": "Visitors Tour The Hooverville In Central Park",
+      "note": "1933",
+      "files": [
+        "https://raw.githubusercontent.com/zewolff1/yourhistory/main/the_great_depression/effects_of_the_great_depression/hoovervilles/image_photographs/Visitors%20tour%20the%20Hooverville%20in%20Central%20Park.%201933..jpg"
+      ],
+      "set": "Hoovervilles",
+      "_order": 17
+    },
+    {
+      "title": "Coal Miner's Family",
+      "note": "1933",
+      "files": [
+        {
+          "src": "https://raw.githubusercontent.com/zewolff1/yourhistory/main/the_great_depression/effects_of_the_great_depression/dustbowl_migrants/image_photographs/A%20coal%20miner's%20wife%20and%20children%20leaning%20on%20the%20porch%20railing%2C%20in%20Pursglove%2C%20West%20Virginia.%20September%2C%201938..svg",
+          "caption": "A Coal Miner'S Wife And Children Leaning On The Porch Railing, In Pursglove, West Virginia. September, 1938."
+        }
+      ],
+      "set": "Dustbowl Migrants",
+      "_order": 18
+    },
+    {
+      "title": "Southwest Kansas",
+      "files": [
+        {
+          "src": "https://raw.githubusercontent.com/zewolff1/yourhistory/main/the_great_depression/effects_of_the_great_depression/dustbowl_migrants/image_photographs/Edgar%20and%20Rena%20Coen%20in%20Front%20of%20Their%20Kansas%20Dugout.svg",
+          "caption": "Edgar and Rena Coen homesteaded in southwestern Kansas, living in a dugout with a few windows near the ceiling, and a shed-like entryway that doubled as the kitchen. They lost a child and a grandchild to \"dust pneumonia.\""
+        }
+      ],
+      "set": "Dustbowl Migrants",
+      "_order": 19
+    },
+    {
+      "title": "Tenant Farmer Family",
+      "files": [
+        "https://raw.githubusercontent.com/zewolff1/yourhistory/main/the_great_depression/effects_of_the_great_depression/dustbowl_migrants/image_photographs/Tenant%20Farmer%20Family.svg"
+      ],
+      "set": "Dustbowl Migrants",
+      "_order": 20
+    },
+    {
+      "title": "Grading Tobacco",
+      "files": [
+        {
+          "src": "https://raw.githubusercontent.com/zewolff1/yourhistory/main/the_great_depression/effects_of_the_great_depression/sharecroppers/image_photographs/Sharecropper%20and%20his%20wife%20stripping%20and%20grading%20tobacco.png",
+          "caption": "Sharecropper And His Wife Stripping And Grading Tobacco"
+        }
+      ],
+      "set": "Sharecroppers",
+      "_order": 21
+    },
+    {
+      "title": "Midday Meal",
+      "files": [
+        {
+          "src": "https://raw.githubusercontent.com/zewolff1/yourhistory/main/the_great_depression/effects_of_the_great_depression/sharecroppers/image_photographs/Sharecropper%20wife%20preparing%20midday%20meal.jpg",
+          "caption": "Sharecropper Wife Preparing Midday Meal"
+        }
+      ],
+      "set": "Sharecroppers",
+      "_order": 22
+    },
+    {
+      "title": "Chopping Cotton",
+      "files": [
+        {
+          "src": "https://raw.githubusercontent.com/zewolff1/yourhistory/main/the_great_depression/effects_of_the_great_depression/sharecroppers/image_photographs/Sharecropper%E2%80%99s%20wife%20chopping%20cotton.png",
+          "caption": "Sharecropper’S Wife Chopping Cotton"
+        }
+      ],
+      "set": "Sharecroppers",
+      "_order": 23
+    },
+    {
+      "title": "Disposing of Dishawasher",
+      "files": [
+        {
+          "src": "https://raw.githubusercontent.com/zewolff1/yourhistory/main/the_great_depression/effects_of_the_great_depression/sharecroppers/image_photographs/Tobacco%20sharecropper%E2%80%99s%20wife%20disposing%20of%20dishwasher.png",
+          "caption": "Tobacco Sharecropper’S Wife Disposing Of Dishwasher"
+        }
+      ],
+      "set": "Sharecroppers",
+      "_order": 24
+    },
+    {
+      "title": "South Carolina",
+      "files": [
+        {
+          "src": "https://raw.githubusercontent.com/zewolff1/yourhistory/main/the_great_depression/effects_of_the_great_depression/sharecroppers/image_photographs/Wife%20and%20child%20of%20sharecropper%20near%20Gaffney%2C%20South%20Carolina.png",
+          "caption": "Wife And Child Of Sharecropper Near Gaffney, South Carolina"
+        }
+      ],
+      "set": "Sharecroppers",
+      "_order": 25
+    },
+    {
+      "title": "Wife and Baby",
+      "files": [
+        {
+          "src": "https://raw.githubusercontent.com/zewolff1/yourhistory/main/the_great_depression/effects_of_the_great_depression/sharecroppers/image_photographs/Wife%20of%20sharecropper%20putting%20baby%20to%20sleep%20near%20Pace%2C%20Mississippi.png",
+          "caption": "Wife Of Sharecropper Putting Baby To Sleep Near Pace, Mississippi"
+        }
+      ],
+      "set": "Sharecroppers",
+      "_order": 26
+    }
+  ],
+  "assessment": [
+    {
+      "type": "define_term",
+      "prompt": "Based on this reading, how would you define “Stock Market”?",
+      "term": {
+        "name": "Stock Market",
+        "create": true,
+        "keyTerm": true
+      }
+    }
+  ]
+}
