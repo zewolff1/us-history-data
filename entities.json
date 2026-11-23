@@ -1839,45 +1839,5 @@
     "actions": [
       "Chicago gang boss and the most famous Prohibition-era gangster, who made millions from bootlegging and was finally convicted of tax evasion in 1931."
     ]
-  },
-  {
-    "id": "e179",
-    "name": "Economic Depression",
-    "category": "Topic",
-    "subcategory": "Economics",
-    "definition": "",
-    "actions": [
-      "A long period when the economy shrinks, businesses and banks fail, and many people lose their jobs and savings."
-    ]
-  },
-  {
-    "id": "e180",
-    "name": "Appeasement",
-    "category": "Topic",
-    "subcategory": "Idea",
-    "definition": "",
-    "actions": [
-      "The policy of giving in to someone's demands to avoid war. Britain and France used it with Hitler at the Munich Conference."
-    ]
-  },
-  {
-    "id": "e181",
-    "name": "Fascism",
-    "category": "Topic",
-    "subcategory": "Idea",
-    "definition": "",
-    "actions": [
-      "A form of government led by one powerful leader and one party, with extreme nationalism, no criticism allowed, and violence or secret police used against opponents."
-    ]
-  },
-  {
-    "id": "e182",
-    "name": "Dictatorship",
-    "category": "Topic",
-    "subcategory": "Idea",
-    "definition": "",
-    "actions": [
-      "A government where one ruler has complete control over the country and the people have little or no say."
-    ]
   }
 ]
