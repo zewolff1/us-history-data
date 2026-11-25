@@ -231,7 +231,7 @@
       {
         "id": "an2",
         "name": "Examples of Propaganda",
-        "directions": "Read “The Impact of Propaganda” and answer both questions. Then open each image tab. Explain what it says, choose the stage of genocide and the part of fascism, and the technique of propaganda it uses.",
+        "directions": "Read “The Impact of Propaganda” and answer the questions one at a time. Then open each image tab. Explain what it says, choose the stage of genocide and the part of fascism, and the technique of propaganda it uses.",
         "sources": [
           "The Impact of Propaganda",
           "Nazi Recruitment Propaganda",
@@ -285,8 +285,40 @@
           ],
           "questions": {
             "The Impact of Propaganda": [
-              "What did Marion Pritchard’s friend mean when she said, “I know that it was all ridiculous propaganda, but for the first time in my life I have a sense of them and us—Jews and Gentiles”? How do you explain her statement? What does her statement suggest about the way that propaganda can affect people?",
-              "Do you agree or disagree with Goldhagen’s ideas about the power of propaganda? Would people have rejected Nazi propaganda if they did not already share, to some extent, the beliefs it communicated? How do Goldhagen’s ideas help you understand Marion Pritchard’s friend’s reaction to the exhibit’s film in a new, different, or deeper way?"
+              {
+                "type": "mc",
+                "prompt": "What did Marion Pritchard’s friend mean when she said, “I know that it was all ridiculous propaganda, but for the first time in my life I have a sense of them and us—Jews and Gentiles”?",
+                "choices": [
+                  "She believed the film was an honest documentary.",
+                  "Even though she knew the film was false, it still made her see Jews and non-Jews as two separate groups.",
+                  "She thought the film was too funny to be dangerous.",
+                  "She wanted to stop her friends from seeing the film."
+                ],
+                "correctIndex": 1,
+                "explanation": "She knew the film was lies, but it still planted a feeling of “them and us” in her.",
+                "highlight": "I know that it was all ridiculous and propaganda, but for the first time in my life I have a sense of them and us—Jews and Gentiles."
+              },
+              {
+                "type": "short",
+                "prompt": "What does her statement suggest about the way that propaganda can affect people?"
+              },
+              {
+                "type": "mc",
+                "prompt": "What is Goldhagen saying in this quote?",
+                "choices": [
+                  "Hitler was powerful enough to make Germans do anything he wanted.",
+                  "Hitler could not have carried out the Holocaust without many ordinary Germans who were willing to help him.",
+                  "Most Germans did not know what was happening.",
+                  "Propaganda has no effect on people."
+                ],
+                "correctIndex": 1,
+                "explanation": "Goldhagen argues that a leader cannot move people against their own hopes and desires. The Holocaust needed many willing helpers.",
+                "highlight": "No man, [no] Hitler, no matter how powerful he is, can move people against their hopes and desires. Hitler, as powerful a figure as he was, as charismatic as he was, could never have accomplished this [the Holocaust] had there not been tens of thousands, indeed hundreds of thousands of ordinary Germans who were willing to help him."
+              },
+              {
+                "type": "short",
+                "prompt": "Do you agree or disagree with him, and why?"
+              }
             ]
           }
         },
